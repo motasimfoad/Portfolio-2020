@@ -1,4 +1,22 @@
 .home-right{
-    background-color: green;
+    /* background-color: green; */
     height: 100%;
+}
+
+.home-right-main{
+    /* background-color: red; */
+    height: 90%;
+}
+
+.home-right-main-img{
+    width: 21vw;
+    position: absolute;
+    right: 4%;
+    top: 41%;
+    transform: translate(-50%, -50%);
+}
+
+.home-right-footer{
+    background-color: yellow;
+    height: 10%;
 }
