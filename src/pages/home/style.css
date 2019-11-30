@@ -10,20 +10,20 @@
   }
   
 .App-main {
-    background-color: red;
+    /* background-color: red; */
     width: 100%;
     height: 95vh; 
   }
 
 .App-left {
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 50%;
     float: left;
     height: 95vh; 
   }
  
 .App-right {
-    background-color: green;
+    /* background-color: green; */
     width: 50%;
     float: right;
     height: 95vh; 

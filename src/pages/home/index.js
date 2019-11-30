@@ -1,5 +1,8 @@
 import React from 'react';
 import '../home/style.css';
+import HomeLeft from '../../components/home_left';
+import HomeRight from '../../components/home_right';
+
 
 function Home() {
   return (
@@ -7,10 +10,10 @@ function Home() {
       <header className="App-header">
       <div className="App-main">
         <div className="App-left">
-hi
+          <HomeLeft />
         </div>
         <div className="App-right">
-hi
+           <HomeRight />
         </div>
       </div>
       <footer App-footer>
