@@ -2,6 +2,7 @@ import React from 'react';
 import '../home/style.css';
 import HomeLeft from '../../components/home_left';
 import HomeRight from '../../components/home_right';
+import Footer from '../../components/footer'
 
 
 function Home() {
@@ -17,7 +18,7 @@ function Home() {
         </div>
       </div>
       <footer App-footer>
-        Hello
+           <Footer />
       </footer>
       </header>
     </div>
