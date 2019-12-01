@@ -5,20 +5,9 @@
   }
   
 .App-main {
-    background-color: red;
-    
-   
     height: 95vh; 
   }
 
-.App-left {
-    background-color: yellow;
-  }
- 
-.App-right {
-    background-color: green;
-  }
-  
 .App-footer {
     height: 5vh; 
     font-size: calc(10px + 2vmin);
