@@ -1,104 +1,61 @@
 .home-right{
-    background-color: green;
+    /* background-color: green; */
     height: 100%;
 }
 
 .home-right-main{
-    background-color: red;
-    height: 90%;
+    /* background-color: red; */
+    height: 85%;
 }
 
 .home-right-main-img{
-     height: 70vh;
+     height: 65vh;
      margin: auto;    
      display: block;
 }
 
 .home-right-footer{
-    background-color: yellow;
-    height: 10%;
+    /* background-color: yellow; */
+    height: 15%;
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 
-
-  
+.home-right-footer-icons{
+  /* background-color: yellow; */
+  text-align: center;
+  /* height: 15%; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+ 
   .fb{
-    font-size: 16px;
-    color: #29487d;
+    margin: 2%;
   }
   .fb:hover{
-    text-decoration: none;
-    position: relative;
-    width: 30px;
-    height: 30px;
-    display: block;
-    text-align: center;
-    line-height: 30px;
-    box-shadow: 0 0 0 2px #8b9dc3;
-    border-radius: 50%;
-    font-size: 16px;
     color: #8b9dc3;
   }
   .git{
-    color: #2dba4e;
+    margin: 2%;
   }
   .git:hover{
-    text-decoration: none;
-    position: relative;
-    width: 30px;
-    height: 30px;
-    display: block;
-    text-align: center;
-    line-height: 30px;
-    box-shadow: 0 0 0 2px #fafbfc;
-    border-radius: 50%;
-    font-size: 20px;
     color: #fafbfc;
   }
-  .gplus{
-    color: rgb(197, 48, 31);
+  .twitter{
+    margin: 2%;
   }
-  .gplus:hover{
-    text-decoration: none;
-    position: relative;
-    width: 30px;
-    height: 30px;
-    display: block;
-    text-align: center;
-    line-height: 30px;
-    box-shadow: 0 0 0 2px #DD4B39;
-    border-radius: 50%;
-    font-size: 20px;
+  .twitter:hover{
     color: #DD4B39;
   }
   .insta{
-    color: #ffc273;
+    margin: 2%;
   }
   .insta:hover{
-    text-decoration: none;
-    position: relative;
-    width: 30px;
-    height: 30px;
-    display: block;
-    text-align: center;
-    line-height: 30PX;
-    box-shadow: 0 0 0 2px #c1558b;
-    border-radius: 50%;
-    font-size: 20px;
     color: #c1558b;
   }
-  .pin{
-    color: #b3091d;
+  .dribble{
+    margin: 2%;
   }
-  .pin:hover{
-    text-decoration: none;
-    position: relative;
-    width: 30px;
-    height: 30px;
-    display: block;
-    text-align: center;
-    line-height: 30PX;
-    box-shadow: 0 0 0 2px #bb656e;
-    border-radius: 50%;
-    font-size: 20px;
+  .dribble:hover{
     color: #bb656e;
   }
