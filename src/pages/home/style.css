@@ -1,37 +1,26 @@
-.App {
-    
-  }
-  
 .App-header {
     background-color:#090909;
-    min-height: 100vh;
     font-size: calc(10px + 2vmin);
     color: white;
   }
   
 .App-main {
-    /* background-color: red; */
-    width: 100%;
+    background-color: red;
+    
+   
     height: 95vh; 
   }
 
 .App-left {
-    /* background-color: yellow; */
-    width: 50%;
-    float: left;
-    height: 95vh; 
+    background-color: yellow;
   }
  
 .App-right {
-    /* background-color: green; */
-    width: 50%;
-    float: right;
-    height: 95vh; 
+    background-color: green;
   }
   
 .App-footer {
-    
-   
+    height: 5vh; 
     font-size: calc(10px + 2vmin);
     color: white;
   }  

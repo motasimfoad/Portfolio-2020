@@ -2,26 +2,33 @@ import React from 'react';
 import '../home/style.css';
 import HomeLeft from '../../components/home_left';
 import HomeRight from '../../components/home_right';
-import Footer from '../../components/footer'
+import Footer from '../../components/footer';
+import {
+  Container,
+  Row,
+  Col,
+} from 'react-bootstrap'
 
 
 function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <div className="App-main">
-        <div className="App-left">
+   
+      <Container className="App-header" fluid={true}>
+        <Row className="App-main">
+        <Col  md={7}  className="App-left">
           <HomeLeft />
-        </div>
-        <div className="App-right">
-           <HomeRight />
-        </div>
-      </div>
-      <footer App-footer>
-           <Footer />
-      </footer>
-      </header>
-    </div>
+        </Col>
+        <Col  md={5} className="App-right">
+          <HomeRight />
+        </Col>
+        </Row>
+        <Row className="App-footer">
+          <Footer />
+        </Row>
+       </Container>
+    
+  
+   
   );
 }
 
