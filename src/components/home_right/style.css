@@ -31,31 +31,36 @@
  
   .fb{
     margin: 2%;
+    color: white;
   }
   .fb:hover{
-    color: #8b9dc3;
+    color: #386ddd;
   }
   .git{
     margin: 2%;
+    color: white;
   }
   .git:hover{
-    color: #fafbfc;
+    color: #16fa01;
   }
   .twitter{
     margin: 2%;
+    color: white;
   }
   .twitter:hover{
-    color: #DD4B39;
+    color: #00acee;
   }
   .insta{
     margin: 2%;
+    color: white;
   }
   .insta:hover{
     color: #c1558b;
   }
   .dribble{
     margin: 2%;
+    color: white;
   }
   .dribble:hover{
-    color: #bb656e;
+    color: #ea4c89;
   }
