@@ -8,7 +8,7 @@ import {
   Row,
   Col,
   Image,
-} from 'react-bootstrap'
+} from 'react-bootstrap';
 
 function Home_Right() {
   return (
@@ -27,7 +27,7 @@ function Home_Right() {
         <a href="https://github.com/motasimfoad" target="_blank">
         <FontAwesomeIcon className="home-right-footer-icons-padding git" icon={faGithub} />
         </a>
-        <a href="http://twitter.com/okrittim" target="_blank">
+        <a href="https://twitter.com/okrittim" target="_blank">
         <FontAwesomeIcon className="home-right-footer-icons-padding twitter" icon={faTwitter} />
         </a>
         <a href="https://www.instagram.com/motasimfoad/" target="_blank">
