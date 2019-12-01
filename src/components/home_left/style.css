@@ -1,5 +1,5 @@
 .home-left{
-    /* background-color: red; */
+    background-color: red;
     height: 100%;
 }
 
@@ -10,12 +10,5 @@
 
 .home-left-footer{
     /* background-color: yellow; */
-    height: 15%;
-    margin-left:auto;
-    margin-right:auto;
-    display:block;
-}
-
-.home-left-footer-text{
-    text-align: center;
+    min-height: 15%;
 }

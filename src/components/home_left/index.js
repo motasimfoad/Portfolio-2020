@@ -4,15 +4,19 @@ import {
   Container,
   Row,
   Col,
-  Image,
-} from 'react-bootstrap';
+ } from 'react-bootstrap';
 
 function Home_Left() {
   return (
    <Container className="home-left">
      <Row className="home-left-main">
        <Col xl={12}>
-         Hi
+         <h1>
+           Hi There!
+         </h1>
+         <h2>
+           I am Motasim, ajsdfkasdfkg askdfh asdkfuh asdkfh asdkfhasd fasdf asdkasdf
+         </h2>
        </Col>
      </Row>
      <Row className="home-left-footer">

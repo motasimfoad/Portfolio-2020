@@ -9,7 +9,5 @@
   }
 
 .App-footer {
-    height: 5vh; 
-    font-size: calc(10px + 2vmin);
-    color: white;
+    min-height: 5vh; 
   }  
