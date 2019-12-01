@@ -9,16 +9,15 @@ import {
   Col,
 } from 'react-bootstrap'
 
-
 function Home() {
   return (
    
       <Container className="App-header" fluid={true}>
         <Row className="App-main">
-        <Col  md={7}  className="App-left">
+        <Col  xl={7}  className="App-left">
           <HomeLeft />
         </Col>
-        <Col  md={5} className="App-right">
+        <Col  xl={5} className="App-right">
           <HomeRight />
         </Col>
         </Row>
@@ -27,8 +26,6 @@ function Home() {
         </Row>
        </Container>
     
-  
-   
   );
 }
 
