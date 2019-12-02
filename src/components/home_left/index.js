@@ -6,6 +6,7 @@ import {
   Col,
  } from 'react-bootstrap';
  import Particles from 'react-particles-js';
+ import Typical from 'react-typical';
 
  const particles = {
       "particles": {
@@ -72,9 +73,11 @@ function Home_Left() {
          <h2>
            I am Motasim Foad
          </h2>
-         <h3>
-           Product Manager
-         </h3>
+         <Typical
+        steps={['Product Manager', 1000, 'Project Manager', 500]}
+        loop={Infinity}
+        wrapper="p"
+      />
        </Col>
      </Row>
      <Row className="home-left-footer">
