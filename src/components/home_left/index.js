@@ -39,7 +39,7 @@ function Home_Left() {
            I am <strong>Motasim Foad</strong>
          </p>
          <Typical
-                steps={['Product Manager || Project Manager || Software Engineer ..', 1000]}
+                steps={['Product & Project Manager || Software Engineer ...', 1]}
                 loop={1}
                 wrapper="p"
                 className="typical"

@@ -11,7 +11,7 @@ function Footer() {
     <Container className="footer" fluid={true}>
       <Row >
         <Col xl={12}>
-         © 2018-2019 Motasim Foad
+        Copyright © 2018-2019 <strong>Motasim Foad</strong>,  <small>V2.0</small>
         </Col>
       </Row>
     </Container>
