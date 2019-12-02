@@ -10,16 +10,16 @@ import {
  const particles = {
       "particles": {
         "number": {
-            "value": 420,
+            "value": 300,
             "density": {
-                "enable": true
+                "enable": false
             }
         },
         "size": {
-            "value": 3,
-            "random": true,
+            "value": 2,
+            "random": false,
             "anim": {
-                "speed": 4,
+                "speed": 2,
                 "size_min": 0.3
             }
         },
@@ -27,10 +27,10 @@ import {
             "enable": false
         },
         "move": {
-            "random": true,
-            "speed": 2,
+            "random": false,
+            "speed": 1,
             "direction": "top",
-            "out_mode": "out"
+            "out_mode": "in"
         }
     },
     "interactivity": {
@@ -70,14 +70,16 @@ function Home_Left() {
            Hi There!
          </h1>
          <h2>
-           I am Motasim, ajsdfkasdfkg askdfh asdkfuh asdkfh asdkfhasd fasdf asdkasdf
+           I am Motasim Foad
          </h2>
+         <h3>
+           Product Manager
+         </h3>
        </Col>
      </Row>
      <Row className="home-left-footer">
         <Col xl={12}>
             <p>
-              <br />
               Footer dfgdsf
             </p>
         </Col>
