@@ -6,7 +6,7 @@ import {
   Col,
  } from 'react-bootstrap';
  import Particles from 'react-particles-js';
- import Typical from 'react-typical';
+ import ReactTypingEffect from 'react-typing-effect';
  
  const particles = {
     "particles": {
@@ -38,12 +38,12 @@ function Home_Left() {
          <p className="second_line">
            I am <strong>Motasim Foad</strong>
          </p>
-         <Typical
-                steps={['Product & Project Manager || Software Engineer ...', 1]}
-                loop={1}
-                wrapper="p"
-                className="typical"
-            />
+          <ReactTypingEffect
+           text="Product & Project Manager || Software Engineer ... " //text=["Hello.", "World!"]
+           className="typical"
+           speed="100"
+           eraseDelay="500000"
+           />
        </Col>
      </Row>
      <Particles
