@@ -9,55 +9,22 @@ import {
  import Typical from 'react-typical';
  
  const particles = {
-  "particles": {
-    "number": {
-        "value": 300,
-        "density": {
-            "enable": false
-        }
-    },
-    "size": {
-        "value": 2,
-        "random": false,
-        "anim": {
-            "speed": 2,
-            "size_min": 0.3
-        }
-    },
-    "line_linked": {
-        "enable": false
-    },
-    "move": {
-        "random": false,
-        "speed": 1,
-        "direction": "top",
-        "out_mode": "in"
-    }
-},
-"interactivity": {
-    "events": {
-        "onhover": {
-            "enable": true,
-            "mode": "bubble"
+    "particles": {
+        "number": {
+            "value": 100
         },
-        "onclick": {
-            "enable": true,
-            "mode": "repulse"
+        "size": {
+            "value": 5
         }
     },
-    "modes": {
-        "bubble": {
-            "distance": 250,
-            "duration": 2,
-            "size": 0,
-            "opacity": 0
-        },
-        "repulse": {
-            "distance": 400,
-            "duration": 4
+    "interactivity": {
+        "events": {
+            "onhover": {
+                "enable": true,
+                "mode": "repulse"
+            }
         }
     }
-}
 } 
 
 function Home_Left() {
@@ -65,12 +32,12 @@ function Home_Left() {
    <Container className="home-left" >
     <Row className="home-left-main">
        <Col xl={12} className="home-left-main-col">
-         <h1 className="first-line">
-           Hi There! 🙋‍♂️
-         </h1>
-         <h2 className="second-line">
-           I am Motasim Foad
-         </h2>
+         <p className="first-line">
+           Hello! 🙋‍♂️
+         </p>
+         <p className="second_line">
+           I am <strong>Motasim Foad</strong>
+         </p>
          <Typical
         steps={['Product Manager', 1000, 'Project Manager', 500]}
         loop={1}
@@ -78,29 +45,10 @@ function Home_Left() {
       />
        </Col>
      </Row>
-     {/* <Particles
+     <Particles
         params={particles}
       className="particle"
-      /> */}
-      <Particles
-    params={{
-	    "particles": {
-	        "number": {
-	            "value": 100
-	        },
-	        "size": {
-	            "value": 5
-	        }
-	    },
-	    "interactivity": {
-	        "events": {
-	            "onhover": {
-	                "enable": true,
-	                "mode": "repulse"
-	            }
-	        }
-	    }
-	}} className="particle"/>
+      />
    </Container>
   );
 }
