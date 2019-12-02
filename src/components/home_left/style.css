@@ -1,14 +1,15 @@
 .home-left{
     background-color: red;
     height: 100%;
+    padding-bottom: 5%;
 }
 
 .home-left-main{
-    /* background-color: green; */
+    background-color: green;
     height: 85%;
 }
 
 .home-left-footer{
-    /* background-color: yellow; */
-    min-height: 15%;
+    background-color: yellow;
+    height: 15%;
 }

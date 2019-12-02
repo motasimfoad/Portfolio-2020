@@ -8,7 +8,7 @@ import {
 
 function Home_Left() {
   return (
-   <Container className="home-left">
+   <Container className="home-left" >
      <Row className="home-left-main">
        <Col xl={12}>
          <h1>
@@ -20,13 +20,13 @@ function Home_Left() {
        </Col>
      </Row>
      <Row className="home-left-footer">
-     <Col xl={12} className="home-left-footer-text">
-         <p>
-           <br />
-           Footer dfgdsf
-         </p>
-       </Col>
-     </Row>
+        <Col xl={12}>
+            <p>
+              <br />
+              Footer dfgdsf
+            </p>
+        </Col>
+      </Row>
    </Container>
   );
 }

@@ -3,7 +3,7 @@
   }
 
   .home-right-main{
-    height: 85%;
+    height: 100%;
   }
 
   .home-right-main-img{
@@ -13,8 +13,7 @@
   }
 
   .home-right-footer{
-      height: 15%;
-      width: 100%;
+     width: 100%;
   }
 
   .home-right-footer-icons{
