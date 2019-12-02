@@ -1,19 +1,24 @@
 .home-left{
     /* background-color: red; */
     height: 100%;
-    padding-bottom: 5%;
 }
 
 .home-left-main{
     /* background-color: green; */
-    height: 85%;
+    height: 100%;
     text-align: center;
 }
 
-.home-left-footer{
-    /* background-color: yellow; */
-    height: 15%;
+.home-left-main-col{
+    /* background-color: aqua; */
+    margin: auto;    
+      display: block;
 }
+
+.first-line{
+    font-size: 4.5rem;
+}
+
 .particle{
     position:fixed !important;
     left:0;
