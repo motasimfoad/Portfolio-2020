@@ -6,28 +6,7 @@ import {
   Col,
   Button
  } from 'react-bootstrap';
- import Particles from 'react-particles-js';
- import ReactTypingEffect from 'react-typing-effect';
-//  import Button from '@material-ui/core/Button';
- 
- const particles = {
-    "particles": {
-        "number": {
-            "value": 100
-        },
-        "size": {
-            "value": 5
-        }
-    },
-    "interactivity": {
-        "events": {
-            "onhover": {
-                "enable": true,
-                "mode": "repulse"
-            }
-        }
-    }
-} 
+import ReactTypingEffect from 'react-typing-effect';
 
 function Home_Left() {
   return (
@@ -51,10 +30,6 @@ function Home_Left() {
            
        </Col>
      </Row>
-     {/* <Particles
-        params={particles}
-      className="particle"
-      /> */}
    </Container>
   );
 }
