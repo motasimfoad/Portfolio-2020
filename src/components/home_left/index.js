@@ -13,6 +13,7 @@ import {
     Route,
     Link
   } from "react-router-dom";
+  import {ToastsContainer, ToastsStore} from 'react-toasts';
 
 function Home_Left() {
   return (
@@ -32,7 +33,8 @@ function Home_Left() {
            eraseDelay="500000"
            />
            <br />
-           <Button variant="outline-light" size="lg"><Link to="/about" className="home-left-aboutme">About Me</Link></Button>
+           <Button variant="outline-light" size="lg" onClick={() => ToastsStore.info("Development going on 👨‍💻 We will be back soon.")}><Link to="/about" className="home-left-aboutme">About Me</Link></Button>
+           <ToastsContainer store={ToastsStore} timer = '9000' />
          </Col>
      </Row>
    </Container>

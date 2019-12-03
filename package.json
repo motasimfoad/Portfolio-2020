@@ -16,6 +16,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
     "react-smooth": "^1.0.5",
+    "react-toasts": "^3.0.6",
     "react-typing-effect": "^2.0.2"
   },
   "scripts": {
