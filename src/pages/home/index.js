@@ -32,8 +32,7 @@ function Home() {
             <Footer />
           </Row>
        </Container>
-       
-      </Animate>
+       </Animate>
     );
 }
 
