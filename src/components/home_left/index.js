@@ -11,7 +11,6 @@ import {
    
     Link
   } from "react-router-dom";
-  import About from '../../pages/about'
  
 function Home_Left() {
   return (
@@ -19,7 +18,8 @@ function Home_Left() {
     <Row className="home-left-main">
        <Col xl={12} className="home-left-main-col">
          <p className="first-line">
-           Hello! 🙋‍♂️
+           Hello! 
+           {/* <span role="img" aria-label="Waving man">🙋‍♂️</span> */}
          </p>
          <p className="second_line">
            I am <strong>Motasim Foad</strong>
@@ -31,7 +31,8 @@ function Home_Left() {
            eraseDelay="500000"
            />
            <br />
-           <Button variant="outline-light" size="lg"><Link to="/about" className="home-left-aboutme">About Me</Link></Button>
+           <Button variant="outline-light" size="lg"><Link to="/about" className="home-left-aboutme">About Me</Link></Button> &nbsp;
+           <Button variant="outline-light" size="lg"><Link to="/contact" className="home-left-aboutme">Contact Me</Link></Button>
          </Col>
      </Row>
    </Container>
