@@ -1,22 +1,14 @@
-  .App {
- 
-  }
-  
-  .App-logo {
-    height: 40vmin;
-  }
-  
-  .App-header {
-    /* background-color: #282c34; */
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
-  .App-link {
-    color: #09d3ac;
-  }
-  
+.Contact-header {
+  background-color:#090909;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Contact-main {
+  min-height: 95vh; 
+ text-align: center;
+}
+
+.Contact-footer {
+  min-height: 5vh; 
+}  
