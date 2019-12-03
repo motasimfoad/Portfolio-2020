@@ -9,10 +9,34 @@ import {
   Col,
 } from 'react-bootstrap';
 import Animate from 'react-smooth';
+import Particles from 'react-particles-js';
+
+const particles = {
+  "particles": {
+      "number": {
+          "value": 100
+      },
+      "size": {
+          "value": 5
+      }
+  },
+  "interactivity": {
+      "events": {
+          "onhover": {
+              "enable": true,
+              "mode": "repulse"
+          }
+      }
+  }
+} 
 
 function Home() {
   return (
       <Animate to="1" from="0" attributeName="opacity">
+        <Particles
+        params={particles}
+        className="particle"
+        />
         <Container className="App-header" fluid={true}>
           <Row className="App-main">
             <Col  xl={7}  className="App-left">

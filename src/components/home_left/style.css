@@ -16,7 +16,7 @@
 .home-left-main-col{
     /* background-color: aqua; */
     margin: auto;    
-      display: block;
+    display: block;
 }
 
 .first-line{
@@ -36,6 +36,18 @@
     /* font-family: 'Barlow', sans-serif; */
     /* font-family: 'Turret Road', cursive; */
 }
+
+.home-left-aboutme{
+   background-color: blue;
+   width: 30%;
+}
+
+.home-left-aboutme:hover{
+    color: white;
+    background-color: aqua;
+    cursor: pointer;
+    width: 50%;
+ }
 
 .particle{
     position:fixed !important;

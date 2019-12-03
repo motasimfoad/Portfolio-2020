@@ -4,9 +4,11 @@ import {
   Container,
   Row,
   Col,
+  Button
  } from 'react-bootstrap';
  import Particles from 'react-particles-js';
  import ReactTypingEffect from 'react-typing-effect';
+//  import Button from '@material-ui/core/Button';
  
  const particles = {
     "particles": {
@@ -44,12 +46,15 @@ function Home_Left() {
            speed="100"
            eraseDelay="500000"
            />
+           <br />
+           <Button variant="outline-light" size="lg">About Me</Button>
+           
        </Col>
      </Row>
-     <Particles
+     {/* <Particles
         params={particles}
       className="particle"
-      />
+      /> */}
    </Container>
   );
 }
