@@ -4,10 +4,9 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "../pages/home";
 import About from "../pages/about";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Nav() {
   return (
@@ -19,8 +18,6 @@ export default function Nav() {
         <Route path="/about">
           <About />
         </Route>
-          
-           
      </Switch>
     </Router>
   );

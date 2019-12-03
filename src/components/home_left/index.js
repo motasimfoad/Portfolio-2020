@@ -32,10 +32,8 @@ function Home_Left() {
            eraseDelay="500000"
            />
            <br />
-           <Button variant="outline-light" size="lg"><Link to="/about">About</Link></Button>
-           
-           
-       </Col>
+           <Button variant="outline-light" size="lg"><Link to="/about" className="home-left-aboutme">About Me</Link></Button>
+         </Col>
      </Row>
    </Container>
   );
