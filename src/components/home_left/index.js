@@ -8,13 +8,11 @@ import {
  } from 'react-bootstrap';
 import ReactTypingEffect from 'react-typing-effect';
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
+   
     Link
   } from "react-router-dom";
-  import {ToastsContainer, ToastsStore} from 'react-toasts';
-
+  import About from '../../pages/about'
+ 
 function Home_Left() {
   return (
    <Container className="home-left" >
@@ -33,8 +31,7 @@ function Home_Left() {
            eraseDelay="500000"
            />
            <br />
-           <Button variant="outline-light" size="lg" onClick={() => ToastsStore.info("Development going on 👨‍💻 We will be back soon.")}><Link to="/about" className="home-left-aboutme">About Me</Link></Button>
-           <ToastsContainer store={ToastsStore} timer = '9000' />
+           <Button variant="outline-light" size="lg"><Link to="/about" className="home-left-aboutme">About Me</Link></Button>
          </Col>
      </Row>
    </Container>

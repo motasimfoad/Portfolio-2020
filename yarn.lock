@@ -7507,6 +7507,12 @@ react-smooth@^1.0.5:
     raf "^3.4.0"
     react-transition-group "^2.5.0"
 
+react-toasts@^3.0.6:
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/react-toasts/-/react-toasts-3.0.6.tgz#e6865ba2a7dd544f09e00c68310ee779d30c7571"
+  dependencies:
+    watchable-stores "^2.0.2"
+
 react-transition-group@^2.5.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-2.9.0.tgz#df9cdb025796211151a436c69a8f3b97b5b07c8d"
@@ -8990,6 +8996,10 @@ warning@^4.0.3:
   resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
   dependencies:
     loose-envify "^1.0.0"
+
+watchable-stores@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/watchable-stores/-/watchable-stores-2.0.2.tgz#38c03b73019e704d5f4741541b0dfbe9169c86bb"
 
 watchpack@^1.6.0:
   version "1.6.0"
