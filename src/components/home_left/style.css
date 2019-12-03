@@ -42,13 +42,6 @@
    width: 30%;
 }
 
-.home-left-aboutme:hover{
-    color: white;
-    background-color: aqua;
-    cursor: pointer;
-    width: 50%;
- }
-
 .particle{
     position:fixed !important;
     left:0;

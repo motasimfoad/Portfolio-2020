@@ -7,6 +7,12 @@ import {
   Button
  } from 'react-bootstrap';
 import ReactTypingEffect from 'react-typing-effect';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 function Home_Left() {
   return (
@@ -26,7 +32,8 @@ function Home_Left() {
            eraseDelay="500000"
            />
            <br />
-           <Button variant="outline-light" size="lg">About Me</Button>
+           <Button variant="outline-light" size="lg"><Link to="/about">About</Link></Button>
+           
            
        </Col>
      </Row>
