@@ -5,6 +5,7 @@
 .home-left{
     /* background-color: red; */
     height: 100%;
+    z-index : 99999;
 }
 
 .home-left-main{
@@ -35,6 +36,12 @@
     font-family: 'Sulphur Point', sans-serif;
     /* font-family: 'Barlow', sans-serif; */
     /* font-family: 'Turret Road', cursive; */
+}
+
+.home-left-aboutme-main{
+    position: relative;
+    z-index: -1;
+   
 }
 
 .home-left-aboutme{
