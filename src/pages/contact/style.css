@@ -32,9 +32,14 @@
 }
 
 .p-heading2{
-  font-size: 1.5rem;
-  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  padding: 3%;
+  /* font-family: 'Julius Sans One', sans-serif; */
+  /* font-family: 'Raleway', sans-serif; */
   /* font-family: 'Sulphur Point', sans-serif; */
+   /* font-family: 'Barlow', sans-serif; */
+    font-family: 'Turret Road', cursive;
+    
 }
 
 .Contact-right{

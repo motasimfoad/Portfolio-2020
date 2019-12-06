@@ -63,7 +63,7 @@ class Contact extends React.Component {
           <Col  xl={6}  className="Contact-left">
             <Row className="Contact-text">
               <Col xl={12}>
-              <p className="p-heading1">Get In Touch</p>
+              <p className="p-heading1">Get'in Touch</p>
               <p className="p-heading2">
               Holla <strong>Visitor!!</strong><br />
               Thank you for bumping in. If you have any queries/idea/project, feel free to <strong>PING</strong> me.
@@ -95,7 +95,7 @@ class Contact extends React.Component {
           </Col>
 
           <Col  xl={6}  className="Contact-right">
-            
+            <h3>Contact Form</h3>
           <Form onSubmit={this.handleSubmit.bind(this)} className="Contact-form">
              <FormGroup controlId="formBasicEmail">
               
