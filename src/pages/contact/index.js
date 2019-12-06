@@ -4,6 +4,8 @@ import * as emailjs from 'emailjs-com';
 import { Button, Form, FormGroup, Container, Row, Col } from 'react-bootstrap';
 import Footer from '../../components/footer';
 import Animate from 'react-smooth';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faInstagram, faGithub, faDribbble } from '@fortawesome/free-brands-svg-icons';
 
 class Contact extends React.Component {
 
@@ -58,32 +60,58 @@ class Contact extends React.Component {
       <Animate to="1" from="0" attributeName="opacity">
         <Container className="Contact-header" fluid={true}>
           <Row className="Contact-main">
-            <Col  xl={12}  className="Contact-left">
+          <Col  xl={6}  className="Contact-left">
+          <h1 className="p-heading1">Get In Touch</h1>
+          <p>
+            alksdjf asdfasd sdrgdsfg sdfgsdfg  sdfgsdfg sdfgsdfg sdfgsdfg sdfgsdfg sdfg sdfg sdfqrt a s 
+            asdfasd  asd fas  as wertdsfg  ertwe ktyk  ku fghj fghj alksdjf asdfasd sdrgdsfg sdfgsdfg  sdfgsdfg sdfgsdfg sdfgsdfg
+          </p>
+          <Row className="contact-left-footer" >
+          <Col xl={12} className="contact-left-footer-icons">
+          <a href="https://fb.com/okrittim" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon className="contact-left-footer-icons-padding fb" icon={faFacebook} />
+          </a>
+          <a href="https://github.com/motasimfoad" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon className="contact-left-footer-icons-padding git" icon={faGithub} />
+          </a>
+          <a href="https://twitter.com/okrittim" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon className="contact-left-footer-icons-padding twitter" icon={faTwitter} />
+          </a>
+          <a href="https://www.instagram.com/motasimfoad/" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon className="contact-left-footer-icons-padding insta" icon={faInstagram} />
+          </a>
+          <a href="https://dribbble.com/charchill" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon className="contact-left-footer-icons-padding dribble" icon={faDribbble} />
+          </a>
+          </Col>
+        </Row>
+          </Col>
+            <Col  xl={6}  className="Contact-right">
             
-           <h1 className="p-heading1">Get in Touch</h1>
-           <Form onSubmit={this.handleSubmit.bind(this)}>
+          
+           <Form onSubmit={this.handleSubmit.bind(this)} className="Contact-form">
              <FormGroup controlId="formBasicEmail">
-               <Form.Label className="text-muted">Email address</Form.Label>
+              
                <input
                 type="email"
                 name="email"
                 value={this.state.email}
-                className="text-primary"
+               
                 onChange={this.handleChange.bind(this, 'email')}
-                placeholder="Enter email"
+                placeholder="Email Address"
               />
             </FormGroup><FormGroup controlId="formBasicName">
-              <Form.Label className="text-muted">Name</Form.Label>
+              
               <input
                 type="text"
                 name="name"
                 value={this.state.name}
                 className="text-primary"
                 onChange={this.handleChange.bind(this, 'name')}
-                placeholder="Name"
+                placeholder="Your Name"
               />
             </FormGroup><FormGroup controlId="formBasicSubject">
-              <Form.Label className="text-muted">Subject</Form.Label>
+             
               <input
                 type="text"
                 name="subject"
@@ -93,13 +121,14 @@ class Contact extends React.Component {
                 placeholder="Subject"
               />
             </FormGroup><FormGroup controlId="formBasicMessage">
-              <Form.Label className="text-muted">Message</Form.Label>
+              
               <input
                 type="textarea"
                 name="message"
                 className="text-primary"
                 value={this.state.message}
                 onChange={this.handleChange.bind(this, 'message')}
+                placeholder="Your text"
               />
             </FormGroup><Button variant="outline-light" size="lg" type="submit">
               Submit
