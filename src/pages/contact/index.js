@@ -61,42 +61,45 @@ class Contact extends React.Component {
         <Container className="Contact-header" fluid={true}>
           <Row className="Contact-main">
           <Col  xl={6}  className="Contact-left">
-          <h1 className="p-heading1">Get In Touch</h1>
-          <p>
-            alksdjf asdfasd sdrgdsfg sdfgsdfg  sdfgsdfg sdfgsdfg sdfgsdfg sdfgsdfg sdfg sdfg sdfqrt a s 
-            asdfasd  asd fas  as wertdsfg  ertwe ktyk  ku fghj fghj alksdjf asdfasd sdrgdsfg sdfgsdfg  sdfgsdfg sdfgsdfg sdfgsdfg
-          </p>
-          <Row className="contact-left-footer" >
-          <Col xl={12} className="contact-left-footer-icons">
-          <a href="https://fb.com/okrittim" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon className="contact-left-footer-icons-padding fb" icon={faFacebook} />
-          </a>
-          <a href="https://github.com/motasimfoad" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon className="contact-left-footer-icons-padding git" icon={faGithub} />
-          </a>
-          <a href="https://twitter.com/okrittim" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon className="contact-left-footer-icons-padding twitter" icon={faTwitter} />
-          </a>
-          <a href="https://www.instagram.com/motasimfoad/" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon className="contact-left-footer-icons-padding insta" icon={faInstagram} />
-          </a>
-          <a href="https://dribbble.com/charchill" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon className="contact-left-footer-icons-padding dribble" icon={faDribbble} />
-          </a>
-          </Col>
-        </Row>
-          </Col>
-            <Col  xl={6}  className="Contact-right">
-            
+            <Row>
+            <h1 className="p-heading1">Get In Touch</h1>
+            <p>
+              alksdjf asdfasd sdrgdsfg sdfgsdfg  sdfgsdfg sdfgsdfg sdfgsdfg sdfgsdfg sdfg sdfg sdfqrt a s 
+              asdfasd  asd fas  as wertdsfg  ertwe ktyk  ku fghj fghj alksdjf asdfasd sdrgdsfg sdfgsdfg  sdfgsdfg sdfgsdfg sdfgsdfg
+            </p>
+            </Row>
           
-           <Form onSubmit={this.handleSubmit.bind(this)} className="Contact-form">
+            <Row className="contact-left-footer" >
+              <Col xl={12} className="contact-left-footer-icons">
+                <a href="https://fb.com/okrittim" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon className="contact-left-footer-icons-padding fb" icon={faFacebook} />
+                </a>
+                <a href="https://github.com/motasimfoad" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon className="contact-left-footer-icons-padding git" icon={faGithub} />
+                </a>
+                <a href="https://twitter.com/okrittim" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon className="contact-left-footer-icons-padding twitter" icon={faTwitter} />
+                </a>
+                <a href="https://www.instagram.com/motasimfoad/" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon className="contact-left-footer-icons-padding insta" icon={faInstagram} />
+                </a>
+                <a href="https://dribbble.com/charchill" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon className="contact-left-footer-icons-padding dribble" icon={faDribbble} />
+                </a>
+              </Col>
+            </Row>
+          </Col>
+
+          <Col  xl={6}  className="Contact-right">
+            
+          <Form onSubmit={this.handleSubmit.bind(this)} className="Contact-form">
              <FormGroup controlId="formBasicEmail">
               
                <input
                 type="email"
                 name="email"
                 value={this.state.email}
-               
+                className="text-primary"
                 onChange={this.handleChange.bind(this, 'email')}
                 placeholder="Email Address"
               />
