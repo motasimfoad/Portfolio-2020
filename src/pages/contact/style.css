@@ -26,7 +26,7 @@
 }
 
 .p-heading1{
-    font-size: 4.5rem;
+    font-size: 4rem;
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Sulphur Point', sans-serif;
 }
@@ -42,6 +42,24 @@
     
 }
 
+.contact-form-header{
+  font-size: 2rem;
+  padding: 3%;
+  /* font-family: 'Julius Sans One', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Sulphur Point', sans-serif; */
+   /* font-family: 'Barlow', sans-serif; */
+    /* font-family: 'Turret Road', cursive; */
+}
+
+.contact_input{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ width: 50%;
+ font-size: 1.2rem;
+ border-radius: 5%;
+ text-align: center;
+}
+
 .Contact-right{
   /* background: yellow; */
   margin: auto;    
@@ -50,6 +68,7 @@
 
 .Contact-form{
   text-align: center;
+  padding-bottom: 8%;
 }
 
 .Contact-footer {

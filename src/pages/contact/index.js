@@ -95,7 +95,7 @@ class Contact extends React.Component {
           </Col>
 
           <Col  xl={6}  className="Contact-right">
-            <h3>Contact Form</h3>
+            <p className="contact-form-header">Contact Form</p>
           <Form onSubmit={this.handleSubmit.bind(this)} className="Contact-form">
              <FormGroup controlId="formBasicEmail">
               
@@ -103,7 +103,7 @@ class Contact extends React.Component {
                 type="email"
                 name="email"
                 value={this.state.email}
-                
+                className="contact_input"
                 onChange={this.handleChange.bind(this, 'email')}
                 placeholder="Email Address"
               />
@@ -113,7 +113,7 @@ class Contact extends React.Component {
                 type="text"
                 name="name"
                 value={this.state.name}
-                className="text-primary"
+                className="contact_input"
                 onChange={this.handleChange.bind(this, 'name')}
                 placeholder="Your Name"
               />
@@ -122,8 +122,8 @@ class Contact extends React.Component {
               <input
                 type="text"
                 name="subject"
-                className="text-primary"
                 value={this.state.subject}
+                className="contact_input"
                 onChange={this.handleChange.bind(this, 'subject')}
                 placeholder="Subject"
               />
@@ -132,12 +132,14 @@ class Contact extends React.Component {
               <input
                 type="textarea"
                 name="message"
-                className="text-primary"
                 value={this.state.message}
+                className="contact_input"
                 onChange={this.handleChange.bind(this, 'message')}
                 placeholder="Your text"
               />
-            </FormGroup><Button variant="outline-light" size="lg" type="submit">
+            </FormGroup>
+            <br />
+            <Button variant="outline-light" size="lg" type="submit">
               Submit
             </Button>
           </Form>
