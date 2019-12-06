@@ -61,12 +61,16 @@ class Contact extends React.Component {
         <Container className="Contact-header" fluid={true}>
           <Row className="Contact-main">
           <Col  xl={6}  className="Contact-left">
-            <Row>
-            <h1 className="p-heading1">Get In Touch</h1>
-            <p>
-              alksdjf asdfasd sdrgdsfg sdfgsdfg  sdfgsdfg sdfgsdfg sdfgsdfg sdfgsdfg sdfg sdfg sdfqrt a s 
-              asdfasd  asd fas  as wertdsfg  ertwe ktyk  ku fghj fghj alksdjf asdfasd sdrgdsfg sdfgsdfg  sdfgsdfg sdfgsdfg sdfgsdfg
-            </p>
+            <Row className="Contact-text">
+              <Col xl={12}>
+              <p className="p-heading1">Get In Touch</p>
+              <p className="p-heading2">
+              Holla <strong>Visitor!!</strong><br />
+              Thank you for bumping in. If you have any queries/idea/project, feel free to <strong>PING</strong> me.
+              I am always open for discussion. You can contact me via the Contact Form <strong>OR</strong> simply click on the social
+              media icon if you are more comfortable there.
+              </p>
+              </Col>
             </Row>
           
             <Row className="contact-left-footer" >
@@ -99,7 +103,7 @@ class Contact extends React.Component {
                 type="email"
                 name="email"
                 value={this.state.email}
-                className="text-primary"
+                
                 onChange={this.handleChange.bind(this, 'email')}
                 placeholder="Email Address"
               />
