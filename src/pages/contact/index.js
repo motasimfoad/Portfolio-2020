@@ -1,7 +1,7 @@
 import React from 'react';
 import '../contact/style.css';
 import * as emailjs from 'emailjs-com';
-import { Button, Form, FormGroup, Container, Row, Col } from 'react-bootstrap';
+import { Button, Form, FormGroup, Container, Row, Col, Modal } from 'react-bootstrap';
 import Footer from '../../components/footer';
 import Animate from 'react-smooth';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -9,11 +9,31 @@ import { faFacebook, faTwitter, faInstagram, faGithub, faDribbble } from '@forta
 
 class Contact extends React.Component {
 
+  constructor(props, context) {
+		super(props, context);
+
+		this.handleShow = this.handleShow.bind(this);
+		this.handleClose = this.handleClose.bind(this);
+
+		this.state = {
+			show: false,
+		};
+	}
+
+	handleClose() {
+		this.setState({ show: false });
+	}
+
+	handleShow() {
+		this.setState({ show: true });
+	}
+
   state = {
     name: '',
     email: '',
     subject: '',
     message: '',
+    show: false,
   }
   
   handleSubmit(e) {
@@ -48,6 +68,7 @@ class Contact extends React.Component {
       email: '',
       subject: '',
       message: '',
+      modal: false,
     })
   }
   
@@ -95,8 +116,9 @@ class Contact extends React.Component {
           </Col>
 
           <Col  xl={6}  className="Contact-right">
-            <p className="contact-form-header">Contact Form</p>
+            
           <Form onSubmit={this.handleSubmit.bind(this)} className="Contact-form">
+          <p className="contact-form-header">Contact Form</p>
              <FormGroup controlId="formBasicEmail">
               
                <input
@@ -106,6 +128,7 @@ class Contact extends React.Component {
                 className="contact_input"
                 onChange={this.handleChange.bind(this, 'email')}
                 placeholder="Email Address"
+                required
               />
             </FormGroup><FormGroup controlId="formBasicName">
               
@@ -116,6 +139,7 @@ class Contact extends React.Component {
                 className="contact_input"
                 onChange={this.handleChange.bind(this, 'name')}
                 placeholder="Your Name"
+                required
               />
             </FormGroup><FormGroup controlId="formBasicSubject">
              
@@ -126,6 +150,7 @@ class Contact extends React.Component {
                 className="contact_input"
                 onChange={this.handleChange.bind(this, 'subject')}
                 placeholder="Subject"
+                required
               />
             </FormGroup><FormGroup controlId="formBasicMessage">
               
@@ -136,14 +161,36 @@ class Contact extends React.Component {
                 className="contact_input"
                 onChange={this.handleChange.bind(this, 'message')}
                 placeholder="Your text"
+                required
               />
             </FormGroup>
             <br />
-            <Button variant="outline-light" size="lg" type="submit">
+            
+            <Button variant="outline-light" size="lg" type="submit" onClick={this.handleShow}>
               Submit
             </Button>
           </Form>
-       
+          <Modal
+            size="md"
+            aria-labelledby="contained-modal-title-vcenter"
+            show={this.state.show} onHide={this.handleClose}
+            centered
+          >
+            <Modal.Header closeButton>
+             
+            </Modal.Header>
+            <Modal.Body>
+              <h4>Centered Modal</h4>
+              <p>
+                Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+                dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+                consectetur ac, vestibulum at eros.
+              </p>
+            </Modal.Body>
+            <Modal.Footer>
+              <Button onClick={this.handleClose}>Close</Button>
+            </Modal.Footer>
+          </Modal>
             </Col>
           </Row>
           <Row className="Contact-footer">
