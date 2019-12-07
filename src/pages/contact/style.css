@@ -60,6 +60,22 @@
  text-align: center;
 }
 
+.contact_success_modal_body{
+ text-align: center;
+ background: #090909;
+ color: aliceblue;
+}
+
+.contact_success_modal_img{
+  height: 15vh;
+  padding-bottom: 3%;
+  
+}
+
+.contact_success_modal_footer{
+  background: #090909;
+ }
+
 .Contact-right{
   /* background: yellow; */
   margin: auto;    

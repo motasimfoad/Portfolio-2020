@@ -1,7 +1,7 @@
 import React from 'react';
 import '../contact/style.css';
 import * as emailjs from 'emailjs-com';
-import { Button, Form, FormGroup, Container, Row, Col, Modal } from 'react-bootstrap';
+import { Button, Form, FormGroup, Container, Row, Col, Modal, Image } from 'react-bootstrap';
 import Footer from '../../components/footer';
 import Animate from 'react-smooth';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -176,19 +176,12 @@ class Contact extends React.Component {
             show={this.state.show} onHide={this.handleClose}
             centered
           >
-            <Modal.Header closeButton>
-             
-            </Modal.Header>
-            <Modal.Body>
-              <h4>Centered Modal</h4>
-              <p>
-                Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-                dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-                consectetur ac, vestibulum at eros.
-              </p>
+            <Modal.Body className="contact_success_modal_body">
+              <Image className="contact_success_modal_img" src="https://icon-library.net/images/success-icon/success-icon-5.jpg" />
+              <h5>Email Successfully Delivered !!</h5>
             </Modal.Body>
-            <Modal.Footer>
-              <Button onClick={this.handleClose}>Close</Button>
+            <Modal.Footer className="contact_success_modal_footer">
+              <Button variant="outline-light" size="lg" onClick={this.handleClose}>Close</Button>
             </Modal.Footer>
           </Modal>
             </Col>
