@@ -18,7 +18,6 @@ function Home_Left() {
        <Col xl={12} className="home-left-main-col">
          <p className="first-line">
            Hello! 
-           {/* <span role="img" aria-label="Waving man">🙋‍♂️</span> */}
          </p>
          <p className="second_line">
            I am <strong>Motasim Foad</strong>

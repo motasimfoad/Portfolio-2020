@@ -3,26 +3,21 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
 
 .home-left{
-    /* background-color: red; */
     height: 100%;
-  
-}
+ }
 
 .home-left-main{
-    /* background-color: green; */
     height: 100%;
     text-align: center;
 }
 
 .home-left-main-col{
-    /* background-color: aqua; */
     margin: auto;    
     display: block;
 }
 
 .first-line{
     font-size: 4.5rem;
-    /* font-family: 'Raleway', sans-serif; */
     font-family: 'Sulphur Point', sans-serif;
 }
 
@@ -34,14 +29,11 @@
 .typical{
     font-size: 1.6rem;
     font-family: 'Sulphur Point', sans-serif;
-    /* font-family: 'Barlow', sans-serif; */
-    /* font-family: 'Turret Road', cursive; */
 }
 
 .home-left-aboutme-main{
     position: relative;
     z-index: -1;
-   
 }
 
 .home-left-aboutme{
