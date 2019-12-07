@@ -31,7 +31,7 @@ function Home_Left() {
            />
            <br />
            <Button variant="outline-light" size="lg" onClick={() => ToastsStore.info("Development going on 👨‍💻 We will be back soon.")}>Work</Button> &nbsp;
-           <Button variant="outline-light" size="lg" onClick={() => ToastsStore.info("Development going on 👨‍💻 We will be back soon.")}>About Me</Button> &nbsp;
+           <Button variant="outline-light" size="lg"><Link to="/about" className="home-left-aboutme">About Me</Link></Button> &nbsp;
            <Button variant="outline-light" size="lg"><Link to="/contact" className="home-left-aboutme">Contact Me</Link></Button>
            <ToastsContainer store={ToastsStore} timer = '9000' />
          </Col>
