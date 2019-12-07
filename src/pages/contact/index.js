@@ -6,9 +6,7 @@ import Footer from '../../components/footer';
 import Animate from 'react-smooth';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram, faGithub, faDribbble } from '@fortawesome/free-brands-svg-icons';
-import {
-  Link
- } from "react-router-dom";
+import Hamburger_Menu from '../../components/hamburger_menu';
 
 class Contact extends React.Component {
 
@@ -85,20 +83,7 @@ class Contact extends React.Component {
       <Animate to="1" from="0" attributeName="opacity">
         <Container className="Contact-header" fluid={true}>
           <Row className="Contact-main">
-          <div className="menu-wrap">
-              <input type="checkbox" className="toggler" />
-                <div className="hamburger"><div></div></div>
-                  <div className="menu">
-                    <div>
-                      <div>
-                        <ul>
-                          <li><Link to="/">Home</Link></li>
-                          <li><Link to="/about">About</Link></li>
-                        </ul>
-                    </div>
-                  </div>
-            </div>
-          </div>
+          <Hamburger_Menu />
           <Col  xl={6}  className="Contact-left">
             <Row className="Contact-text">
               <Col xl={12}>
