@@ -10,12 +10,8 @@
 .contact-form-header{
     font-size: 2rem;
     padding: 3%;
-    /* font-family: 'Julius Sans One', sans-serif; */
     font-family: 'Raleway', sans-serif;
-    /* font-family: 'Sulphur Point', sans-serif; */
-     /* font-family: 'Barlow', sans-serif; */
-      /* font-family: 'Turret Road', cursive; */
-  }
+   }
 
 .contact_input{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -26,7 +22,6 @@
     opacity: 0.86;
    }
    
-
 .contact_success_modal_body{
     text-align: center;
     background: #090909;
