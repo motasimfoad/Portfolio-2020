@@ -204,6 +204,7 @@
  font-size: 1.5rem;
  border-radius: 5%;
  text-align: center;
+ opacity: 0.86;
 }
 
 .contact_success_modal_body{

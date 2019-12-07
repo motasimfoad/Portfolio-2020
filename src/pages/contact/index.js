@@ -6,6 +6,9 @@ import Footer from '../../components/footer';
 import Animate from 'react-smooth';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram, faGithub, faDribbble } from '@fortawesome/free-brands-svg-icons';
+import {
+  Link
+ } from "react-router-dom";
 
 class Contact extends React.Component {
 
@@ -88,10 +91,8 @@ class Contact extends React.Component {
                     <div>
                       <div>
                         <ul>
-                          <li><a href="#">Home</a></li>
-                          <li><a href="#">About</a></li>
-                          <li><a href="#">Services</a></li>
-                          <li><a href="#">Contact</a></li>
+                          <li><Link to="/">Home</Link></li>
+                          <li><Link to="/about">About</Link></li>
                         </ul>
                     </div>
                   </div>

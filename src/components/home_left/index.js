@@ -8,8 +8,7 @@ import {
  } from 'react-bootstrap';
 import ReactTypingEffect from 'react-typing-effect';
 import {
-   
-    Link
+   Link
   } from "react-router-dom";
  
 function Home_Left() {
