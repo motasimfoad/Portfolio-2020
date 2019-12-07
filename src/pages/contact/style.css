@@ -10,115 +10,19 @@
 
 .Contact-main {
   min-height: 95vh; 
-  /* background-color: red; */
-}
-
-.Contact-left{
-  /* background: green; */
-  margin: auto;    
-  display: block;
-}
-
-
-.contact-form-header{
-  font-size: 2rem;
-  padding: 3%;
-  /* font-family: 'Julius Sans One', sans-serif; */
-  font-family: 'Raleway', sans-serif;
-  /* font-family: 'Sulphur Point', sans-serif; */
-   /* font-family: 'Barlow', sans-serif; */
-    /* font-family: 'Turret Road', cursive; */
-}
-
-.contact_input{
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- width: 50%;
- font-size: 1.5rem;
- border-radius: 5%;
- text-align: center;
- opacity: 0.86;
-}
-
-.contact_success_modal_body{
- text-align: center;
- background: #090909;
- color: aliceblue;
-}
-
-.contact_success_modal_img{
-  height: 15vh;
-  padding-bottom: 3%;
-  
-}
-
-.contact_success_modal_footer{
-  background: #090909;
  }
 
-.Contact-right{
-  /* background: yellow; */
+.Contact-left{
   margin: auto;    
   display: block;
 }
 
-.Contact-form{
-  text-align: center;
-  padding-bottom: 8%;
+.Contact-right{
+  margin: auto;    
+  display: block;
 }
 
 .Contact-footer {
   min-height: 5vh; 
 }  
 
-.contact-left-footer{
-  width: 100%;
-}
-
-.contact-left-footer-icons{
-  text-align: center;
-}
-
-.fb{
-  margin: 2%;
-  color: white;
-}
-
-.fb:hover{
-  color: #386ddd;
-}
-
-.git{
-  margin: 2%;
-  color: white;
-}
-
-.git:hover{
-  color: #16fa01;
-}
-
-.twitter{
-  margin: 2%;
-  color: white;
-}
-
-.twitter:hover{
-  color: #00acee;
-}
-
-.insta{
-  margin: 2%;
-  color: white;
-}
-
-.insta:hover{
-  color: #c1558b;
-}
-
-.dribble{
-  margin: 2%;
-  color: white;
-}
-
-.dribble:hover{
-  color: #ea4c89;
-}
