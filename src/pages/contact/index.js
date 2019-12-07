@@ -58,9 +58,10 @@ class Contact extends React.Component {
       'user_64rGh5RuHtigw7paS8NsX'
      )
      .then((result) => {
-      console.log(result.text);
+        this.handleShow();
+        console.log(result.text);
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });     
         this.resetForm()
     }
@@ -183,7 +184,7 @@ class Contact extends React.Component {
             </FormGroup>
             <br />
             
-            <Button variant="outline-light" size="lg" type="submit" onClick={this.handleShow}>
+            <Button variant="outline-light" size="lg" type="submit">
               Submit
             </Button>
           </Form>
