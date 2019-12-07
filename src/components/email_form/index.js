@@ -1,21 +1,15 @@
 import React from 'react';
 import '../email_form/style.css';
 import * as emailjs from 'emailjs-com';
-import { Button, Form, FormGroup, Container, Row, Col, Modal, Image } from 'react-bootstrap';
-import Footer from '../../components/footer';
-import Animate from 'react-smooth';
-import Hamburger_Menu from '../../components/hamburger_menu';
-import Contact_Left from '../../components/contact_left'
+import { Button, Form, FormGroup, Modal, Image } from 'react-bootstrap';
 
 class Email_Form extends React.Component {
 
   constructor(props, context) {
 		super(props, context);
-
-		this.handleShow = this.handleShow.bind(this);
+    this.handleShow = this.handleShow.bind(this);
 		this.handleClose = this.handleClose.bind(this);
-
-		this.state = {
+    this.state = {
 			show: false,
 		};
 	}
@@ -142,8 +136,7 @@ class Email_Form extends React.Component {
               < br />
               <Button variant="outline-light" size="lg" onClick={this.handleClose}>Close</Button>
             </Modal.Body>
-           
-          </Modal>
+           </Modal>
           </Form>
     )
   }
