@@ -1,6 +1,30 @@
-.footer{
-    height: 100%;
+@import url('https://fonts.googleapis.com/css?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+
+.Contact-form{
     text-align: center;
-    font-size: medium;
-    color: rgb(202, 200, 200);
-}
+    padding-bottom: 8%;
+  }
+
+.contact-form-header{
+    font-size: 2rem;
+    padding: 3%;
+    /* font-family: 'Julius Sans One', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Sulphur Point', sans-serif; */
+     /* font-family: 'Barlow', sans-serif; */
+      /* font-family: 'Turret Road', cursive; */
+  }
+
+  .contact_success_modal_body{
+    text-align: center;
+    background: #090909;
+    color: aliceblue;
+   }
+   
+   .contact_success_modal_img{
+     height: 15vh;
+     padding-bottom: 3%;
+     
+   }
