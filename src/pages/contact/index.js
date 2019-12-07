@@ -81,6 +81,22 @@ class Contact extends React.Component {
       <Animate to="1" from="0" attributeName="opacity">
         <Container className="Contact-header" fluid={true}>
           <Row className="Contact-main">
+          <div className="menu-wrap">
+              <input type="checkbox" className="toggler" />
+                <div className="hamburger"><div></div></div>
+                  <div className="menu">
+                    <div>
+                      <div>
+                        <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">Services</a></li>
+                          <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                  </div>
+            </div>
+          </div>
           <Col  xl={6}  className="Contact-left">
             <Row className="Contact-text">
               <Col xl={12}>
