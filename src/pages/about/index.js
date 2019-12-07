@@ -1,25 +1,35 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../about/style.css';
+import Menu from '../../components/hamburger_menu';
+import { Document, Page } from 'react-pdf';
+import PDF from '../../assets/pdf/mf.pdf';
 
-function About() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+class About extends Component {
+  state = {
+    numPages: null,
+    pageNumber: 1,
+  }
+
+  onDocumentLoadSuccess = ({ numPages }) => {
+    this.setState({ numPages });
+  }
+
+  render() {
+    const { pageNumber, numPages } = this.state;
+
+    return (
+      <div className="App-header">
+        <Menu />
+        <Document
+          file="../../assets/pdf/mf.pdf"
+          onLoadSuccess={this.onDocumentLoadSuccess}
         >
-          ABOUT
-        </a>
-      </header>
-    </div>
-  );
+          <Page pageNumber={pageNumber} />
+        </Document>
+        <p>Page {pageNumber} of {numPages}</p>
+      </div>
+    );
+  }
 }
 
 export default About;
