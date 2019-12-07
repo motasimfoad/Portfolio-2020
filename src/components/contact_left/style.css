@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+
+.Contact-text{
+  text-align: center;
+  /* background: #16fa01; */
+}
+
+.p-heading1{
+    font-size: 4rem;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+.p-heading2{
+  font-size: 1rem;
+  padding: 3%;
+  /* font-family: 'Julius Sans One', sans-serif; */
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Sulphur Point', sans-serif; */
+   /* font-family: 'Barlow', sans-serif; */
+    font-family: 'Turret Road', cursive;
+    
+}

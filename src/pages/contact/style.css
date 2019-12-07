@@ -19,27 +19,6 @@
   display: block;
 }
 
-.Contact-text{
-  text-align: center;
-  /* background: #16fa01; */
-}
-
-.p-heading1{
-    font-size: 4rem;
-    /* font-family: 'Raleway', sans-serif; */
-    font-family: 'Sulphur Point', sans-serif;
-}
-
-.p-heading2{
-  font-size: 1rem;
-  padding: 3%;
-  /* font-family: 'Julius Sans One', sans-serif; */
-  /* font-family: 'Raleway', sans-serif; */
-  /* font-family: 'Sulphur Point', sans-serif; */
-   /* font-family: 'Barlow', sans-serif; */
-    font-family: 'Turret Road', cursive;
-    
-}
 
 .contact-form-header{
   font-size: 2rem;
