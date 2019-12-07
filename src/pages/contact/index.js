@@ -179,10 +179,10 @@ class Contact extends React.Component {
             <Modal.Body className="contact_success_modal_body">
               <Image className="contact_success_modal_img" src="https://icon-library.net/images/success-icon/success-icon-5.jpg" />
               <h5>Email Successfully Delivered !!</h5>
-            </Modal.Body>
-            <Modal.Footer className="contact_success_modal_footer">
+              < br />
               <Button variant="outline-light" size="lg" onClick={this.handleClose}>Close</Button>
-            </Modal.Footer>
+            </Modal.Body>
+           
           </Modal>
             </Col>
           </Row>
