@@ -13,7 +13,7 @@ const particles = {
        "shape": {
          "type": "circle",
          "stroke": {
-           "width": 0,
+           "width": 3,
            "color": "#000000"
          },
          "polygon": {
@@ -27,7 +27,7 @@ const particles = {
        },
        "opacity": {
          "value": 0.5,
-         "random": false,
+         "random": true,
          "anim": {
            "enable": false,
            "speed": 1,
@@ -36,7 +36,7 @@ const particles = {
          }
        },
        "size": {
-         "value": 2,
+         "value": 4,
          "random": true,
          "anim": {
            "enable": false,
@@ -59,7 +59,7 @@ const particles = {
          "random": false,
          "straight": false,
          "out_mode": "out",
-         "bounce": false,
+         "bounce": true,
          "attract": {
            "enable": false,
            "rotateX": 600,
