@@ -29,6 +29,7 @@ class Loading extends Component {
           width={200}
           timeout={3500} //3.5 secs
           />
+          <p className="Loading-text">Loading</p>
         </div>
   }
 }
