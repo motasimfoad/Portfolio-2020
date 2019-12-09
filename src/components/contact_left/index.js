@@ -11,7 +11,7 @@ function Contact_Left() {
               <Col xl={12}>
               <p className="p-heading1">Get'in Touch</p>
               <p className="p-heading2">
-              Holla <strong>Visitor!!</strong><br />
+              Holla <strong>Visitor !!</strong><br />
               Thank you for bumping in. If you have any queries/idea/project, feel free to <strong>PING</strong> me.
               I am always open for discussion. You can contact me via the Contact Form <strong>OR</strong> simply click on the social
               media icon if you are more comfortable there.
