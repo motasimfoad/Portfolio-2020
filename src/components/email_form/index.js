@@ -121,7 +121,7 @@ class Email_Form extends React.Component {
               />
             </FormGroup>
             <br />
-            <Button variant="outline-light" size="lg" type="submit">
+            <Button className="contact-email-text-btn" variant="outline-light" size="lg" type="submit">
               Submit
             </Button>
             <Modal
@@ -134,7 +134,7 @@ class Email_Form extends React.Component {
               <Image className="contact_success_modal_img" src="https://icon-library.net/images/success-icon/success-icon-5.jpg" />
               <h5>Email Successfully Delivered !!</h5>
               < br />
-              <Button variant="outline-light" size="lg" onClick={this.handleClose}>Close</Button>
+              <Button variant="outline-light" size="lg" onClick={this.handleClose} className="contact-email-text-btn">Close</Button>
             </Modal.Body>
            </Modal>
           </Form>
