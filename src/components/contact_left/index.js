@@ -21,6 +21,7 @@ function Contact_Left() {
           
             <Row className="contact-left-footer" >
               <Col xl={12} className="contact-left-footer-icons">
+                &nbsp; &nbsp; &nbsp; &nbsp;
                 <a href="https://fb.com/okrittim" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="contact-left-footer-icons-padding fb" icon={faFacebook} />
                 </a>

@@ -20,6 +20,7 @@ function Home_Right() {
         </Col>
         <Row className="home-right-footer" >
           <Col xl={12} className="home-right-footer-icons">
+          &nbsp; &nbsp; &nbsp; &nbsp;
           <a href="https://fb.com/okrittim" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon className="home-right-footer-icons-padding fb" icon={faFacebook} />
           </a>
