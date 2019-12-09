@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import '../about/style.css';
-import Menu from '../../components/hamburger_menu';
-import { Document, Page } from 'react-pdf';
-// import PDF from '../../assets/pdf/mf.pdf';
+import HamburgerMenu from '../../components/hamburger_menu';
+import {Container, Row, Col} from 'react-bootstrap';
+import Footer from '../../components/footer';
+import Animate from 'react-smooth';
 
 class About extends Component {
   state = {
@@ -18,16 +19,24 @@ class About extends Component {
     const { pageNumber, numPages } = this.state;
 
     return (
-      <div className="App-header">
-        <Menu />
-        {/* <Document
-          file="../../assets/pdf/mf.pdf"
-          onLoadSuccess={this.onDocumentLoadSuccess}
-        >
-          <Page pageNumber={pageNumber} />
-        </Document>
-        <p>Page {pageNumber} of {numPages}</p> */}
-      </div>
+      <Animate to="1" from="0" attributeName="opacity">
+        <Container className="About-header" fluid={true}>
+          <Row className="Hamburger-menu">
+          <HamburgerMenu />
+          </Row>
+          <Row className="About-main">
+          <Col  xl={6}  className="About-left">
+          HI
+          </Col>
+          <Col  xl={6}  className="About-right">
+            Hi
+          </Col>
+          </Row>
+          <Row className="About-footer">
+            <Footer />
+          </Row>
+        </Container>
+      </Animate>
     );
   }
 }

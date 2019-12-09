@@ -8,8 +8,12 @@
   color: white;
 }
 
+.Hamburger-menu{
+  min-height: 7vh; 
+}
+
 .Contact-main {
-  min-height: 95vh; 
+  min-height: 88vh; 
  }
 
 .Contact-left{

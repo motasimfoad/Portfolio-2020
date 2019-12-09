@@ -1,22 +1,32 @@
-.App {
- 
-  }
-  
-  .App-logo {
-    height: 40vmin;
-  }
-  
-  .App-header {
-    /* background-color: #282c34; */
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
-  .App-link {
-    color: #09d3ac;
-  }
-  
+@import url('https://fonts.googleapis.com/css?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+
+.About-header {
+  background-color:#090909;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Hamburger-menu{
+  min-height: 1vh;
+}
+
+.About-main {
+  min-height: 94vh; 
+ }
+
+.About-left{
+  margin: auto;    
+  display: block;
+}
+
+.About-right{
+  margin: auto;    
+  display: block;
+}
+
+.About-footer {
+  min-height: 5vh; 
+}  
+
