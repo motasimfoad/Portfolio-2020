@@ -21,7 +21,7 @@ function Home_Left() {
            Hello! 
          </p>
          <p className="second_line">
-           I am <strong>Motasim Foad</strong>
+           I am <strong>motasim foad</strong>
          </p>
           <ReactTypingEffect
            text="Product & Project Manager || Software Engineer ... " //text=["Hello.", "World!"]
@@ -30,9 +30,8 @@ function Home_Left() {
            eraseDelay="500000"
            />
            <br />
-           <Button variant="outline-light" size="lg" onClick={() => ToastsStore.info("Development going on 👨‍💻 We will be back soon.")}>Work</Button> &nbsp;
-           <Button variant="outline-light" size="lg"><Link to="/about" className="home-left-aboutme">About Me</Link></Button> &nbsp;
-           <Button variant="outline-light" size="lg"><Link to="/contact" className="home-left-aboutme">Contact Me</Link></Button>
+           <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn"><Link to="/about" style={{ textDecoration: 'none', color: 'white' }} className="home-left-aboutme">About Me</Link></Button> &nbsp;
+           <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn"><Link style={{ textDecoration: 'none', color: 'white' }} to="/contact" className="home-left-aboutme">Contact Me</Link></Button>
            <ToastsContainer store={ToastsStore} timer = '9000' />
          </Col>
      </Row>

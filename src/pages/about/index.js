@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../about/style.css';
 import Menu from '../../components/hamburger_menu';
 import { Document, Page } from 'react-pdf';
-import PDF from '../../assets/pdf/mf.pdf';
+// import PDF from '../../assets/pdf/mf.pdf';
 
 class About extends Component {
   state = {
@@ -20,13 +20,13 @@ class About extends Component {
     return (
       <div className="App-header">
         <Menu />
-        <Document
+        {/* <Document
           file="../../assets/pdf/mf.pdf"
           onLoadSuccess={this.onDocumentLoadSuccess}
         >
           <Page pageNumber={pageNumber} />
         </Document>
-        <p>Page {pageNumber} of {numPages}</p>
+        <p>Page {pageNumber} of {numPages}</p> */}
       </div>
     );
   }
