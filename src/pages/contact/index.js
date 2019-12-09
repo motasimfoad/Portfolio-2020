@@ -13,8 +13,10 @@ class Contact extends React.Component {
     return (
       <Animate to="1" from="0" attributeName="opacity">
         <Container className="Contact-header" fluid={true}>
+          <Row>
+          <HamburgerMenu />
+          </Row>
           <Row className="Contact-main">
-            <HamburgerMenu />
           <Col  xl={6}  className="Contact-left">
            <ContactLeft />
           </Col>

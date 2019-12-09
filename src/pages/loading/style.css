@@ -1,0 +1,12 @@
+.Loading-header {
+    background-color: #090909;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  

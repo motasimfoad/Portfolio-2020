@@ -10,7 +10,7 @@ import {
 } from 'react-bootstrap';
 import Animate from 'react-smooth';
 import Particles from 'react-particles-js';
-import particles from '../../const/particle.js'
+import particles from '../../const/particle.js';
 
 function Home() {
   return (
