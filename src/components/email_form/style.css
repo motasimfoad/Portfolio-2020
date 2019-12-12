@@ -8,18 +8,21 @@
   }
 
 .contact-form-header{
-    font-size: 2rem;
-    padding: 3%;
+    font-size: 2.5rem;
+    padding: 1%;
     font-family: 'Raleway', sans-serif;
    }
 
 .contact_input{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 50%;
+    width: 60%;
+    height: 6.5vh;
     font-size: 1.5rem;
     border-radius: 5%;
     text-align: center;
-    opacity: 0.86;
+    background: black;
+    color: white;
+
    }
    
 .contact_success_modal_body{
@@ -31,12 +34,6 @@
 .contact_success_modal_img{
      height: 15vh;
      padding-bottom: 3%;
-   }
-
-.contact-form-header{
-    font-size: 2rem;
-    padding: 3%;
-    font-family: 'Raleway', sans-serif;
    }
 
 .contact-email-text-btn{

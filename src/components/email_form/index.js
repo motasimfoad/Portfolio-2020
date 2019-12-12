@@ -38,7 +38,7 @@ class Email_Form extends React.Component {
     e.preventDefault(); 
     this.setState({ loading: true });   
     
-    const { name, email, subject, message } = this.state    
+    const {email, subject, message } = this.state    
     
     let templateParams = {
       from_name: email,
@@ -123,7 +123,7 @@ class Email_Form extends React.Component {
                 required
               />
             </FormGroup>
-            <br />
+           
            <Button className="contact-email-text-btn" variant="outline-light" size="lg" type="submit">
               Submit
               <ClipLoader
