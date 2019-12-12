@@ -2,6 +2,7 @@ import React from 'react';
 import '../email_form/style.css';
 import * as emailjs from 'emailjs-com';
 import { Button, Form, FormGroup, Modal, Image } from 'react-bootstrap';
+import ClipLoader from "react-spinners/BarLoader";
 
 class Email_Form extends React.Component {
 
@@ -10,16 +11,19 @@ class Email_Form extends React.Component {
     this.handleShow = this.handleShow.bind(this);
 		this.handleClose = this.handleClose.bind(this);
     this.state = {
-			show: false,
+      show: false,
+      loading: false,
 		};
 	}
 
 	handleClose() {
-		this.setState({ show: false });
+    this.setState({ show: false });
+    this.setState({ name: '' });
+    this.resetForm();
 	}
 
 	handleShow() {
-		this.setState({ show: true });
+		this.setState({ show: true, loading: false });
 	}
 
   state = {
@@ -31,7 +35,8 @@ class Email_Form extends React.Component {
   }
   
   handleSubmit(e) {
-    e.preventDefault()    
+    e.preventDefault(); 
+    this.setState({ loading: true });   
     
     const { name, email, subject, message } = this.state    
     
@@ -54,12 +59,10 @@ class Email_Form extends React.Component {
       }, (error) => {
         console.log(error.text);
       });     
-        this.resetForm()
     }
     
     resetForm() {
     this.setState({
-      name: '',
       email: '',
       subject: '',
       message: '',
@@ -121,21 +124,28 @@ class Email_Form extends React.Component {
               />
             </FormGroup>
             <br />
-            <Button className="contact-email-text-btn" variant="outline-light" size="lg" type="submit">
+           <Button className="contact-email-text-btn" variant="outline-light" size="lg" type="submit">
               Submit
+              <ClipLoader
+                size={5} // or 150px
+                color={"#ffffff"}
+                loading={this.state.loading}
+              />
             </Button>
+            
             <Modal
                 size="md"
                 aria-labelledby="contained-modal-title-vcenter"
                 show={this.state.show} onHide={this.handleClose}
                 centered
               >
-            <Modal.Body className="contact_success_modal_body">
-              <Image className="contact_success_modal_img" src="https://icon-library.net/images/success-icon/success-icon-5.jpg" />
-              <h5>Email Successfully Delivered !!</h5>
-              < br />
-              <Button variant="outline-light" size="lg" onClick={this.handleClose} className="contact-email-text-btn">Close</Button>
-            </Modal.Body>
+              <Modal.Body className="contact_success_modal_body">
+                <Image className="contact_success_modal_img" src="https://icon-library.net/images/success-icon/success-icon-5.jpg" />
+                <h5>Thank you <span><strong>{this.state.name}</strong>!!</span> 😇</h5>
+                <h6>Your message was successfully recorded</h6>
+                < br />
+                <Button variant="outline-light" size="lg" onClick={this.handleClose} className="contact-email-text-btn">Close</Button>
+              </Modal.Body>
            </Modal>
           </Form>
     )

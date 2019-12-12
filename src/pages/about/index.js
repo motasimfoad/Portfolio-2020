@@ -6,18 +6,8 @@ import Footer from '../../components/footer';
 import Animate from 'react-smooth';
 
 class About extends Component {
-  state = {
-    numPages: null,
-    pageNumber: 1,
-  }
-
-  onDocumentLoadSuccess = ({ numPages }) => {
-    this.setState({ numPages });
-  }
-
+ 
   render() {
-    const { pageNumber, numPages } = this.state;
-
     return (
       <Animate to="1" from="0" attributeName="opacity">
         <Container className="About-header" fluid={true}>
