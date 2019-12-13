@@ -18,6 +18,7 @@ export default function Nav() {
         <Route path="/home" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
+        <Route path="*" component={Home} />
       </Switch>
     </Router>
   );
