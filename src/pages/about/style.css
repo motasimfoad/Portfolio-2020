@@ -28,5 +28,22 @@
 
 .About-footer {
   min-height: 5vh; 
-}  
+}
+
+.About-pdf{
+  background-color: red !important;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  min-height:80vh ;
+  width: 70%;
+  text-align: center;
+  
+}
+
+.canvasCss{
+/* background: green; */
+
+}
+
 
