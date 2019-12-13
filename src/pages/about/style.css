@@ -22,8 +22,7 @@
 }
 
 .About-right{
-  margin: auto;    
-  display: block;
+ 
   background: yellow;
 }
 
@@ -45,6 +44,12 @@
 background: green;
 
  
+}
+
+.About-gallery{
+  height: 100vh;
+  width: 100%;
+  background: pink;
 }
 
 
