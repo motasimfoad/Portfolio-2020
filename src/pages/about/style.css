@@ -22,8 +22,9 @@
 }
 
 .About-right{
-  /* margin: auto;    
-  display: block; */
+  margin: auto;    
+  display: block;
+  background: yellow;
 }
 
 .About-footer {
@@ -35,15 +36,15 @@
   border-color: #ffffff;
   border-width: 1px;
   border-style: solid;
-  min-height:80vh ;
-  width: 70%;
-  text-align: center;
-  
+  min-height:60vh ;
+ 
+  width: 71%;
 }
 
 .canvasCss{
-/* background: green; */
+background: green;
 
+ 
 }
 
 
