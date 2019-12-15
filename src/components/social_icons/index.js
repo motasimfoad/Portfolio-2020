@@ -4,7 +4,7 @@ import {
  Col,
 } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faInstagram, faGithub, faDribbble, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faTwitter, faInstagram, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function SocialIcons() {
   return (

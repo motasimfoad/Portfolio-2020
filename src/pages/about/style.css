@@ -16,9 +16,14 @@
   min-height: 88vh; 
  }
 
+.About-footer {
+  min-height: 5vh; 
+}
+
 .About-left{
   /* margin: auto;    
   display: block; */
+  background-color: red;
 }
 
 .About-right{
@@ -26,9 +31,7 @@
   background: yellow;
 }
 
-.About-footer {
-  min-height: 5vh; 
-}
+
 
 .About-pdf{
   background-color: red !important;
