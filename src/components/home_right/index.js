@@ -1,6 +1,6 @@
 import React from 'react';
 import '../home_right/style.css';
-import Foad from '../../assets/img/foad.jpg';
+import Foad from '../../assets/img/foad.png';
 import {
   Container,
   Row,
