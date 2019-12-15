@@ -47,8 +47,8 @@ background: green;
 }
 
 .About-gallery{
-  height: 100vh;
-  width: 100%;
+  min-height: 100vh !important;
+  min-width: 100vw !important;
   background: pink;
 }
 

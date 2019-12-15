@@ -15,7 +15,8 @@ const IMAGES =
   {
     src: cv1,
     thumbnail: cv1,
-    
+    thumbnailWidth: 1320,
+    thumbnailHeight: 1574,
     tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
     caption: "Boats (Jeshu John - designerspics.com)"
 },
@@ -46,7 +47,7 @@ class About extends Component {
           </Col>
           <Col  xl={6}  className="About-right">
            
-          <Gallery className="About-gallery" images={IMAGES}/>,
+          <Gallery className="About-gallery" images={IMAGES}/>
          
           </Col>
           </Row>
