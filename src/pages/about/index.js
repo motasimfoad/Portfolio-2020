@@ -9,6 +9,9 @@ import cv1 from '../../assets/img/cv1.png';
 import cv2 from '../../assets/img/cv2.png';
 import cv3 from '../../assets/img/cv3.png';
 import cv4 from '../../assets/img/cv4.png';
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
+
 
 const IMAGES =
 [
@@ -41,14 +44,19 @@ class About extends Component {
           <HamburgerMenu />
           </Row>
           <Row className="About-main">
-          <Col  xl={6}  className="About-left">
+          <AwesomeSlider className="About-slider">
+            <div className="d1">1</div>
+            <div>2</div>
+            <div>3</div>
+          </AwesomeSlider>
+          {/* <Col  xl={6}  className="About-left">
           HI
           </Col>
           <Col  xl={6}  className="About-right">
            
           <Gallery className="About-gallery" images={IMAGES}/>
          
-          </Col>
+          </Col> */}
           </Row>
           <Row className="About-footer">
             <Footer />
