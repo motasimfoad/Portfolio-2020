@@ -18,7 +18,7 @@ class About extends Component {
           <HamburgerMenu />
           </Row>
           <Row className="About-main">
-          <AwesomeSlider cssModule={AwesomeSliderStyles} className="About-slider">
+          <AwesomeSlider fillParent={false} cssModule={AwesomeSliderStyles} className="About-slider">
             <div className="d1">1</div>
             <div className="d2">2</div>
             <div className="d3">3</div>
