@@ -17,12 +17,25 @@
  }
 
 .About-slider {
-  max-height: 82vh; 
-  background-color:#090909 !important;
+  max-height: 82vh;
  }
 
- .d1{
-  background-color:#090909 !important;
+.d1{
+  background-color:#090909;
+  height: 100%;
+  width: 100%;
+ }
+
+ .d2{
+  background-color:#090909;
+  height: 100%;
+  width: 100%;
+ }
+
+ .d3{
+  background-color:#090909;
+  height: 100%;
+  width: 100%;
  }
 
 .About-footer {
