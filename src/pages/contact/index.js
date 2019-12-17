@@ -7,6 +7,7 @@ import HamburgerMenu from '../../components/hamburger_menu';
 import ContactLeft from '../../components/contact_left';
 import EmailForm from '../../components/email_form';
 import ReactGa from 'react-ga';
+import {Helmet} from 'react-helmet';
 
 class Contact extends React.Component {
 
@@ -18,6 +19,12 @@ class Contact extends React.Component {
   render() {
     return (
       <Animate to="1" from="0" attributeName="opacity">
+           <Helmet>
+                <meta charSet="utf-8" />
+                <title>Contact | Motasim Foad</title>
+                <link rel="canonical" href="http://motasimfoad.com/contact" />
+                <meta name="description" content="Motasim Foad | Contact - Product Manager | Project Manager | Software Engineer" />
+           </Helmet>
         <Container className="Contact-header" fluid={true}>
           <Row className="Hamburger-menu">
           <HamburgerMenu />

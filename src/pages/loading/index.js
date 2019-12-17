@@ -4,7 +4,7 @@ import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 import Loader from 'react-loader-spinner';
 import { Redirect } from 'react-router-dom';
 import ReactGA from 'react-ga';
-import {Helmet} from "react-helmet";
+import {Helmet} from 'react-helmet';
 
 class Loading extends Component {
 
