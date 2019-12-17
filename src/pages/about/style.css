@@ -8,16 +8,12 @@
   color: white;
 }
 
-.Hamburger-menu{
-  min-height: 7vh;
-}
-
 .About-main {
-  min-height: 88vh; 
+  min-height: 80vh; 
  }
 
 .About-slider {
-  height: 100vh;
+  
  }
 
 .d1{

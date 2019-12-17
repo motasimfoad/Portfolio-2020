@@ -11,8 +11,15 @@ import {
 import Animate from 'react-smooth';
 import Particles from 'react-particles-js';
 import particles from '../../const/particle.js';
+import ReactGa from 'react-ga';
+
+function Analytics(){
+  ReactGa.initialize("UA-154721739-1")
+  ReactGa.pageview('Loading Screen')
+}
 
 function Home() {
+  Analytics()
   return (
       <Animate to="1" from="0" attributeName="opacity">
         <Particles
