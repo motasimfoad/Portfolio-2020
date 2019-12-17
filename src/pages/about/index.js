@@ -19,9 +19,9 @@ class About extends Component {
   render() {
     return (
       <Animate to="1" from="0" attributeName="opacity">
-        <Container className="About-header" fluid={true}>
+        {/* <Container className="About-header" fluid={true}>
          
-          <Row className="About-main">
+          <Row className="About-main"> */}
           <AwesomeSlider cssModule={AwesomeSliderStyles} className="About-slider">
             <div className="d1">
             <Row>
@@ -31,11 +31,11 @@ class About extends Component {
             <div className="d2">2</div>
             <div className="d3">3</div>
           </AwesomeSlider>
-          </Row>
+          {/* </Row>
           <Row className="About-footer">
             <Footer />
           </Row>
-        </Container>
+        </Container> */}
       </Animate>
     );
   }

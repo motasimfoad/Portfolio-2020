@@ -13,22 +13,25 @@
  }
 
 .About-slider {
-  max-height: 94%;
+  height: 100%;
+  background-color:#090909;
+  font-size: calc(10px + 2vmin);
+  color: white;
  }
 
 .d1{
-  background-color:red;
-  height: 100%;
-  width: 100%;
+  /* background-color:red; */
+  /* height: 100%;
+  width: 100%; */
  }
 
- .d2{
+.d2{
   background-color:yellow;
   height: 100%;
   width: 100%;
  }
 
- .d3{
+.d3{
   background-color:green;
   height: 100%;
   width: 100%;
@@ -37,40 +40,3 @@
 .About-footer {
   min-height: 5vh; 
 }
-
-.About-left{
-  /* margin: auto;    
-  display: block; */
-  background-color: red;
-}
-
-.About-right{
- 
-  background: yellow;
-}
-
-
-
-.About-pdf{
-  background-color: red !important;
-  border-color: #ffffff;
-  border-width: 1px;
-  border-style: solid;
-  min-height:60vh ;
- 
-  width: 71%;
-}
-
-.canvasCss{
-background: green;
-
- 
-}
-
-.About-gallery{
-  min-height: 100vh !important;
-  min-width: 100vw !important;
-  background: pink;
-}
-
-
