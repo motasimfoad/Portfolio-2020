@@ -15,7 +15,7 @@ import ReactGa from 'react-ga';
 
 function Analytics(){
   ReactGa.initialize("UA-154721739-1")
-  ReactGa.pageview('Loading Screen')
+  ReactGa.pageview('Home Screen')
 }
 
 function Home() {

@@ -6,8 +6,14 @@ import Animate from 'react-smooth';
 import HamburgerMenu from '../../components/hamburger_menu';
 import ContactLeft from '../../components/contact_left';
 import EmailForm from '../../components/email_form';
+import ReactGa from 'react-ga';
 
 class Contact extends React.Component {
+
+  componentDidMount() {
+    ReactGa.initialize("UA-154721739-1");
+    ReactGa.pageview('Contact Screen');
+  }
 
   render() {
     return (

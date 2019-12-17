@@ -7,8 +7,14 @@ import Animate from 'react-smooth';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import AwesomeSliderStyles from 'react-awesome-slider/src/styled/fall-animation';
+import ReactGa from 'react-ga';
 
 class About extends Component {
+
+  componentDidMount() {
+    ReactGa.initialize("UA-154721739-1");
+    ReactGa.pageview('About Screen');
+  }
  
   render() {
     return (
