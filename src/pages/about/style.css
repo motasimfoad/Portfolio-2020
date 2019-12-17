@@ -9,11 +9,11 @@
 }
 
 .About-main {
-  min-height: 80vh; 
+  height: 95vh; 
  }
 
 .About-slider {
-  
+  max-height: 94%;
  }
 
 .d1{

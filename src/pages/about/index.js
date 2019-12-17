@@ -20,13 +20,13 @@ class About extends Component {
     return (
       <Animate to="1" from="0" attributeName="opacity">
         <Container className="About-header" fluid={true}>
-          <Row>
-          <HamburgerMenu />
-          </Row>
+         
           <Row className="About-main">
-          <AwesomeSlider fillParent={false} cssModule={AwesomeSliderStyles} className="About-slider">
+          <AwesomeSlider cssModule={AwesomeSliderStyles} className="About-slider">
             <div className="d1">
+            <Row>
             <HamburgerMenu />
+            </Row>
             </div>
             <div className="d2">2</div>
             <div className="d3">3</div>
