@@ -8,6 +8,7 @@ import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import AwesomeSliderStyles from 'react-awesome-slider/src/styled/fall-animation';
 import ReactGa from 'react-ga';
+import {Helmet} from 'react-helmet';
 
 class About extends Component {
 
@@ -19,6 +20,12 @@ class About extends Component {
   render() {
     return (
       <Animate to="1" from="0" attributeName="opacity">
+        <Helmet>
+                <meta charSet="utf-8" />
+                <title>About | Motasim Foad</title>
+                <link rel="canonical" href="http://motasimfoad.com/about" />
+                <meta name="description" content="Motasim Foad | About - Product Manager | Project Manager | Software Engineer" />
+        </Helmet>
         {/* <Container className="About-header" fluid={true}>
          
           <Row className="About-main"> */}
