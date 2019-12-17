@@ -12,6 +12,7 @@ import Animate from 'react-smooth';
 import Particles from 'react-particles-js';
 import particles from '../../const/particle.js';
 import ReactGa from 'react-ga';
+import {Helmet} from "react-helmet";
 
 function Analytics(){
   ReactGa.initialize("UA-154721739-1")
@@ -22,6 +23,12 @@ function Home() {
   Analytics()
   return (
       <Animate to="1" from="0" attributeName="opacity">
+           <Helmet>
+                <meta charSet="utf-8" />
+                <title>Motasim Foad</title>
+                <link rel="canonical" href="http://motasimfoad.com/home" />
+                <meta name="description" content="Motasim Foad | Home - Product Manager | Project Manager | Software Engineer" />
+           </Helmet>
         <Particles
         params={particles}
         className="particle"

@@ -4,6 +4,7 @@ import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 import Loader from 'react-loader-spinner';
 import { Redirect } from 'react-router-dom';
 import ReactGA from 'react-ga';
+import {Helmet} from "react-helmet";
 
 class Loading extends Component {
 
@@ -25,6 +26,12 @@ class Loading extends Component {
     return this.state.redirect
       ? <Redirect to="/home" />
       : <div className="Loading-header">
+           <Helmet>
+                <meta charSet="utf-8" />
+                <title>Motasim Foad</title>
+                <link rel="canonical" href="http://motasimfoad.com/" />
+                <meta name="description" content="Motasim Foad - Product Manager | Project Manager | Software Engineer" />
+           </Helmet>
           <Loader
           type="Triangle"
           color="#ffffff"
