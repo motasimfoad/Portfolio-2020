@@ -9,8 +9,10 @@
 
 .cv_left{
     background-color: aqua;
+    min-height: 40vh;
 }
 
 .cv_right{
     background-color: aquamarine;
+    min-height: 40vh;
 }
