@@ -12,7 +12,7 @@ import {Helmet} from 'react-helmet';
 
 class About extends Component {
 
-  componentDidMount() {
+  UNSAFE_componentDidMount() {
     ReactGa.initialize("UA-154721739-1");
     ReactGa.pageview('About Screen');
   }
