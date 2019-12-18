@@ -19,31 +19,34 @@ class About extends Component {
  
   render() {
     return (
-      <Animate to="1" from="0" attributeName="opacity">
-        <Helmet>
+      <div>
+         <Helmet>
                 <meta charSet="utf-8" />
                 <title>About | Motasim Foad</title>
                 <link rel="canonical" href="http://motasimfoad.com/about" />
                 <meta name="description" content="Motasim Foad | About - Product Manager | Project Manager | Software Engineer" />
         </Helmet>
-        {/* <Container className="About-header" fluid={true}>
+      </div>
+      // <Animate to="1" from="0" attributeName="opacity">
+       
+      //   <Container className="About-header" fluid={true}>
          
-          <Row className="About-main"> */}
-          <AwesomeSlider cssModule={AwesomeSliderStyles} className="About-slider">
-            <div className="d1">
-            <Row>
-            <HamburgerMenu />
-            </Row>
-            </div>
-            <div className="d2">2</div>
-            <div className="d3">3</div>
-          </AwesomeSlider>
-          {/* </Row>
-          <Row className="About-footer">
-            <Footer />
-          </Row>
-        </Container> */}
-      </Animate>
+      //     <Row className="About-main">
+      //     <AwesomeSlider cssModule={AwesomeSliderStyles} className="About-slider">
+      //       <div className="d1">
+      //       <Row>
+      //       <HamburgerMenu />
+      //       </Row>
+      //       </div>
+      //       <div className="d2">2</div>
+      //       <div className="d3">3</div>
+      //     </AwesomeSlider>
+      //     </Row>
+      //     <Row className="About-footer">
+      //       <Footer />
+      //     </Row>
+      //   </Container>
+      // </Animate>
     );
   }
 }

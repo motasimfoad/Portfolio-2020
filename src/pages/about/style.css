@@ -13,16 +13,15 @@
  }
 
 .About-slider {
-  height: 100%;
-  background-color:#090909;
+  height: 88%;
   font-size: calc(10px + 2vmin);
   color: white;
  }
 
 .d1{
-  /* background-color:red; */
-  /* height: 100%;
-  width: 100%; */
+  background-color:#090909;
+  height: 100%;
+  width: 100%;
  }
 
 .d2{
