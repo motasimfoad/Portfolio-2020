@@ -12,12 +12,12 @@
 
 .About-slider {
   height: 88%;
-  overflow: scroll;
  }
 
 .d1{
   height: 100%;
   width: 100%;
+  overflow: scroll;
  }
 
 .d2{
