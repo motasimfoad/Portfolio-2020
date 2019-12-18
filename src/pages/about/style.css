@@ -4,8 +4,6 @@
 
 .About-header {
   background-color:#090909;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .About-main {
@@ -15,7 +13,6 @@
 .About-slider {
   height: 88%;
   font-size: calc(10px + 2vmin);
-  color: white;
  }
 
 .d1{

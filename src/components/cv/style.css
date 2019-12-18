@@ -1,6 +1,16 @@
 .cv_main{
-    height: 100vh;
-    text-align: center;
-    font-size: medium;
-    /* background-color: aquamarine; */
+    height: 88vh;
+    background-color:#090909;
+}
+
+.cv_content{
+    height: 100%;
+}
+
+.cv_left{
+    background-color: aqua;
+}
+
+.cv_right{
+    background-color: aquamarine;
 }

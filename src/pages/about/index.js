@@ -31,8 +31,7 @@ class About extends Component {
           <Row className="About-main">
             <AwesomeSlider cssModule={AwesomeSliderStyles} className="About-slider">
               <div className="d1">
-             
-              <CV />
+               <CV />
               </div>
               <div className="d2">2</div>
               <div className="d3">3</div>
