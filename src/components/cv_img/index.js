@@ -18,26 +18,18 @@ const images = [
 export default class CRI extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
       photoIndex: 0,
       isOpen: false,
     };
-    this.lala = this.lala.bind(this);
-  }
-
-  lala(){
-    // alert("lalal");
-    this.setState({ isOpen: true })
   }
 
   render() {
     const { photoIndex, isOpen } = this.state;
-
     return (
       <div>
-         <div>
-        <Image src={cv1} onClick={this.lala} style={{height:"80%", width:"70%"}} />
+        <div>
+        <Image src={cv1} onClick={() => this.setState({ isOpen: true })} style={{height:"80%", width:"70%"}} />
         </div>
 
         {isOpen && (
