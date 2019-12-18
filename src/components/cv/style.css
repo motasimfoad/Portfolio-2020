@@ -1,6 +1,7 @@
 .cv_main{
-    height: 88vh;
+    min-height: 88vh;
     background-color:#090909;
+    overflow: scroll;
 }
 
 .cv_content{

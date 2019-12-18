@@ -4,6 +4,7 @@ import {
   Container,
   Row,
   Col,
+  Image
 } from 'react-bootstrap';
 import HamburgerMenu from '../hamburger_menu';
 import cv1 from '../../assets/img/cv1.png';
@@ -25,7 +26,7 @@ function CV() {
           <CLC />
         </Col>
         <Col xl={6} className="cv_right">
-        <img src={cv1} onClick={lala} style={{height:"80%", width:"70%"}} />
+        <Image src={cv1} onClick={lala} style={{height:"80%", width:"70%"}} />
         </Col>
       </Row>
     </Container>

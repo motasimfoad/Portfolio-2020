@@ -12,7 +12,7 @@
 
 .About-slider {
   height: 88%;
-  font-size: calc(10px + 2vmin);
+  overflow: scroll;
  }
 
 .d1{
