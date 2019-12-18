@@ -22,17 +22,18 @@ function Analytics(){
 function Home() {
   Analytics()
   return (
-      <Animate to="1" from="0" attributeName="opacity">
-           <Helmet>
-                <meta charSet="utf-8" />
-                <title>Home | Motasim Foad</title>
-                <link rel="canonical" href="http://motasimfoad.com/home" />
-                <meta name="description" content="Motasim Foad | Home - Product Manager | Project Manager | Software Engineer" />
-           </Helmet>
-        <Particles
-        params={particles}
-        className="particle"
-        />
+      <div>
+         <Helmet>
+                  <meta charSet="utf-8" />
+                  <title>Home | Motasim Foad</title>
+                  <link rel="canonical" href="http://motasimfoad.com/home" />
+                  <meta name="description" content="Motasim Foad | Home - Product Manager | Project Manager | Software Engineer" />
+         </Helmet>
+        <Animate to="1" from="0" attributeName="opacity">
+          <Particles
+          params={particles}
+          className="particle"
+          />
         <Container className="App-header" fluid={true}>
           <Row className="App-main">
             <Col  xl={7}  className="App-left">
@@ -47,6 +48,7 @@ function Home() {
           </Row>
        </Container>
        </Animate>
+      </div>
     );
 }
 
