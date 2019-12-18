@@ -7,13 +7,12 @@ import {
   Image
 } from 'react-bootstrap';
 import HamburgerMenu from '../hamburger_menu';
-import cv1 from '../../assets/img/cv1.png';
+
 import CLC from '../cv_left_content';
+import CRI from '../cv_img'
 
 
-function lala(){
-  alert("lalal")
-}
+
 
 function CV() {
   return (
@@ -26,7 +25,7 @@ function CV() {
           <CLC />
         </Col>
         <Col xl={6} className="cv_right">
-        <Image src={cv1} onClick={lala} style={{height:"80%", width:"70%"}} />
+        <CRI />
         </Col>
       </Row>
     </Container>

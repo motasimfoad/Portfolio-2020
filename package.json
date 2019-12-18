@@ -19,6 +19,7 @@
     "react-ga": "^2.7.0",
     "react-grid-gallery": "^0.5.5",
     "react-helmet": "^5.2.1",
+    "react-image-lightbox": "^5.1.1",
     "react-loader-spinner": "^3.1.5",
     "react-mail-form": "^2.0.2",
     "react-particles-js": "^2.7.0",
