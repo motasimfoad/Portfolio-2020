@@ -9,6 +9,7 @@ import 'react-awesome-slider/dist/styles.css';
 import AwesomeSliderStyles from 'react-awesome-slider/src/styled/fall-animation';
 import ReactGa from 'react-ga';
 import {Helmet} from 'react-helmet';
+import CV from '../../components/cv'
 
 class About extends Component {
 
@@ -34,7 +35,8 @@ class About extends Component {
           <AwesomeSlider cssModule={AwesomeSliderStyles} className="About-slider">
             <div className="d1">
             <Row>
-            <HamburgerMenu />
+            {/* <HamburgerMenu /> */}
+            <CV />
             </Row>
             </div>
             <div className="d2">2</div>
