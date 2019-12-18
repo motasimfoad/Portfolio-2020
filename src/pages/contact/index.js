@@ -11,7 +11,7 @@ import {Helmet} from 'react-helmet';
 
 class Contact extends React.Component {
 
-  UNSAFE_componentDidMount() {
+  componentDidMount() {
     ReactGa.initialize("UA-154721739-1");
     ReactGa.pageview('Contact Screen');
   }
