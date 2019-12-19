@@ -30,7 +30,7 @@ export default class CRI extends Component {
     const { photoIndex, isOpen } = this.state;
     return (
       <div>
-        <Image src={cv1} onClick={() => this.setState({ isOpen: true })} style={{height:"80%", width:"70%", padding:"1%", marginTop:"6%"}} />
+        <Image src={cv1} onClick={() => this.setState({ isOpen: true })} className="cv_img_mouse" />
        {isOpen && (
           <Lightbox
             mainSrc={images[photoIndex]}
