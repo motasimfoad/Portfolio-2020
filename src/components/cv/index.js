@@ -3,16 +3,11 @@ import '../cv/style.css';
 import {
   Container,
   Row,
-  Col,
-  Image
+  Col
 } from 'react-bootstrap';
 import HamburgerMenu from '../hamburger_menu';
-
 import CLC from '../cv_left_content';
 import CRI from '../cv_img'
-
-
-
 
 function CV() {
   return (

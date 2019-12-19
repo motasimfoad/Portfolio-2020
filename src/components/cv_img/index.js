@@ -7,12 +7,14 @@ import {
   Image
 } from 'react-bootstrap';
 import cv1 from '../../assets/img/cv1.png';
+import cv2 from '../../assets/img/cv2.png';
+import cv3 from '../../assets/img/cv3.png';
+import cv4 from '../../assets/img/cv4.png';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css'; 
 
 const images = [
-  cv1,
-  
+  cv1,cv2,cv3,cv4
 ];
 
 export default class CRI extends Component {
