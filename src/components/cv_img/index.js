@@ -30,11 +30,8 @@ export default class CRI extends Component {
     const { photoIndex, isOpen } = this.state;
     return (
       <div>
-        <div>
-        <Image src={cv1} onClick={() => this.setState({ isOpen: true })} style={{height:"80%", width:"70%"}} />
-        </div>
-
-        {isOpen && (
+        <Image src={cv1} onClick={() => this.setState({ isOpen: true })} style={{height:"80%", width:"70%", padding:"1%", marginTop:"6%"}} />
+       {isOpen && (
           <Lightbox
             mainSrc={images[photoIndex]}
             nextSrc={images[(photoIndex + 1) % images.length]}
