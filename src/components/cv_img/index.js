@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import '../cv_img/style.css';
 import {
-  Container,
-  Row,
-  Col,
-  Image
+ Image
 } from 'react-bootstrap';
 import cv1 from '../../assets/img/cv1.png';
 import cv2 from '../../assets/img/cv2.png';

@@ -16,11 +16,11 @@ function CV() {
          <HamburgerMenu />
       </Row>
       <Row className="cv_content">
-        <Col xl={6} className="cv_left">
+        <Col xl={7} className="cv_left">
           <CLC />
         </Col>
-        <Col xl={6} className="cv_right">
-        <CRI />
+        <Col xl={5} className="cv_right">
+          <CRI />
         </Col>
       </Row>
     </Container>

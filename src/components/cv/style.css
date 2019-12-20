@@ -9,14 +9,10 @@
 }
 
 .cv_left{
-    /* background-color: aqua;
-    min-height: 40vh; */
     margin: auto;    
     display: block;
 }
 
 .cv_right{
-    /* background-color: aquamarine;
-    min-height: 40vh; */
     text-align: center;
 }

@@ -8,7 +8,7 @@ import {
 
 function CLC() {
   return (
-   <div>
+   <div className="clc_main">
         <h1><u>About</u></h1>
         <h3>
         Accidental Product Manager with Software Engineering base
