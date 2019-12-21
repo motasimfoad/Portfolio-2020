@@ -8,7 +8,9 @@ import 'react-awesome-slider/dist/styles.css';
 import AwesomeSliderStyles from 'react-awesome-slider/src/styled/fall-animation';
 import ReactGa from 'react-ga';
 import {Helmet} from 'react-helmet';
-import CV from '../../components/cv'
+import CV from '../../components/cv';
+import Works from '../../components/works';
+import Projects from '../../components/projects';
 
 class About extends Component {
 
@@ -37,8 +39,12 @@ class About extends Component {
               <div className="d1">
                <CV />
               </div>
-              <div className="d2">2</div>
-              <div className="d3">3</div>
+              <div className="d2">
+                <Works />
+              </div>
+              <div className="d3">
+                <Projects />
+              </div>
             </AwesomeSlider>
           </Row>
           <Row className="About-footer">
