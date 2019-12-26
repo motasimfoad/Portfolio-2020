@@ -1,0 +1,31 @@
+{
+    "employer1": {  
+    "name": "Netarus",  
+    "values": {  
+      "assets": [  
+        {"image": "link"},  
+        {"logo": "link"},  
+        {"icons": "link"}  
+      ],
+      "docs": [  
+        {"short_description": "short description"},  
+        {"title": "title"}
+      ]
+    }  
+  },
+
+  "employer2": {  
+    "name": "BankCompareBD",  
+    "values": {  
+      "assets": [  
+        {"image": "link"},  
+        {"logo": "link"},  
+        {"icons": "link"}  
+      ],
+      "docs": [  
+        {"short_description": "short description"},  
+        {"title": "title"}
+      ]
+    }  
+  }
+}  
