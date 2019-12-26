@@ -1,6 +1,25 @@
-.footer{
-    height: 100%;
-    text-align: center;
-    font-size: medium;
-    color: rgb(202, 200, 200);
+.works_main{
+    min-height: 88vh;
+    background-color:#090909;
+    overflow: scroll;
+    
+   
+  
 }
+
+.works_content{
+    height: 100%;
+    width: 70%;
+    background-color: red;
+    margin: auto;    
+    display: block;
+}
+
+/* .cv_left{
+    margin: auto;    
+    display: block;
+}
+
+.cv_right{
+    text-align: center;
+} */

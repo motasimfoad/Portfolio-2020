@@ -1656,6 +1656,11 @@ amdefine@>=0.0.4:
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
   integrity sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU=
 
+animejs@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/animejs/-/animejs-2.2.0.tgz#35eefdfc535b81949c9cb06f0b3e60c02e6fdc80"
+  integrity sha1-Ne79/FNbgZScnLBvCz5gwC5v3IA=
+
 ansi-colors@^3.0.0:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-3.2.4.tgz#e3a3da4bfbae6c86a9c285625de124a234026fbf"
@@ -7959,6 +7964,15 @@ react-overlays@^2.1.0:
     prop-types "^15.7.2"
     uncontrollable "^7.0.0"
     warning "^4.0.3"
+
+react-particle-effect-button@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-particle-effect-button/-/react-particle-effect-button-1.0.1.tgz#2fce601e4dfd4e27652b552a3a1ff2c07e39b8d4"
+  integrity sha1-L85gHk39TidlK1UqOh/ywH45uNQ=
+  dependencies:
+    animejs "^2.2.0"
+    classnames "^2.2.5"
+    raf "^3.4.0"
 
 react-particles-js@^2.7.0:
   version "2.7.0"
