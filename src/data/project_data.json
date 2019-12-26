@@ -1,10 +1,9 @@
 {
-
-    "employer" : [
+  "project" : [
       {
-          "name" : "Netarus",
+          "name" : "Netarus LLC",
           "docs" : "Description",
-          "logo" : "link",
+          "logo" : "https://netarus.com/wp-content/uploads/2015/01/netarus_medium_logo.png",
           "tech" : [
               "link", "link2"
           ]
@@ -12,7 +11,7 @@
       {
         "name" : "BankCompareBD",
           "docs" : "Description",
-          "logo" : "link",
+          "logo" : "link2",
           "tech" : [
               "link", "link2"
           ]  
@@ -20,11 +19,10 @@
       {
         "name" : "Upbit",
           "docs" : "Description",
-          "logo" : "link",
+          "logo" : "link3",
           "tech" : [
               "link", "link2"
           ]  
       }
   ]
-
 }  

@@ -9,12 +9,14 @@
 
 .works_content{
     height: 100%;
-    width: 70%;
+    width: 80%;
     background-color: red;
-    margin: auto;    
-    display: block;
+  
 }
 
+.list{
+   
+}
 /* .cv_left{
     margin: auto;    
     display: block;
