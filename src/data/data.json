@@ -1,31 +1,30 @@
 {
-    "employer1": {  
-    "name": "Netarus",  
-    "values": {  
-      "assets": [  
-        {"image": "link"},  
-        {"logo": "link"},  
-        {"icons": "link"}  
-      ],
-      "docs": [  
-        {"short_description": "short description"},  
-        {"title": "title"}
-      ]
-    }  
-  },
 
-  "employer2": {  
-    "name": "BankCompareBD",  
-    "values": {  
-      "assets": [  
-        {"image": "link"},  
-        {"logo": "link"},  
-        {"icons": "link"}  
-      ],
-      "docs": [  
-        {"short_description": "short description"},  
-        {"title": "title"}
-      ]
-    }  
-  }
+    "employer" : [
+      {
+          "name" : "Netarus",
+          "docs" : "Description",
+          "logo" : "link",
+          "tech" : [
+              "link", "link2"
+          ]
+      },
+      {
+        "name" : "BankCompareBD",
+          "docs" : "Description",
+          "logo" : "link",
+          "tech" : [
+              "link", "link2"
+          ]  
+      },
+      {
+        "name" : "Upbit",
+          "docs" : "Description",
+          "logo" : "link",
+          "tech" : [
+              "link", "link2"
+          ]  
+      }
+  ]
+
 }  

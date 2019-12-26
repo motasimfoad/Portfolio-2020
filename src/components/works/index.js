@@ -19,17 +19,17 @@ function Works() {
     <Row className="works_content">
       
     {
-       Data.employer1.values.assets.map(function(item, i){
+       Data.employer.map(function(item, i){
          return(
    <Col xl={4} key={i+1}>
    <Card style={{ width: '18rem' }}>
    
          <Card.Img variant="top" src="holder.js/100px180" />
          <Card.Body>
-<Card.Title>{item.image}</Card.Title>
+<Card.Title>{item.name}</Card.Title>
            <Card.Text>
+           {item.docs}
            {item.logo}
-           {item.icons}
            </Card.Text>
            <Button variant="primary">Go somewhere</Button>
          </Card.Body>
