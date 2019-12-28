@@ -8,7 +8,8 @@ import {
   Button
 } from 'react-bootstrap';
 import HamburgerMenu from '../hamburger_menu';
-import Data from '../../data/employer_data.json'
+import Data from '../../data/employer_data.json';
+import ReactCardFlip from 'react-card-flip';
 
 function Works() {
   return (
