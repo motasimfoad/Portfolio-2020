@@ -17,20 +17,19 @@ function Works() {
     <Row>
        <HamburgerMenu />
     </Row>
-    <Row>
+    {/* <Row>
        <div>
          hi
        </div>
-    </Row>
+    </Row> */}
     <Row className="works_content">
-      
+
+    <Col xl={12} className="works_content_col">
     {
        Data.employer.map(function(item, i){
          return(
-
-        <Col xl={4} key={i+1}>
-              <Card style={{ width: '18rem' }}>
-              
+           <Row>
+            <Card style={{ width: '18rem' }}  key={i+1}>
               <Card.Img variant="top" src={item.logo} />
               <Card.Body>
               <Card.Title>{item.name}</Card.Title>
@@ -41,11 +40,16 @@ function Works() {
                 <Button variant="primary">Go somewhere</Button>
               </Card.Body>
             </Card>
-        </Col>
+           </Row>
+           
+        
+      
          )
        })
      }
 
+    </Col>
+    
     
         
     </Row>

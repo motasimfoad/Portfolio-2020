@@ -2,20 +2,21 @@
     min-height: 88vh;
     background-color:#090909;
     overflow: scroll;
-    
    
   
 }
 
 .works_content{
     height: 100%;
-    width: 80%;
+    
     background-color: red;
-  
+   
 }
 
-.list{
-   
+.works_content_col{
+   background-color: aqua;
+    margin: auto;    
+    display: block;
 }
 /* .cv_left{
     margin: auto;    

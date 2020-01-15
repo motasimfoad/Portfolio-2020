@@ -37,11 +37,10 @@ class About extends Component {
           <Row className="About-main">
             <AwesomeSlider cssModule={AwesomeSliderStyles} className="About-slider">
               <div className="d1">
-               
-               <Works />
+                <Works />
               </div>
               <div className="d2">
-              <CV />
+                <CV />
               </div>
               <div className="d3">
                 <Projects />
