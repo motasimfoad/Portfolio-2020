@@ -1,9 +1,3 @@
-.cv_main{
-    min-height: 88vh;
-    background-color:#090909;
-    overflow: scroll;
-}
-
 .cv_content{
     height: 100%;
 }
@@ -11,6 +5,7 @@
 .cv_left{
     margin: auto;    
     display: block;
+    text-align: center;
 }
 
 .cv_right{

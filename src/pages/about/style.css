@@ -7,29 +7,22 @@
 }
 
 .About-main {
-  height: 95vh; 
- }
-
-.About-slider {
-  height: 88%;
+  height: 95vh;
  }
 
 .d1{
   height: 100%;
   width: 100%;
-  overflow: scroll;
  }
 
 .d2{
   height: 100%;
   width: 100%;
-  overflow: scroll;
  }
 
 .d3{
   height: 100%;
   width: 100%;
-  overflow: scroll;
  }
 
 .About-footer {

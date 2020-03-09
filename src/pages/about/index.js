@@ -3,14 +3,12 @@ import '../about/style.css';
 import {Container, Row} from 'react-bootstrap';
 import Footer from '../../components/footer';
 import Animate from 'react-smooth';
-import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/styles.css';
-import AwesomeSliderStyles from 'react-awesome-slider/src/styled/fall-animation';
 import ReactGa from 'react-ga';
 import {Helmet} from 'react-helmet';
 import CV from '../../components/cv';
 import Works from '../../components/works';
 import Projects from '../../components/projects';
+import HamburgerMenu from '../../components/hamburger_menu';
 
 class About extends Component {
 
@@ -34,18 +32,22 @@ class About extends Component {
         </Helmet>
         <Animate to="1" from="0" attributeName="opacity">
         <Container className="About-header" fluid={true}>
+          <Row>
+            <HamburgerMenu />
+          </Row>
           <Row className="About-main">
-            <AwesomeSlider cssModule={AwesomeSliderStyles} className="About-slider">
+            
               <div className="d1">
-                <Works />
+              <CV />
               </div>
-              <div className="d2">
-                <CV />
+              {/* <div className="d2">
+               
+                <Works />
               </div>
               <div className="d3">
                 <Projects />
-              </div>
-            </AwesomeSlider>
+              </div> */}
+            
           </Row>
           <Row className="About-footer">
             <Footer />
