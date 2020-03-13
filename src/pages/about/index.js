@@ -47,6 +47,7 @@ class About extends Component {
               <div className="d3">
                 <Projects />
               </div> */}
+              
             
           </Row>
           <Row className="About-footer">

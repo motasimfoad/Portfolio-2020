@@ -1,13 +1,14 @@
 .cv_content{
     height: 100%;
+   
 }
 
 .cv_left{
-    margin: auto;    
-    display: block;
-    text-align: center;
+    
+  
 }
 
 .cv_right{
-    text-align: center;
+    
+    background-color: red;
 }
