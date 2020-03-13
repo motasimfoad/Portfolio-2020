@@ -40,11 +40,11 @@ class About extends Component {
               <div className="d1">
               <CV />
               </div>
-              {/* <div className="d2">
+              <div className="d2">
                
                 <Works />
               </div>
-              <div className="d3">
+              {/* <div className="d3">
                 <Projects />
               </div> */}
               
