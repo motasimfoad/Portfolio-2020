@@ -43,9 +43,9 @@ class About extends Component {
               <div className="d2">
               <Works />
               </div>
-              {/* <div className="d3">
-                <Projects />
-              </div> */}
+              <div className="d3">
+              <Projects />
+              </div>
               
             
           </Row>

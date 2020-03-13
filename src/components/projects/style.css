@@ -1,6 +1,15 @@
-.footer{
+.project_main{
     height: 100%;
-    text-align: center;
+    
     font-size: medium;
     color: rgb(202, 200, 200);
+    background-color: brown;
+}
+
+.project_card_left{
+background-color: aquamarine;
+}
+
+.project_card_right{
+    background-color: rgb(37, 201, 146);
 }
