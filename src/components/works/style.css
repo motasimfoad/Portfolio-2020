@@ -1,27 +1,25 @@
 .works_main{
-    min-height: 88vh;
-    background-color:#090909;
-    overflow: scroll;
+   
+
    
   
 }
 
 .works_content{
-    height: 100%;
-    
-    background-color: red;
+   
+  
+   justify-content: center;
+   color: aliceblue;
+   
+   
    
 }
 
 .works_content_col{
-   background-color: aqua;
-   
-}
-/* .cv_left{
-    margin: auto;    
-    display: block;
+  padding-bottom: 1%;
 }
 
-.cv_right{
-    text-align: center;
-} */
+.works_content_headline{
+    color: white;
+  
+}

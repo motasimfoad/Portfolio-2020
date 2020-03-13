@@ -13,39 +13,39 @@ import ReactCardFlip from 'react-card-flip';
 
 function Works() {
   return (
-    <Container className="works_main" fluid={true}>
-    
-    <Row className="works_content">
-
-    <Col xl={12} className="works_content_col">
-    {
-       Data.employer.map(function(item, i){
-         return(
-           
-            <Card style={{ width: '18rem' }}  key={i+1}>
-              <Card.Img variant="top" src={item.logo} />
-              <Card.Body>
-              <Card.Title>{item.name}</Card.Title>
-                <Card.Text>
-                {item.docs}
-                {item.logo}
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
-         
+   
+    <Container className="works_main">
+      <Row className="works_content">
+       
+          <h1>
+            Works
+          </h1>
         
-      
-         )
-       })
-     }
-
-    </Col>
-    
-    
-        
-    </Row>
-  </Container>
+      </Row>
+      <Row >
+        {
+        Data.employer.map(function(item, i){
+          return(
+            <Col xl={4} className="works_content_col" key={i+1}>
+              <Card style={{ width: '20rem' }} >
+                <Card.Img variant="top" src={item.logo} />
+                <Card.Body>
+                <Card.Title>{item.name}</Card.Title>
+                  <Card.Text>
+                  {item.docs}
+                  {item.logo}
+                  </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+              </Card>
+              </Col>
+          )
+        })
+        }
+      </Row>
+    </Container>
+   
+ 
   );
 }
 

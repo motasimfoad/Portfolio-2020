@@ -41,8 +41,7 @@ class About extends Component {
               <CV />
               </div>
               <div className="d2">
-               
-                <Works />
+              <Works />
               </div>
               {/* <div className="d3">
                 <Projects />
