@@ -27,7 +27,7 @@ export default class CRI extends Component {
     const { photoIndex, isOpen } = this.state;
     return (
       <div>
-        <Image src={cv1} onClick={() => this.setState({ isOpen: true })} className="cv_img_mouse" />
+        <Image fluid src={cv1} onClick={() => this.setState({ isOpen: true })} className="cv_img_mouse" />
        {isOpen && (
           <Lightbox
             mainSrc={images[photoIndex]}
