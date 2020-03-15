@@ -11,13 +11,13 @@ import {
 
 const PCD = () => {
   const [hasError, setErrors] = useState(false);
-  const [planets, setPlanets] = useState([]);
+  const [git, setGit] = useState([]);
 
   async function fetchData() {
     const res = await fetch("https://api.github.com/users/motasimfoad/repos");
     res
       .json()
-      .then(res => setPlanets(res))
+      .then(res => setGit(res))
       .catch(err => setErrors(err));
   }
 
@@ -28,28 +28,27 @@ const PCD = () => {
   
 
   return (
-    <div>
+    <Row className = "project_card_container">
      
-        {planets.map(item => (
-         
-          <Card style={{ width: '22rem' }} key = {item.id}>
-            
+        {git.map(item => (
+         <Col xl={4} key = {item.id} className = "project_card_main">
+            <Card style={{ width: '26rem' }} >
             <Card.Body>
             <Row>
-            <Col xs={4} className="project_card_left">
+            <Col xs={3} className="project_card_left">
             <Image className="project_card_left_img" src="https://image.flaticon.com/icons/svg/25/25231.svg" roundedCircle />
             </Col>
-            <Col xs={8} className="project_card_right">
+            <Col xs={9} className="project_card_right">
               <Card.Text>
-                Name : {item.name} < br />
-                Git Location : {item.full_name} < br />
-                Created at : {item.created_at} < br />
-                Last Updated : {item.updated_at} < br />
+                Name: {item.name} < br />
+                Location: {item.full_name} < br />
+                Created: {item.created_at} < br />
+                Updated: {item.updated_at} < br />
                 
-                
-                  <Button variant="dark">SSH</Button>
-                  <Button variant="dark">HTTPS</Button>
-                  <Button variant="dark"> <a href={item.svn_url} target="_blank">View</a></Button>
+                < br />
+                  <Button variant="dark" className="project_card_btn">SSH</Button>
+                  <Button variant="dark" className="project_card_btn">HTTPS</Button>
+                  <Button variant="dark" className="project_card_btn"> <a href={item.svn_url} target="_blank">View</a></Button>
                 
               </Card.Text>
             </Col>
@@ -57,7 +56,9 @@ const PCD = () => {
             </Card.Body>
       
             </Card>
-        ))
+      
+         </Col>
+           ))
 
         }
      
@@ -65,7 +66,7 @@ const PCD = () => {
 
  
       
-    </div>
+    </Row>
 
      
 

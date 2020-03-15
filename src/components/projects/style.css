@@ -2,3 +2,7 @@
     height: 100%;
     color: rgb(202, 200, 200);
 }
+
+.project_header{
+    justify-content: center;
+}

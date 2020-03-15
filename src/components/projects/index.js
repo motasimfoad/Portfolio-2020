@@ -12,15 +12,16 @@ import PCD from '../project_card_details';
 function Projects() {
   return (
     <Container className="project_main" fluid={true}>
-      <Row >
+      <Row className="project_header">
         <h1>
         Projects
         </h1>
       </Row>
       
-      <Row>
-        <PCD />
-      </Row>
+     <PCD />
+       
+       
+     
     </Container>
   );
 }

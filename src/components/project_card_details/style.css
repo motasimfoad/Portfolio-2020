@@ -1,13 +1,26 @@
 .project_card_left{
    
-    }
+}
     
 .project_card_right{
-        color: black;
-     }
+    color: black;
+}
 
 .project_card_left_img{
     height: 100%;
     width: 100%;
+}
+
+.project_card_container{
+    margin: 0 auto;
+    align-items: center;
+}
+
+.project_card_main{
+    padding: 1%;
+}
+
+.project_card_btn{
+   
 }
     
