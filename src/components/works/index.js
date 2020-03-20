@@ -5,16 +5,17 @@ import {
   Row,
   Col,
   Card,
-  Button
+  Button,
+  CardGroup,
+  CardColumns,
+  CardDeck
 } from 'react-bootstrap';
-
 import Data from '../../data/employer_data.json';
-import ReactCardFlip from 'react-card-flip';
 
 function Works() {
   return (
    
-    <Container className="works_main">
+    <div className="works_main">
       <Row className="works_content">
        
           <h1>
@@ -23,11 +24,13 @@ function Works() {
         
       </Row>
       <Row >
-        {
+<CardColumns className="card_container">
+
+{
         Data.employer.map(function(item, i){
           return(
-            <Col xl={4} className="works_content_col" key={i+1}>
-              <Card style={{ width: '20rem' }} >
+           
+            <Card key={i+1}>
                 <Card.Img variant="top" src={item.logo} />
                 <Card.Body>
                 <Card.Title>{item.name}</Card.Title>
@@ -38,12 +41,18 @@ function Works() {
                   <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
               </Card>
-              </Col>
+             
           )
         })
         }
+
+ 
+ 
+</CardColumns>
+        
+         
       </Row>
-    </Container>
+    </div>
    
  
   );

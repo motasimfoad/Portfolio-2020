@@ -1,6 +1,6 @@
 .works_main{
    
-
+background-color: saddlebrown;
    
   
 }
@@ -22,4 +22,11 @@
 .works_content_headline{
     color: white;
   
+}
+
+.card_container{
+  background-color: salmon;
+  margin: 2%;
+  padding: 1%;
+  max-width: 96%;
 }

@@ -19,7 +19,7 @@ class About extends Component {
  
   render() {
     return (
-        <Container className="About-header" >
+        <Container className="About-header" fluid={true}>
           <Helmet>
                 <meta charSet="utf-8" />
                 <title>About | Motasim Foad</title>

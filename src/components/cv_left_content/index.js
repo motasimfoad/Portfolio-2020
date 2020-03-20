@@ -1,10 +1,5 @@
 import React from 'react';
 import '../cv_left_content/style.css';
-import {
-  Container,
-  Row,
-  Col,
-} from 'react-bootstrap';
 
 function CLC() {
   return (
