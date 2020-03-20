@@ -10,11 +10,11 @@ import CRI from '../cv_img'
 function CV() {
   return (
   
-      <Row className="cv_content">
-        <Col xl={7} className="cv_left">
+      <Row>
+        <Col xl={7}>
         < CLC />
         </Col>
-        <Col xl={5} className="cv_right">
+        <Col xl={5}>
          < CRI />
         </Col>
       </Row>
