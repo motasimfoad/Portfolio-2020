@@ -19,7 +19,7 @@ class About extends Component {
  
   render() {
     return (
-        <Container className="About-header" fluid={true}>
+        <Container className="About-header" >
           <Helmet>
                 <meta charSet="utf-8" />
                 <title>About | Motasim Foad</title>
@@ -33,15 +33,15 @@ class About extends Component {
            <Animate to="1" from="0" attributeName="opacity">
            <Row className="About-main">
               <HamburgerMenu />
-              <Row className="d1">
+              <div className="d1">
               <CV />
-              </Row>
-              <Row className="d2">
+              </div>
+              <div className="d2">
               <Works />
-              </Row>
-              <Row className="d3">
+              </div>
+              <div className="d3">
               <Projects />
-              </Row>
+              </div>
            </Row>
           <Row className="About-footer">
             <Footer />

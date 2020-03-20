@@ -11,8 +11,8 @@ function CV() {
   return (
   
       <Row>
-        <Col xl={7}>
-        < CLC />
+        <Col xl={7} >
+          < CLC />
         </Col>
         <Col xl={5}>
          < CRI />

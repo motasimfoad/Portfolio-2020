@@ -1,18 +1,18 @@
 .clc_main{
     color: white;
-    /* padding-left: 15%;
-    padding-top: 10%;
-    padding-right: 5%;
-    padding-bottom: 5%; */
-    /* background-color: aqua; */
     height: 100%;
-    /* text-align: center; */
+    width: 100%;
    
-
-  
-
+    padding: 2%;
+    padding-top: 35%;
+    background-color: royalblue;
   }
-    
+
+.clc_container{
+  background-color: rosybrown;
+  text-align: center;
+  padding: 2%;
+}
 
   
   

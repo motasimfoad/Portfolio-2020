@@ -9,7 +9,8 @@ import {
 function CLC() {
   return (
    <div className="clc_main">
-        <h1><u>About</u></h1>
+     <div className="clc_container">
+     <h1><u>About</u></h1>
         <h3>
         Accidental Product Manager with Software Engineering base
         </h3>
@@ -18,6 +19,8 @@ function CLC() {
         Skilled in leading edge project management, web & software development tools & trends. 
         Strong computer engineering base with a BSc in Computer Science focused in Computer Software Engineering from BRAC University.
         </p>
+     </div>
+        
    </div>
   );
 }

@@ -48,7 +48,7 @@ const PCD = () => {
                 < br />
                   <Button variant="dark" className="project_card_btn">SSH</Button>
                   <Button variant="dark" className="project_card_btn">HTTPS</Button>
-                  <Button variant="dark" className="project_card_btn"> <a href={item.svn_url} target="_blank">View</a></Button>
+                  <Button variant="dark" className="project_card_btn"> <a href={item.svn_url} target="_blank" rel="noopener noreferrer">View</a></Button>
                 
               </Card.Text>
             </Col>
