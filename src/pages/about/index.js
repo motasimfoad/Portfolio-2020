@@ -19,8 +19,8 @@ class About extends Component {
  
   render() {
     return (
-      <div>
-        <Helmet>
+        <Container className="About-header" fluid={true}>
+          <Helmet>
                 <meta charSet="utf-8" />
                 <title>About | Motasim Foad</title>
                 <link rel="canonical" href="http://motasimfoad.com/about" />
@@ -29,32 +29,25 @@ class About extends Component {
                 Skilled in leading edge project management, web & software development tools & trends. 
                 Strong computer engineering base with a BSc in Computer Science focused in Computer Software Engineering from BRAC University. 
                 In addition to that minor on Basic Business studies to assist me through product & project management" />
-        </Helmet>
-        <Animate to="1" from="0" attributeName="opacity">
-        <Container className="About-header" fluid={true}>
-          <Row>
-            <HamburgerMenu />
-          </Row>
-          <Row className="About-main">
-            
-              <div className="d1">
+          </Helmet>
+           <Animate to="1" from="0" attributeName="opacity">
+           <Row className="About-main">
+              <HamburgerMenu />
+              <Row className="d1">
               <CV />
-              </div>
-              <div className="d2">
+              </Row>
+              <Row className="d2">
               <Works />
-              </div>
-              <div className="d3">
+              </Row>
+              <Row className="d3">
               <Projects />
-              </div>
-              
-            
-          </Row>
+              </Row>
+           </Row>
           <Row className="About-footer">
             <Footer />
           </Row>
-        </Container>
-      </Animate>
-      </div>
+           </Animate>
+       </Container>
     );
   }
 }
