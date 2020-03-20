@@ -7,9 +7,10 @@
 
 .works_content{
    
-  
+   background-color:red;
    justify-content: center;
    color: aliceblue;
+   width: 100%;
    
    
    
@@ -27,6 +28,6 @@
 .card_container{
   
   margin: 2%;
-  padding: 1%;
+  padding: 3%;
   max-width: 96%;
 }
