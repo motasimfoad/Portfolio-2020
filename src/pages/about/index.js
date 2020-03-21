@@ -9,6 +9,7 @@ import CV from '../../components/cv';
 import Works from '../../components/works';
 import Projects from '../../components/projects';
 import HamburgerMenu from '../../components/hamburger_menu';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class About extends Component {
 
@@ -33,15 +34,26 @@ class About extends Component {
            <Animate to="1" from="0" attributeName="opacity">
            <Row className="About-main">
               <HamburgerMenu />
-             <div className="d1">
+              <ScrollAnimation animateIn='bounceInLeft'
+              animateOut='bounceInLeft'>
+              <div className="d1">
               <CV />
               </div>
-             <div className="d2">
+              </ScrollAnimation>
+              <ScrollAnimation animateIn='bounceInRight'
+              animateOut='fadeOut'>
+              <div className="d2">
               <Works />
               </div>
-             <div className="d3">
+              </ScrollAnimation>
+              <ScrollAnimation animateIn='fadeIn'
+              animateOut='fadeOut'>
+              <div className="d3">
               <Projects />
               </div>
+              </ScrollAnimation>
+             
+            
            </Row>
           <Row className="About-footer">
             <Footer />
