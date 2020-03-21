@@ -6,7 +6,7 @@ import {
   Card,
   Button,
   Image,
-  ButtonGroup
+  CardColumns
 } from 'react-bootstrap';
 
 const PCD = () => {
@@ -28,11 +28,10 @@ const PCD = () => {
   
 
   return (
-    <Row className = "project_card_container">
-     
-        {git.map(item => (
-         <Col xl={4} key = {item.id} className = "project_card_main">
-            <Card style={{ width: '26rem' }} >
+    <Row >
+     <CardColumns className="card_container">
+     {git.map(item => (
+            <Card style={{ width: '26rem' }} key = {item.id}>
             <Card.Body>
             <Row>
             <Col xs={3} className="project_card_left">
@@ -54,18 +53,11 @@ const PCD = () => {
             </Col>
             </Row>
             </Card.Body>
-      
             </Card>
-      
-         </Col>
-           ))
+          ))
 
         }
-     
-
-
- 
-      
+     </CardColumns>
     </Row>
 
      
