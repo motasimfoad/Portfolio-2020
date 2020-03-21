@@ -31,7 +31,7 @@ const PCD = () => {
     <Row >
      <CardColumns className="card_container">
      {git.map(item => (
-            <Card style={{ width: '26rem' }} key = {item.id}>
+            <Card key = {item.id}>
             <Card.Body>
             <Row>
             <Col xs={3} className="project_card_left">
