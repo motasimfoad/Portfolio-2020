@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway+Dots&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Baloo+2|Baloo+Da+2|Dancing+Script|Indie+Flower|Inter|Kaushan+Script|Lobster|Lobster+Two|Marck+Script|Merienda|Montserrat|Oswald|Pacifico|Raleway|Sen|Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lobster+Two|Montserrat&display=swap');
 
 .clc_main{
     color: white;
@@ -26,9 +23,7 @@
 
 .clc_paragraph{
   font-family: 'Montserrat', sans-serif;
-  /* font-family: 'Roboto Mono', monospace; */
-  
-}
+ }
 
 .clc_hr{
   color: aliceblue;

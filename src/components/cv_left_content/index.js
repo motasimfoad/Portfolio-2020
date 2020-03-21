@@ -1,5 +1,6 @@
 import React from 'react';
 import '../cv_left_content/style.css';
+import ReactTypingEffect from 'react-typing-effect';
 
 const ColoredLine = ({ color }) => (
   <hr
@@ -17,7 +18,12 @@ function CLC() {
      <div className="clc_container">
      <h1 className="clc_header"><u>About</u></h1>
         <h3 className="clc_sub_header">
-        Accidental Product Manager with Software Engineering base
+        <ReactTypingEffect
+          text={["🚧 ACCIDENTAL 🚧 💣 💣 💣 ","Product Manager with Software Engineering base !! 🇧🇩"]} //text=["Hello.", "World!"]
+           className="clc_sub_header"
+           speed="100"
+           eraseDelay="5000"
+           />
         </h3>
         <ColoredLine color="#FFC466" />
         <p className="clc_paragraph">
