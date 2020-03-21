@@ -7,16 +7,20 @@ import {
   CardColumns
 } from 'react-bootstrap';
 import Data from '../../data/employer_data.json';
+import Fade from 'react-reveal/Fade';
 
 function Works() {
   return (
    
     <div className="works_main">
+      <Fade left>
       <Row className="works_content">
         <h1>
             Works
         </h1>
       </Row>
+      </Fade>
+      
       <Row >
         <CardColumns className="card_container">
         {

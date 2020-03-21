@@ -33,13 +33,13 @@ class About extends Component {
            <Animate to="1" from="0" attributeName="opacity">
            <Row className="About-main">
               <HamburgerMenu />
-              <div className="d1">
+             <div className="d1">
               <CV />
               </div>
-              <div className="d2">
+             <div className="d2">
               <Works />
               </div>
-              <div className="d3">
+             <div className="d3">
               <Projects />
               </div>
            </Row>

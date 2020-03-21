@@ -3,6 +3,7 @@ import '../cv_left_content/style.css';
 import ReactTypingEffect from 'react-typing-effect';
 import Slide from 'react-reveal/Slide';
 import Bounce from 'react-reveal/Bounce';
+import Fade from 'react-reveal/Fade';
 
 const ColoredLine = ({ color }) => (
   <hr
@@ -17,11 +18,14 @@ const ColoredLine = ({ color }) => (
 function CLC() {
   return (
     
-      <Slide left> 
-        <Bounce>
+      <Slide left > 
+        <Bounce >
           <div className="clc_main">
           <div className="clc_container">
-          <h1 className="clc_header"><u>About</u></h1>
+            <Fade top cascade>
+            <h1 className="clc_header"><u>About</u></h1>
+            </Fade>
+          
               <h3 className="clc_sub_header">
               <ReactTypingEffect
                 text={["🚧 ACCIDENTAL 🚧 💣 💣 💣 ","Product Manager with Software Engineering base !! 🇧🇩"]} //text=["Hello.", "World!"]
