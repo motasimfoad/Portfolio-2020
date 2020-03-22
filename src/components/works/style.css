@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+
 .works_main{
    
   
 }
 
 .works_content{
-   background-color:red;
+   /* background-color: #9E9E9E; */
    justify-content: center;
-   color: aliceblue;
+   font-family: 'Monoton', cursive;
    width: 103.8%;
+   color: #FFC466;
 }
 
 .works_content_col{

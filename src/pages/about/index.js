@@ -35,19 +35,19 @@ class About extends Component {
            <Row className="About-main">
               <HamburgerMenu />
               <ScrollAnimation animateIn='bounceInLeft'
-              animateOut='bounceInLeft'>
+              animateOut='bounceOutRight'>
               <div className="d1">
               <CV />
               </div>
               </ScrollAnimation>
               <ScrollAnimation animateIn='bounceInRight'
-              animateOut='fadeOut'>
+              animateOut='bounceOutLeft'>
               <div className="d2">
               <Works />
               </div>
               </ScrollAnimation>
-              <ScrollAnimation animateIn='fadeIn'
-              animateOut='fadeOut'>
+              <ScrollAnimation animateIn='bounceInLeft'
+              animateOut='bounceOutLeft'>
               <div className="d3">
               <Projects />
               </div>

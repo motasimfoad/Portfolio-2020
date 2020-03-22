@@ -31,7 +31,7 @@ function CLC() {
                 text={["🚧 ACCIDENTAL 🚧 💣 💣 💣 ","Product Manager with Software Engineering base !! 🇧🇩"]} //text=["Hello.", "World!"]
                 className="clc_sub_header"
                 speed="100"
-                eraseDelay="5000"
+                eraseDelay="3500"
                 />
               </h3>
               <ColoredLine color="#FFC466" />
