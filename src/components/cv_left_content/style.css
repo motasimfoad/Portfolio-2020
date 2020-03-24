@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lobster+Two|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Raleway+Dots|Roboto+Mono|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
 
 .clc_main{
     color: white;
@@ -14,7 +15,7 @@
 }
 
 .clc_header{
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Sulphur Point', sans-serif;
 }
 
 .clc_sub_header{
@@ -22,7 +23,7 @@
 }
 
 .clc_paragraph{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Mono', monospace;
  }
 
 .clc_hr{

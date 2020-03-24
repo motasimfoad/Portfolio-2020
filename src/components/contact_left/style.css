@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway+Dots&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Raleway+Dots|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Raleway+Dots|Roboto+Mono|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
 
 .Contact-text{
   text-align: center;
@@ -12,9 +11,9 @@
 }
 
 .p-heading2{
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 2.5%;
-  font-family: 'Turret Road', cursive;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .contact-left-footer{
