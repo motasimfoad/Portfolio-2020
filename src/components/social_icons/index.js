@@ -25,7 +25,7 @@ function SocialIcons() {
           <a href="https://www.linkedin.com/in/okrittim/?originalSubdomain=bd" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon className="linkedin" icon={faLinkedin} />
           </a>
-        </Col>
+         </Col>
   );
 }
 

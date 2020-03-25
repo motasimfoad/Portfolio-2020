@@ -52,8 +52,6 @@ class About extends Component {
               <Projects />
               </div>
               </ScrollAnimation>
-             
-            
            </Row>
           <Row className="About-footer">
             <Footer />

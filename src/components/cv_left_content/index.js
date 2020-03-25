@@ -23,22 +23,15 @@ function CLC() {
           <div className="clc_main">
           <div className="clc_container">
             <Fade top cascade>
-            <h1 className="clc_header"><u>About</u></h1>
+            <h1 className="clc_header">About</h1>
             </Fade>
-          
-              <h3 className="clc_sub_header">
-              <ReactTypingEffect
-                text={["🚧 ACCIDENTAL 🚧 💣 💣 💣 ","Product Manager with Software Engineering base !! 🇧🇩"]} //text=["Hello.", "World!"]
-                className="clc_sub_header"
-                speed="100"
-                eraseDelay="3500"
-                />
-              </h3>
               <ColoredLine color="#FFC466" />
               <p className="clc_paragraph">
+              <Fade top cascade>
               Experienced Project & Product Manager with a demonstrated history of working in the computer software industry. 
               Skilled in leading-edge project management, web & software development tools & trends. 
               Strong computer engineering base with a BSc in Computer Science focused in Computer Software Engineering from BRAC University.
+              </Fade>
               </p>
           </div>
           </div>

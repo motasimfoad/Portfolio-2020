@@ -3,9 +3,6 @@ import '../projects/style.css';
 import {
   Container,
   Row,
-  Col,
-  Card,
-  Button
 } from 'react-bootstrap';
 import PCD from '../project_card_details';
 
