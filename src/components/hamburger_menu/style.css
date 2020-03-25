@@ -5,8 +5,7 @@
 
 :root {
   --overlay-color: rgba(31 , 31, 31 , 0.85);
-  --menu-speed: 0.75s;
- }
+  }
 
 .menu-wrap {
    position: fixed;
@@ -51,7 +50,7 @@
    display: flex;
    align-items: center;
    justify-content: center;
-   transition: all 0.01s ease;
+   transition: all 0.4s ease;
  }
  
  /* Hamburger Lines - Top & Bottom */
@@ -126,7 +125,7 @@
    align-items: center;
    justify-content: center;
    transform: scale(0);
-   transition: all 0.01s ease;
+   transition: all 0.4s ease;
  }
  
  .menu-wrap .menu > div > div {
@@ -134,7 +133,7 @@
    max-width: 90vw;
    max-height: 100vh;
    opacity: 0;
-   transition: opacity 0.01s ease;
+   transition: opacity 0.4s ease;
  }
  
  .menu-wrap .menu > div > div > ul > li {
@@ -147,5 +146,5 @@
  .menu-wrap .menu > div > div > ul > li > a {
    color: inherit;
    text-decoration: none;
-   transition: color 0.01s ease;
+   transition: color 0.4s ease;
  }
