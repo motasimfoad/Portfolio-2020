@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Abel|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Abel|Asap|Raleway+Dots|Roboto+Mono|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
 :root {
   --overlay-color: rgba(31 , 31, 31 , 0.85);
@@ -12,7 +13,7 @@
    top: 0;
    left: 0;
    z-index: 1;
-   font-family: 'Sulphur Point', sans-serif;
+   font-family: 'Poppins', sans-serif;
  }
  
  .menu-wrap .toggler {
@@ -117,34 +118,54 @@
  
  .menu-wrap .menu > div {
    background: var(--overlay-color);
-   border-radius: 50%;
-   width: 200vw;
-   height: 200vw;
+   width: 100vw;
+   height: 100vw;
    display: flex;
-   flex: none;
    align-items: center;
    justify-content: center;
-   transform: scale(0);
-   transition: all 0.4s ease;
  }
  
  .menu-wrap .menu > div > div {
    text-align: center;
-   max-width: 90vw;
+   max-width: 100vw;
    max-height: 100vh;
    opacity: 0;
-   transition: opacity 0.4s ease;
  }
  
- .menu-wrap .menu > div > div > ul > li {
-   list-style: none;
-   color: #fff;
-   font-size: 1.5rem;
-   padding: 1rem;
- }
- 
- .menu-wrap .menu > div > div > ul > li > a {
-   color: inherit;
-   text-decoration: none;
-   transition: color 0.4s ease;
- }
+ ul {
+  position: relative;
+}
+
+ul li{
+  list-style: none;
+  text-align: center;
+}
+
+ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.7em;
+  padding: 5px 20px;
+  display: inline-flex;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+ul:hover li a{
+  color:  rgba(255,255,255,1);
+}
+
+ul li:hover a{
+  font-size: 3em;
+  color: #000;
+  background: rgba(255,255,255,1);
+}
+
+ul li a:before{
+  content: '';
+  position: absolute;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 500px;
+}

@@ -8,14 +8,18 @@ function Hamburger() {
   return (
     <div className="menu-wrap">
       <input type="checkbox" className="toggler" />
-        <div className="hamburger"><div></div></div>
+        <div className="hamburger">
+          <div>
+            
+          </div>
+          </div>
           <div className="menu">
             <div>
-              <div>
+            <div>
                 <ul>
-                  <li><Link to="/home">Home</Link></li>
-                  {/* <li><Link to="/about">About</Link></li> */}
-                  <li><Link to="/contact">Contact</Link></li>
+                  <li><Link to="/home">HOME</Link></li>
+                  <li><Link to="/about">ABOUT</Link></li>
+                  <li><Link to="/contact">CONTACT</Link></li>
                 </ul>
                </div>
              </div>
