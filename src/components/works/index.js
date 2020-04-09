@@ -4,7 +4,8 @@ import {
   Row,
   Card,
   Button,
-  CardColumns
+  CardColumns,
+  Image
 } from 'react-bootstrap';
 import Data from '../../data/employer_data.json';
 import Fade from 'react-reveal/Fade';
@@ -26,16 +27,19 @@ function Works() {
         {
                 Data.employer.map(function(item, i){
                   return(
-                    <Card key={i+1}>
-                        <Card.Img variant="top" src={item.logo} />
-                        <Card.Body>
-                        <Card.Title>{item.name}</Card.Title>
+                    
+                        <Card className="work_card_img_body" key={i+1}>
+                          <div className="work_card_img_container">
+                          <Image src={item.logo} className="work_card_img"/>
+                          </div>
+                          
+                        {/* <Card.Title>{item.name}</Card.Title>
                           <Card.Text>
                           {item.docs}
                           {item.logo}
                           </Card.Text>
-                          <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
+                          <Button variant="primary">Go somewhere</Button> */}
+                        
                       </Card>
                   )
                 })

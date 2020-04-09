@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Raleway|Roboto+Mono|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
 
 .works_main{
    
@@ -8,9 +9,8 @@
 .works_content{
    /* background-color: #9E9E9E; */
    justify-content: center;
-   font-family: 'Monoton', cursive;
-   width: 103.8%;
-   color: #FFC466;
+   font-family: 'Raleway', sans-serif;
+   color: #ffffff;
 }
 
 .works_content_col{
@@ -22,7 +22,27 @@
  }
 
 .card_container{
-   margin: 2%;
-   padding: 3%;
+   margin-left: 2%;;
+   padding-left: 5%;
+   padding-right: 5%;
    max-width: 96%;
+}
+
+.work_card_img{
+   
+   /* width: 4vw;
+   background-color: royalblue; */
+}
+
+.work_card_img_container{
+   min-height: 45vh;
+   min-width: 5vw;
+   border: 1px;
+   border-radius: 300%;
+   background-color: #D8D8D8;
+}
+
+.work_card_img_body{
+   background-color: #090909;
+   border-color: #090909;
 }

@@ -14,11 +14,7 @@ function Projects() {
         Projects
         </h1>
       </Row>
-      
-     <PCD />
-       
-       
-     
+        <PCD />
     </Container>
   );
 }

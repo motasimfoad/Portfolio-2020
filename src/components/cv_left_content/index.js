@@ -26,13 +26,13 @@ function CLC() {
             <h1 className="clc_header">About</h1>
             </Fade>
               <ColoredLine color="#FFC466" />
-              <p className="clc_paragraph">
               <Fade top cascade>
+              <p className="clc_paragraph">
               Experienced Project & Product Manager with a demonstrated history of working in the computer software industry. 
               Skilled in leading-edge project management, web & software development tools & trends. 
               Strong computer engineering base with a BSc in Computer Science focused in Computer Software Engineering from BRAC University.
-              </Fade>
               </p>
+              </Fade>
           </div>
           </div>
         </Bounce>

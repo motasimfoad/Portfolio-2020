@@ -9,7 +9,6 @@ import CRI from '../cv_img'
 
 function CV() {
   return (
-  
       <Row>
         <Col xl={7} >
           < CLC />
@@ -18,7 +17,6 @@ function CV() {
          < CRI />
         </Col>
       </Row>
-    
   );
 }
 
