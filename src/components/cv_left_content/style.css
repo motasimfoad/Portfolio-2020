@@ -35,12 +35,16 @@
 width: 50%;
 float: left;
 text-align: center;
+font-family: 'Roboto Mono', monospace;
+font-weight: 900;
 }
 
 .right{
 width: 50%;
 float: right;
 text-align: center;
+font-family: 'Roboto Mono', monospace;
+font-weight: 900;
 }
 
 .right_icon{
