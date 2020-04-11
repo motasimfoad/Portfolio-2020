@@ -10,11 +10,11 @@
   }
 
 .clc_container{
-  text-align: center;
   padding: 2%;
 }
 
 .clc_header{
+  text-align: center;
   font-family: 'Sulphur Point', sans-serif;
 }
 
@@ -27,8 +27,36 @@
 
  }
 
-.clc_hr{
-  color: aliceblue;
-  height: 5;
+.AboutBtnContainer{
+  width: 100%;
 }
-  
+
+.left{
+width: 50%;
+float: left;
+text-align: center;
+}
+
+.right{
+width: 50%;
+float: right;
+text-align: center;
+}
+
+.right_icon{
+  font-size: 130px;
+}
+
+.right_icon:hover{
+  color: #F1502F;
+  cursor: pointer;
+}
+
+.left_icon{
+font-size: 130px;
+}
+
+.left_icon:hover{
+  color: #ffbb48;
+  cursor: pointer;
+}

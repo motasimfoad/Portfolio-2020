@@ -34,13 +34,14 @@ class About extends Component {
            <Animate to="1" from="0" attributeName="opacity">
            <Row className="About-main">
               <HamburgerMenu />
-              <ScrollAnimation animateIn='bounceInLeft'
-              animateOut='bounceOutRight'>
               <div className="d1">
               <CV />
               </div>
-              </ScrollAnimation>
-              <ScrollAnimation animateIn='bounceInRight'
+              {/* <ScrollAnimation animateIn='bounceInLeft'
+              animateOut='bounceOutRight'>
+              
+              </ScrollAnimation> */}
+              {/* <ScrollAnimation animateIn='bounceInRight'
               animateOut='bounceOutLeft'>
               <div className="d2">
               <Works />
@@ -51,7 +52,7 @@ class About extends Component {
               <div className="d3">
               <Projects />
               </div>
-              </ScrollAnimation>
+              </ScrollAnimation> */}
            </Row>
           <Row className="About-footer">
             <Footer />
