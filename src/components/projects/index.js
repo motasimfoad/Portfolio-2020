@@ -8,7 +8,7 @@ import PCD from '../project_card_details';
 
 function Projects() {
   return (
-    <Container className="project_main" fluid={true}>
+    <Container className="project_main" fluid>
       <Row className="project_header">
         <h1>
         Projects

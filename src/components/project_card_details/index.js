@@ -28,16 +28,19 @@ const PCD = () => {
   
 
   return (
+    
     <Row >
-     <CardColumns className="card_container">
+     <CardColumns >
      {git.map(item => (
-            <Card key = {item.id}>
+            <Card key = {item.id} className="pro_card">
             <Card.Body>
-            <Row>
-            <Col xs={3} className="project_card_left">
-            <Image className="project_card_left_img" src="https://image.flaticon.com/icons/svg/25/25231.svg" roundedCircle />
-            </Col>
-            <Col xs={9} className="project_card_right">
+            <Row >
+            
+              <div className="project_img_container">
+              <Image className="project_card_left_img" src="https://image.flaticon.com/icons/svg/25/25231.svg"/>
+              </div>
+            
+            
               <Card.Text>
                 Name: {item.name} < br />
                 Location: {item.full_name} < br />
@@ -50,7 +53,7 @@ const PCD = () => {
                   <Button variant="dark" className="project_card_btn"> <a href={item.svn_url} target="_blank" rel="noopener noreferrer">View</a></Button>
                 
               </Card.Text>
-            </Col>
+           
             </Row>
             </Card.Body>
             </Card>

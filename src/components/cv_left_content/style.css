@@ -7,7 +7,7 @@
     width: 100%;
     padding: 2%;
     padding-top: 30%;
-  }
+}
 
 .clc_container{
   padding: 2%;
@@ -24,8 +24,7 @@
 
 .clc_paragraph{
   font-family: 'Roboto Mono', monospace;
-
- }
+}
 
 .AboutBtnContainer{
   width: 100%;
@@ -64,3 +63,19 @@ font-size: 130px;
   color: #ffbb48;
   cursor: pointer;
 }
+
+.about_modal{
+  background-color: rgb(9, 9, 9);
+}
+
+.custom-modal{
+  width: 100VW;
+  height: 100VH;
+}
+
+.modal-exit-btn:hover{
+background-color:#666666;
+color: seashell;
+}
+
+.modalFix{}

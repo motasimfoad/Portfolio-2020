@@ -11,6 +11,8 @@ import cv2 from '../../assets/img/cv2.png';
 import cv3 from '../../assets/img/cv3.png';
 import cv4 from '../../assets/img/cv4.png';
 import Lightbox from 'react-image-lightbox';
+import {Modal, Button} from 'react-bootstrap';
+import Projects from '../projects';
 
 const images = [
   cv1,cv2,cv3,cv4
@@ -32,11 +34,12 @@ class CLC extends Component {
     this.state = {
       photoIndex: 0,
       isOpen: false,
+      show: true,
     };
   }
 
   render(){
-    const { photoIndex, isOpen } = this.state;
+    const { photoIndex, isOpen, show } = this.state;
     return (
       <Slide left > 
         <Bounce >
@@ -49,7 +52,7 @@ class CLC extends Component {
               <Fade top cascade>
               <div className="AboutBtnContainer">
                 <div className="left"><FontAwesomeIcon onClick={() => this.setState({ isOpen: true })} icon={faDiagnoses} className="left_icon" /><br/><br/>Awards & Experiences</div>
-                <div className="right"><FontAwesomeIcon icon={faGitAlt} className="right_icon"/><br/><br/>Projects</div>
+                <div className="right"><FontAwesomeIcon onClick={() => this.setState({ show: true })} icon={faGitAlt} className="right_icon"/><br/><br/>Projects</div>
               </div>
             </Fade>
           </div>
@@ -71,6 +74,14 @@ class CLC extends Component {
                   }
                 />
               )}
+              <Modal show={show} aria-labelledby="example-custom-modal-styling-title" size="xl" className="modalFix">
+          <Projects/>
+           
+              <Button onClick={() => this.setState({ show: false })} variant="outline-light" size="lg" className="modal-exit-btn about_modal">
+                Close
+              </Button>
+            
+          </Modal>
           </div>
         </Bounce>
       </Slide>

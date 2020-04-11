@@ -1,6 +1,8 @@
 .project_main{
     height: 100%;
+    width: 100%;
     color: rgb(202, 200, 200);
+    background-color: rgb(9,9,9);
 }
 
 .project_header{
