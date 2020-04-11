@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import '../loading/style.css';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
-import Loader from 'react-loader-spinner';
 import { Redirect } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import {Helmet} from 'react-helmet';
+import PacmanLoader from "react-spinners/PacmanLoader";
+import { css } from "@emotion/core";
 
 class Loading extends Component {
 
@@ -31,16 +32,14 @@ class Loading extends Component {
                 <title>Motasim Foad</title>
                 <link rel="canonical" href="http://motasimfoad.com/" />
                 <meta name="description" content="Motasim Foad - Product Manager | Project Manager | Software Engineer" />
-           </Helmet>
+         </Helmet>
         <div className="Loading-header">
-          <Loader
-          type="Triangle"
-          color="#ffffff"
-          height={200}
-          width={200}
-          timeout={3500} //3.5 secs
-          />
-          <p className="Loading-text">Loading</p>
+          <PacmanLoader
+          margin={2}
+          size={40}
+          color={"#fff"}
+          loading={true}
+        />
         </div>
         </div>
   }

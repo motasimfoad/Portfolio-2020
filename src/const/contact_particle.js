@@ -1,7 +1,7 @@
 const contact_particles = {
   "particles": {
     "number": {
-      "value": 200,
+      "value": 250,
       "density": {
         "enable": true,
         "value_area": 800
@@ -92,7 +92,7 @@ const contact_particles = {
       },
       "repulse": {
         "distance": 200,
-        "duration": 0.4
+        "duration": 0.5
       },
       "push": {
         "particles_nb": 4

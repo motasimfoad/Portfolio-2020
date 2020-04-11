@@ -29,25 +29,25 @@ function Home() {
                   <link rel="canonical" href="http://motasimfoad.com/home" />
                   <meta name="description" content="Motasim Foad | Home - Product Manager | Project Manager | Software Engineer" />
          </Helmet>
-        <Animate to="1" from="0" attributeName="opacity">
-          <Particles
-          params={particles}
-          className="particle"
-          />
-        <Container className="App-header" fluid={true}>
-          <Row className="App-main">
-            <Col  xl={7}  className="App-left">
-              <HomeLeft />
-            </Col>
-            <Col  xl={5} className="App-right">
-              <HomeRight />
-            </Col>
-          </Row>
-          <Row className="App-footer">
-            <Footer />
-          </Row>
-       </Container>
-       </Animate>
+          <Animate to="1" from="0" attributeName="opacity">
+            <Particles
+            params={particles}
+            className="particle"
+            />
+          <Container className="App-header" fluid={true}>
+            <Row className="App-main">
+              <Col  xl={7}  className="App-left">
+                <HomeLeft />
+              </Col>
+              <Col  xl={5} className="App-right">
+                <HomeRight />
+              </Col>
+            </Row>
+            <Row className="App-footer">
+              <Footer />
+            </Row>
+        </Container>
+        </Animate>
       </div>
     );
 }
