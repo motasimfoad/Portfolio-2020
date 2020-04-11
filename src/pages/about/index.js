@@ -10,6 +10,8 @@ import Works from '../../components/works';
 import Projects from '../../components/projects';
 import HamburgerMenu from '../../components/hamburger_menu';
 import ScrollAnimation from 'react-animate-on-scroll';
+import particles from '../../const/about_particle.js';
+import Particles from 'react-particles-js';
 
 class About extends Component {
 
@@ -32,6 +34,10 @@ class About extends Component {
                 In addition to that minor on Basic Business studies to assist me through product & project management" />
           </Helmet>
            <Animate to="1" from="0" attributeName="opacity">
+           <Particles
+            params={particles}
+            className="particle"
+          />
            <Row className="About-main">
               <HamburgerMenu />
               <div className="d1">
