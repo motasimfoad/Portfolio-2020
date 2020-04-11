@@ -5,7 +5,6 @@ import { Redirect } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import {Helmet} from 'react-helmet';
 import PacmanLoader from "react-spinners/PacmanLoader";
-import { css } from "@emotion/core";
 
 class Loading extends Component {
 
@@ -35,11 +34,11 @@ class Loading extends Component {
          </Helmet>
         <div className="Loading-header">
           <PacmanLoader
-          margin={2}
-          size={40}
-          color={"#fff"}
-          loading={true}
-        />
+            margin={1}
+            size={30}
+            color={"#fff"}
+            loading={true}
+          />
         </div>
         </div>
   }

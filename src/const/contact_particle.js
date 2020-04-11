@@ -36,7 +36,7 @@ const contact_particles = {
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 40,
+        "speed": 10,
         "size_min": 0.1,
         "sync": false
       }
@@ -50,7 +50,7 @@ const contact_particles = {
     },
     "move": {
       "enable": true,
-      "speed": 4,
+      "speed": 3,
       "direction": "bottom",
       "random": false,
       "straight": false,
