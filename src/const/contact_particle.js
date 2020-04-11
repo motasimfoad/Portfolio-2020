@@ -1,7 +1,7 @@
 const contact_particles = {
   "particles": {
     "number": {
-      "value": 400,
+      "value": 200,
       "density": {
         "enable": true,
         "value_area": 800
@@ -19,11 +19,7 @@ const contact_particles = {
       "polygon": {
         "nb_sides": 5
       },
-      "image": {
-        "src": "img/github.svg",
-        "width": 100,
-        "height": 100
-      }
+     
     },
     "opacity": {
       "value": 0.5,
@@ -36,7 +32,7 @@ const contact_particles = {
       }
     },
     "size": {
-      "value": 10,
+      "value": 5.5,
       "random": true,
       "anim": {
         "enable": false,
@@ -54,7 +50,7 @@ const contact_particles = {
     },
     "move": {
       "enable": true,
-      "speed": 6,
+      "speed": 4,
       "direction": "bottom",
       "random": false,
       "straight": false,
@@ -89,10 +85,10 @@ const contact_particles = {
       },
       "bubble": {
         "distance": 400,
-        "size": 4,
+        "size": 1,
         "duration": 0.3,
         "opacity": 1,
-        "speed": 3
+        "speed": 1
       },
       "repulse": {
         "distance": 200,
