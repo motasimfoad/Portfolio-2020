@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Raleway|Roboto+Mono|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Raleway+Dots|Roboto+Mono|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
 
 .works_main{
    
@@ -9,8 +9,8 @@
 .works_content{
    /* background-color: #9E9E9E; */
    justify-content: center;
-   font-family: 'Raleway', sans-serif;
-   color: #ffffff;
+   font-family: 'Sulphur Point', sans-serif;
+   color: #FFF;
 }
 
 .works_content_col{

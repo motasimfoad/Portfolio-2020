@@ -8,6 +8,8 @@ import ContactLeft from '../../components/contact_left';
 import EmailForm from '../../components/email_form';
 import ReactGa from 'react-ga';
 import {Helmet} from 'react-helmet';
+import particles from '../../const/contact_particle.js';
+import Particles from 'react-particles-js';
 
 class Contact extends React.Component {
 
@@ -26,6 +28,10 @@ class Contact extends React.Component {
                 <meta name="description" content="Motasim Foad | Contact - Product Manager | Project Manager | Software Engineer" />
         </Helmet>
         <Animate to="1" from="0" attributeName="opacity">
+          <Particles
+            params={particles}
+            className="particle"
+          />
           <Container className="Contact-header" fluid={true}>
             <Row className="Hamburger-menu">
             <HamburgerMenu />
