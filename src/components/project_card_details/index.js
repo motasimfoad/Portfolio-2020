@@ -30,9 +30,10 @@ const PCD = () => {
   return (
     
     <Row >
-     <CardColumns >
+     
      {git.map(item => (
-            <Card key = {item.id} className="pro_card">
+       <Col xl={6} key = {item.id}>
+            <Card className="pro_card">
             <Card.Body>
             <Row >
             
@@ -57,10 +58,11 @@ const PCD = () => {
             </Row>
             </Card.Body>
             </Card>
+            </Col>
           ))
 
         }
-     </CardColumns>
+     
     </Row>
 
      

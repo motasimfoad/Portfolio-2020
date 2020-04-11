@@ -74,7 +74,7 @@ class CLC extends Component {
                   }
                 />
               )}
-              <Modal show={show} aria-labelledby="example-custom-modal-styling-title" size="xl" className="modalFix">
+              <Modal show={show} size="xl" className="modalFix" centered>
           <Projects/>
            
               <Button onClick={() => this.setState({ show: false })} variant="outline-light" size="lg" className="modal-exit-btn about_modal">

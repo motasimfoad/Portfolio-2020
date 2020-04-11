@@ -76,6 +76,7 @@ font-size: 130px;
 .modal-exit-btn:hover{
 background-color:#666666;
 color: seashell;
+cursor: pointer;
 }
 
 .modalFix{}
