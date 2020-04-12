@@ -5,9 +5,10 @@ import {
   Row,
   Card,
   Button,
-  Image,
-  CardColumns
+  Image
 } from 'react-bootstrap';
+import {CopyToClipboard} from 'react-copy-to-clipboard';
+import {ToastsContainer, ToastsStore} from 'react-toasts';
 
 const PCD = () => {
   const [hasError, setErrors] = useState(false);
@@ -25,48 +26,52 @@ const PCD = () => {
     fetchData();
   });
   
-  
-
   return (
-    
     <Row >
-     
      {git.map(item => (
        <Col xl={6} key = {item.id}>
             <Card className="pro_card">
-            <Card.Body>
             <Row >
-            
-              <div className="project_img_container">
-              <Image className="project_card_left_img" src="https://image.flaticon.com/icons/svg/25/25231.svg"/>
+              <Col xl={12} className="project_img_container">
+              <Image className="project_card_left_img" src="https://www.sferalabs.cc/wp-content/uploads/github-logo-white.png"/>
+              </Col>
+            <Col xl={12}>
+            <Card.Text className="project_card_main">
+              <div className="repoName">
+                Name: {item.name} 
               </div>
-            
-            
-              <Card.Text>
-                Name: {item.name} < br />
-                Location: {item.full_name} < br />
-                Created: {item.created_at} < br />
-                Updated: {item.updated_at} < br />
-                
-                < br />
-                  <Button variant="dark" className="project_card_btn">SSH</Button>
-                  <Button variant="dark" className="project_card_btn">HTTPS</Button>
-                  <Button variant="dark" className="project_card_btn"> <a href={item.svn_url} target="_blank" rel="noopener noreferrer">View</a></Button>
-                
-              </Card.Text>
-           
-            </Row>
-            </Card.Body>
-            </Card>
+              <div className="repoInfo">
+                Location: {item.full_name} <br/>
+                Created: {item.created_at} <br/>
+                Updated: {item.updated_at} 
+              </div>
+              <div>
+              <br />
+                  <Button variant="outline-light" size="lg" className="modal-exit-btn about_modal">
+                    <CopyToClipboard text={item.ssh_url}
+                      onCopy={() => ToastsStore.info("SSH url copied to clipboard 🤩😍")}>
+                      <span>SSH</span>
+                    </CopyToClipboard>  
+                  </Button>
+                  <Button variant="outline-light" size="lg" className="modal-exit-btn about_modal">
+                    <CopyToClipboard text={item.clone_url}
+                      onCopy={() => ToastsStore.info("HTTPS url copied to clipboard 👍😬")}>
+                      <span>HTTPS</span>
+                    </CopyToClipboard>  
+                  </Button>
+                  <Button variant="outline-light" size="lg" className="modal-exit-btn about_modal"> 
+                  <a href={item.svn_url} style={{ textDecoration: 'none', color: 'white' }} target="_blank" rel="noopener noreferrer">VIEW</a>
+                  </Button>
+                  <ToastsContainer store={ToastsStore} timer = '10000' />
+              </div>
+             </Card.Text>
             </Col>
+            </Row>
+            </Card>
+           </Col>
           ))
-
-        }
-     
+          }
     </Row>
-
-     
-
   );
 };
 export default PCD;

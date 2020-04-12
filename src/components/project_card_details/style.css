@@ -1,31 +1,25 @@
-.project_card_left{
-   
-}
-    
+@import url('https://fonts.googleapis.com/css?family=Abel|Raleway|Raleway+Dot|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+
 .project_card_right{
     color: white;
 }
 
 .project_card_left_img{
-    height: 30%;
-    width: 30%;
-    
+    height: 45%;
+    width: 45%;
 }
 
 .project_img_container{
-    background-color: seashell;
-}
-
-.project_card_container{
-  
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+    
 }
 
 .project_card_main{
-   
-}
-
-.project_card_btn{
-   
+    text-align: center;
+    margin: 0 auto;
+    display: table;
 }
 
 .pro_card{
@@ -33,7 +27,16 @@
     border-width: 0.01px;
     border-color: honeydew;
     margin: 1%;
-    text-align: center;
-    
+}
+
+.repoName{
+    font-size: 1.5rem;
+    font-family: 'Sulphur Point', sans-serif;
+    font-weight: 600;
+}
+
+.repoInfo{
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 600;
 }
     

@@ -33,10 +33,10 @@ function Home_Left() {
          </h3>
           
            <br />
-           {/* <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn"><Link to="/about" style={{ textDecoration: 'none', color: 'white' }} className="home-left-aboutme">About Me</Link></Button> &nbsp; */}
-           <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn" onClick={() => ToastsStore.warning("Under Development")}>About Me</Button> &nbsp;
+           <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn"><Link to="/about" style={{ textDecoration: 'none', color: 'white' }} className="home-left-aboutme">About Me</Link></Button> &nbsp;
+           {/* <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn" onClick={() => ToastsStore.warning("Under Development")}>About Me</Button> &nbsp; */}
            <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn"><Link style={{ textDecoration: 'none', color: 'white' }} to="/contact" className="home-left-aboutme">Contact Me</Link></Button>
-           <ToastsContainer store={ToastsStore} timer = '9000' />
+           {/* <ToastsContainer store={ToastsStore} timer = '9000' /> */}
          </Col>
      </Row>
    </Container>
