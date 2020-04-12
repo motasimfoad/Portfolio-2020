@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Raleway|Raleway+Dot|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+
+.project_main{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: rgb(9,9,9);
+}
+
+.project_header{
+    justify-content: center;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+.modal_close_icon_container{
+    text-align: right;
+    font-size: 20px;
+}

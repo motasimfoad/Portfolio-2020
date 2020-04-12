@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Raleway+Dots|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Raleway+Dots|Roboto+Mono|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+
+.Contact-text{
+  text-align: center;
+ }
+
+.p-heading1{
+  font-size: 4rem;
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+.p-heading2{
+  font-size: 0.98rem;
+  padding: 2.5%;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.contact-left-footer{
+  width: 100%;
+  font-size: 1.7rem;
+}

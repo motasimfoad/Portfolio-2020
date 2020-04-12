@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+
+.Contact-form{
+    text-align: center;
+    padding-bottom: 8%;
+  }
+
+.contact-form-header{
+    font-size: 2.5rem;
+    padding: 1%;
+    font-family: 'Raleway', sans-serif;
+   }
+
+.contact_input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 60%;
+    min-height: 6.5vh;
+    font-size: 1.5rem;
+    border-radius: 5%;
+    text-align: center;
+    background: black;
+    color: white;
+
+   }
+   
+.contact_success_modal_body{
+    text-align: center;
+    background: #090909;
+    color: aliceblue;
+   }
+   
+.contact_success_modal_img{
+     height: 15vh;
+     padding-bottom: 3%;
+   }
+
+.contact-email-text-btn{
+  
+  }
+ 
+.contact-email-text-btn:hover{
+      background: #666666;
+      color: aliceblue;
+  }
+ 
