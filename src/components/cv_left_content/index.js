@@ -34,7 +34,7 @@ class CLC extends Component {
     this.state = {
       photoIndex: 0,
       isOpen: false,
-      show: true,
+      show: false,
     };
   }
 
@@ -74,7 +74,7 @@ class CLC extends Component {
                   }
                 />
               )}
-              <Modal show={show} size="xl" className="modalFix" centered>
+              <Modal show={show} size="xl" centered>
           <Projects/>
            
               <Button onClick={() => this.setState({ show: false })} variant="outline-light" size="lg" className="modal-exit-btn about_modal">

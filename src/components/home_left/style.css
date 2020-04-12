@@ -36,18 +36,13 @@
 
 .home-left-aboutme{
    color: aliceblue;
-   
 }
 
 .home-left-aboutme:hover{
     color: black;
  }
 
- .home-left-aboutmme-btn{
-     
- }
-
- .home-left-aboutmme-btn:hover{
+.home-left-aboutmme-btn:hover{
      background: #666666;
  }
 

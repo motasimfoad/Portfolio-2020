@@ -6,10 +6,7 @@ import Animate from 'react-smooth';
 import ReactGa from 'react-ga';
 import {Helmet} from 'react-helmet';
 import CV from '../../components/cv';
-import Works from '../../components/works';
-import Projects from '../../components/projects';
 import HamburgerMenu from '../../components/hamburger_menu';
-import ScrollAnimation from 'react-animate-on-scroll';
 import particles from '../../const/about_particle.js';
 import Particles from 'react-particles-js';
 
@@ -43,22 +40,6 @@ class About extends Component {
               <div className="d1">
               <CV />
               </div>
-              {/* <ScrollAnimation animateIn='bounceInLeft'
-              animateOut='bounceOutRight'>
-              
-              </ScrollAnimation> */}
-              {/* <ScrollAnimation animateIn='bounceInRight'
-              animateOut='bounceOutLeft'>
-              <div className="d2">
-              <Works />
-              </div>
-              </ScrollAnimation>
-              <ScrollAnimation animateIn='bounceInLeft'
-              animateOut='bounceOutLeft'>
-              <div className="d3">
-              <Projects />
-              </div>
-              </ScrollAnimation> */}
            </Row>
           <Row className="About-footer">
             <Footer />

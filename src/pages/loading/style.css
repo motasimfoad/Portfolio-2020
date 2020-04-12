@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway+Dots&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
-
 .Loading-header {
     background-color: #090909;
     min-height: 100vh;
@@ -13,8 +9,3 @@
     align-items: center;
     justify-content: center;
   }
-
- .Loading-text {
-    font-family: 'Sulphur Point', sans-serif;
- }
-  

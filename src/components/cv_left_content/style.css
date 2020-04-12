@@ -31,19 +31,19 @@
 }
 
 .left{
-width: 50%;
-float: left;
-text-align: center;
-font-family: 'Roboto Mono', monospace;
-font-weight: 900;
+  width: 50%;
+  float: left;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 900;
 }
 
 .right{
-width: 50%;
-float: right;
-text-align: center;
-font-family: 'Roboto Mono', monospace;
-font-weight: 900;
+  width: 50%;
+  float: right;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 900;
 }
 
 .right_icon{
@@ -74,9 +74,7 @@ font-size: 130px;
 }
 
 .modal-exit-btn:hover{
-background-color:#666666;
-color: seashell;
-cursor: pointer;
+  background-color:#666666;
+  color: seashell;
+  cursor: pointer;
 }
-
-.modalFix{}
