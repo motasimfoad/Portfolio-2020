@@ -34,7 +34,7 @@ export default class CRI extends Component {
         <Zoom right> 
         <Flip right>
         <div>
-          <Image fluid src={cv1} onClick={() => this.setState({ isOpen: true })} className="cv_img_mouse" />
+          <img src={cv1} onClick={() => this.setState({ isOpen: true })} className="cv_img_mouse" />
             {isOpen && (
                 <Lightbox
                   mainSrc={images[photoIndex]}
@@ -55,10 +55,7 @@ export default class CRI extends Component {
               )}
         </div>
         </Flip>
-       
-       </Zoom>
-        
-     
+        </Zoom>
       </Roll>
      
     );

@@ -1,3 +1,5 @@
 .cv_img_mouse{
-   cursor: zoom-in;
+  cursor: zoom-in;
+  width: 100%;
+  max-height: 95vh;
 }
