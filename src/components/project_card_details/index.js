@@ -11,7 +11,7 @@ import {CopyToClipboard} from 'react-copy-to-clipboard';
 import {ToastsContainer, ToastsStore} from 'react-toasts';
 
 const PCD = () => {
-  const [hasError, setErrors] = useState(false);
+  const [setErrors] = useState(false);
   const [git, setGit] = useState([]);
 
   async function fetchData() {

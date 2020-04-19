@@ -3,7 +3,7 @@
  }
 
 .About-main {
-  height: 95%;
+  min-height: 95vh;
 }
 
 .d1{
@@ -22,5 +22,5 @@
  }
 
 .About-footer {
-  
+  min-height: 5vh;
 }

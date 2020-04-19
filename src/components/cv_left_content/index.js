@@ -38,6 +38,12 @@ class CLC extends Component {
     };
   }
 
+  toggleModal = () => {
+    this.setState({
+      show: !this.state.show,
+    })
+  }
+
   render(){
     const { photoIndex, isOpen, show } = this.state;
     return (
@@ -74,9 +80,10 @@ class CLC extends Component {
                   }
                 />
               )}
-              <Modal show={show} size="xl" centered>
-          <Projects/>
-           
+              <Modal show={show} size="xl" onHide={this.toggleModal} centered>
+              <Modal.Header className="modalHeader" closeButton>
+              <Projects/>
+              </Modal.Header>
               <Button onClick={() => this.setState({ show: false })} variant="outline-light" size="lg" className="modal-exit-btn about_modal">
                 Close
               </Button>
