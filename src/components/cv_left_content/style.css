@@ -78,3 +78,8 @@ font-size: 130px;
   color: seashell;
   cursor: pointer;
 }
+
+.modalHeader{
+  background-color: #090909;
+  color: aliceblue !important;
+}
