@@ -83,3 +83,7 @@ font-size: 130px;
   background-color: #090909;
   color: aliceblue !important;
 }
+
+.close{
+  color: aliceblue;
+}
