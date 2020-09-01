@@ -13,9 +13,12 @@ class Loading extends Component {
 
   componentDidMount() {
     this.id = setTimeout(() => this.setState({ redirect: true }), 3000);
+    //--Motasim Foads Portfolio website Google analytics--
+    //--Replace with your own key !!
     ReactGA.initialize("UA-154721739-1");
-    ReactGA.pageview('Loading Screen');
+    ReactGA.pageview('motasimfoad.com - Loading Screen');
   }
+    //--Motasim Foads Portfolio website Google analytics--
 
   componentWillUnmount() {
     clearTimeout(this.id)
