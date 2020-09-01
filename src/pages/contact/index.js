@@ -14,9 +14,12 @@ import Particles from 'react-particles-js';
 class Contact extends React.Component {
 
   componentDidMount() {
+    //--Motasim Foads Portfolio website Google analytics--
+    //--Replace with your own key !!
     ReactGa.initialize("UA-154721739-1");
-    ReactGa.pageview('Contact Screen');
+    ReactGa.pageview('motasimfoad.com - Contact Screen');
   }
+   //--Motasim Foads Portfolio website Google analytics--
 
   render() {
     return (
