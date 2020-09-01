@@ -40,9 +40,7 @@ class About extends Component {
           />
            <Row className="About-main">
               <HamburgerMenu />
-              <div className="d1">
-              <CV />
-              </div>
+              <CV/>
            </Row>
           <Row className="About-footer">
             <Footer />
