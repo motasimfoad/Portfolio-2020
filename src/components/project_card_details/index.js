@@ -9,6 +9,7 @@ import {
 } from 'react-bootstrap';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 import {ToastsContainer, ToastsStore} from 'react-toasts';
+import GitLogo from '../../assets/img/git.svg';
 
 const PCD = () => {
   const [setErrors] = useState(false);
@@ -33,7 +34,7 @@ const PCD = () => {
             <Card className="pro_card">
             <Row >
               <Col xl={12} className="project_img_container">
-              <Image className="project_card_left_img" src="https://www.sferalabs.cc/wp-content/uploads/github-logo-white.png"/>
+              <Image className="project_card_left_img" src={GitLogo}/>
               </Col>
             <Col xl={12}>
             <Card.Text className="project_card_main">
