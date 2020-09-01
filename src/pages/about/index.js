@@ -13,8 +13,11 @@ import Particles from 'react-particles-js';
 class About extends Component {
 
   componentDidMount() {
+    //--Motasim Foads Portfolio website Google analytics--
+    //--Replace with your own key !!
     ReactGa.initialize("UA-154721739-1");
-    ReactGa.pageview('About Screen');
+    ReactGa.pageview('motasimfoad.com - About Screen');
+    //--Motasim Foads Portfolio website Google analytics--
   }
  
   render() {
