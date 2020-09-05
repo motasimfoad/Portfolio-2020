@@ -37,7 +37,7 @@ const PCD = () => {
               <Image className="project_card_left_img" src={GitLogo}/>
               </Col>
             <Col xl={12}>
-            <Card.Text className="project_card_main">
+            <Card.Body className="project_card_main">
               <div className="repoName">
                 Name: {item.name} 
               </div>
@@ -65,7 +65,7 @@ const PCD = () => {
                   </Button>
                   <ToastsContainer store={ToastsStore} timer = '10000' />
               </div>
-             </Card.Text>
+             </Card.Body>
             </Col>
             </Row>
             </Card>
