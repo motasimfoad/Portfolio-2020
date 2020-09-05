@@ -81,14 +81,13 @@ class CLC extends Component {
                 />
               )}
               <Modal show={show} size="xl" onHide={this.toggleModal} centered>
-              <Modal.Header className="modalHeader" closeButton>
-              <Projects/>
-              </Modal.Header>
-              <Button onClick={() => this.setState({ show: false })} variant="outline-light" size="lg" className="modal-exit-btn about_modal">
-                Close
-              </Button>
-            
-          </Modal>
+                <Modal.Header className="modalHeader" closeButton>
+                  <Projects/>
+                </Modal.Header>
+                <Button onClick={() => this.setState({ show: false })} variant="outline-light" size="lg" className="modal-exit-btn about_modal">
+                  Close
+                </Button>
+              </Modal>
           </div>
         </Bounce>
       </Slide>

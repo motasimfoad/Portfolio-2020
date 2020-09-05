@@ -112,16 +112,17 @@ class Email_Form extends React.Component {
                 required
               />
             </FormGroup>
-            <FormGroup controlId="formBasicMessage">
-              <input
+            <FormGroup controlId="formBasicMessage" style={{paddingLeft:'20%', paddingRight:'20%'}}>
+              {/* <input
                 type="textarea"
                 name="message"
                 value={this.state.message}
-                className="contact_input"
+                className="contact_input_text"
                 onChange={this.handleChange.bind(this, 'message')}
                 placeholder="Your text"
                 required
-              />
+              /> */}
+              <Form.Control as="textarea" rows="3" name="message" placeholder="Your text" onChange={this.handleChange.bind(this, 'message')} className="contact_input_text" required/>
             </FormGroup>
            
            <Button className="contact-email-text-btn" variant="outline-light" size="lg" type="submit">
