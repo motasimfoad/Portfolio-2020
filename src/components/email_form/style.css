@@ -14,19 +14,12 @@
    }
 
 .contact_input{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 60%;
-    min-height: 6.5vh;
-    font-size: 1.5rem;
-    border-radius: 5%;
-    text-align: center;
-    background: black;
-    color: white;
+   padding-left: 20%;
+   padding-right: 20%;
   }
 
-  .contact_input_text{
+.contact_input_text{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    min-height: 40vh;
     font-size: 1.5rem;
     border-radius: 5%;
     text-align: center;
@@ -44,10 +37,6 @@
      height: 15vh;
      padding-bottom: 3%;
    }
-
-.contact-email-text-btn{
-  
-  }
  
 .contact-email-text-btn:hover{
       background: #666666;

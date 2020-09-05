@@ -79,50 +79,43 @@ class Email_Form extends React.Component {
   
           <Form onSubmit={this.handleSubmit.bind(this)} className="Contact-form">
             <p className="contact-form-header">Contact Form</p>
-             <FormGroup controlId="formBasicEmail">
-              <input
+             <FormGroup controlId="formBasicEmail" className="contact_input">
+              <Form.Control as="textarea" rows="1"
                 type="email"
                 name="email"
                 value={this.state.email}
-                className="contact_input"
+                className="contact_input_text"
                 onChange={this.handleChange.bind(this, 'email')}
                 placeholder="Email Address"
                 required
               />
             </FormGroup>
-            <FormGroup controlId="formBasicName">
-              <input
+            <FormGroup controlId="formBasicName" className="contact_input">
+              <Form.Control as="textarea" rows="1"
                 type="text"
                 name="name"
                 value={this.state.name}
                 className="contact_input"
                 onChange={this.handleChange.bind(this, 'name')}
                 placeholder="Your Name"
+                className="contact_input_text"
                 required
               />
             </FormGroup>
-            <FormGroup controlId="formBasicSubject">
-             <input
+            <FormGroup controlId="formBasicSubject" className="contact_input">
+             <Form.Control as="textarea" rows="1"
                 type="text"
                 name="subject"
                 value={this.state.subject}
                 className="contact_input"
                 onChange={this.handleChange.bind(this, 'subject')}
                 placeholder="Subject"
+                className="contact_input_text"
                 required
               />
             </FormGroup>
-            <FormGroup controlId="formBasicMessage" style={{paddingLeft:'20%', paddingRight:'20%'}}>
-              {/* <input
-                type="textarea"
-                name="message"
-                value={this.state.message}
-                className="contact_input_text"
-                onChange={this.handleChange.bind(this, 'message')}
-                placeholder="Your text"
-                required
-              /> */}
-              <Form.Control as="textarea" rows="3" name="message" placeholder="Your text" onChange={this.handleChange.bind(this, 'message')} className="contact_input_text" required/>
+            <FormGroup controlId="formBasicMessage" className="contact_input">
+              <Form.Control as="textarea" rows="6" name="message" placeholder="Your text" onChange={this.handleChange.bind(this, 'message')} className="contact_input_text" required/>
             </FormGroup>
            
            <Button className="contact-email-text-btn" variant="outline-light" size="lg" type="submit">
