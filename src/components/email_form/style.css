@@ -14,8 +14,8 @@
    }
 
 .contact_input{
-   padding-left: 20%;
-   padding-right: 20%;
+   padding-left: 10%;
+   padding-right: 10%;
   }
 
 .contact_input_text{
@@ -23,8 +23,9 @@
     font-size: 1.5rem;
     border-radius: 5%;
     text-align: center;
-    background: black;
+    background: transparent;
     color: white;
+    min-height: 6.5vh;
   }
    
 .contact_success_modal_body{
