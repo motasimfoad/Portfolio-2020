@@ -10,7 +10,6 @@ import About from "../pages/about";
 import Contact from "../pages/contact";
 import Loading from "../pages/loading";
 import Project from "../pages/projects";
-import AnimatedCursor from 'react-animated-cursor';
 
 export default function Nav() {
   return (
