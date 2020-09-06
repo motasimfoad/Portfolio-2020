@@ -47,6 +47,10 @@ class Email_Form extends React.Component {
       message_html: message,
      }
      
+     //=======================
+     // Use your own API key
+     //=======================
+
      emailjs.send(
       'gmail',
       'template_OErNDyFu',

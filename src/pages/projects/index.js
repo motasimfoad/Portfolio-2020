@@ -8,16 +8,9 @@ import {Helmet} from 'react-helmet';
 import HamburgerMenu from '../../components/hamburger_menu';
 import particles from '../../const/project_particle.js';
 import Particles from 'react-particles-js';
+import ProjectBody from '../../components/project_main';
 
 class Projects extends Component {
-
-  componentDidMount() {
-    //--Motasim Foads Portfolio website Google analytics--
-    //--Replace with your own key !!
-    ReactGa.initialize("UA-154721739-1");
-    ReactGa.pageview('motasimfoad.com - Projects Screen');
-    //--Motasim Foads Portfolio website Google analytics--
-  }
  
   render() {
     return (
@@ -39,9 +32,7 @@ class Projects extends Component {
           />
            <Row className="About-main">
               <HamburgerMenu />
-              <div style={{background:'red', width:'100%'}}>
-                projects
-              </div>
+              <ProjectBody />
            </Row>
           <Row className="About-footer">
             <Footer />
