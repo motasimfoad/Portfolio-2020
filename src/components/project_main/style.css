@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Raleway|Raleway+Dot|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+
+.main_row{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 95vh;
+    font-family: 'Sulphur Point', sans-serif;
+}
+.card_col{
+    /* text-align: center;
+    margin: 0 auto;
+    display: table; */
+    /* height: 95vh; */
+    width: 80%;
+    margin: 0 auto;
+    background-color: tomato;
+}

@@ -3,7 +3,7 @@ import '../loading/style.css';
 import { Redirect } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import {Helmet} from 'react-helmet';
-import PacmanLoader from "react-spinners/PacmanLoader";
+import PuffLoader from "react-spinners/PuffLoader";
 
 class Loading extends Component {
 
@@ -12,14 +12,14 @@ class Loading extends Component {
   }
 
   componentDidMount() {
-    this.id = setTimeout(() => this.setState({ redirect: true }), 3000);
+     this.id = setTimeout(() => this.setState({ redirect: true }), 3000);
     //--Motasim Foads Portfolio website Google analytics--
     //--Replace with your own key !!
     ReactGA.initialize("UA-154721739-1");
     ReactGA.pageview('motasimfoad.com - Loading Screen');
-  }
     //--Motasim Foads Portfolio website Google analytics--
-
+  }
+    
   componentWillUnmount() {
     clearTimeout(this.id)
   }
@@ -35,9 +35,8 @@ class Loading extends Component {
                 <meta name="description" content="Motasim Foad - Product Manager | Project Manager | Software Engineer" />
          </Helmet>
         <div className="Loading-header">
-          <PacmanLoader
-            margin={1}
-            size={30}
+          <PuffLoader
+            size={'40vw'}
             color={"#fff"}
             loading={true}
           />
