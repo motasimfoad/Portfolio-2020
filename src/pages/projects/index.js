@@ -25,11 +25,12 @@ class Projects extends Component {
                 In addition to that minor on Basic Business studies to assist me through product & project management" />
           </Helmet>
            <Animate to="1" from="0" attributeName="opacity">
+           
+           <Row className="About-main">
            <Particles
             params={particles}
             className="particle"
           />
-           <Row className="About-main">
               <HamburgerMenu />
               <ProjectBody />
            </Row>

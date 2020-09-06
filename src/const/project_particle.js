@@ -40,7 +40,7 @@ const particles = {
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 40,
+        "speed": 1,
         "size_min": 0.1,
         "sync": false
       }
@@ -54,7 +54,7 @@ const particles = {
     },
     "move": {
       "enable": true,
-      "speed": 14,
+      "speed": 3,
       "direction": "left",
       "random": false,
       "straight": true,
@@ -92,7 +92,7 @@ const particles = {
         "size": 40,
         "duration": 2,
         "opacity": 8,
-        "speed": 3
+        "speed": 1
       },
       "repulse": {
         "distance": 200,
