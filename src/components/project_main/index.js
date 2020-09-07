@@ -19,24 +19,27 @@ function PM() {
       <Row xl={12} className="main_row">
 
       {info.data.map(item => ( 
-      <Col xl={4}  key={item.name} className="card_col">
+      <Col xl={4}  key={item.id} className="card_col">
       <Card className="card_main">
         <blockquote className="blockquote mb-0 card-body">
           <h2>
           {item.name}
           </h2>
           <footer className="blockquote-footer">
-              built using <strong title="Source Title">ReactJS, HASURA</strong>
+      built using <strong title="Source Title">{item.tools}</strong>
           </footer>
         </blockquote>
         <Card.Body>
         <Card.Link href="#"><FontAwesomeIcon className="icon" size="lg" icon={faImages} /></Card.Link>
-        <Card.Link href="#"><FontAwesomeIcon className="icon" size="lg" icon={faLink} /></Card.Link>
+        {
+          item.link !== false  &&
+            <Card.Link href={item.link} target="_blank"><FontAwesomeIcon className="icon" size="lg" icon={faLink}/></Card.Link>
+        }
       </Card.Body>
       </Card>
       </Col>
       ))}
-      
+
     </Row>
   );
 }
