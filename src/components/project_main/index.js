@@ -20,7 +20,6 @@ export default class PM extends Component {
       isOpen: false,
       image:'',
     };
-    
   }
 
   render() {
@@ -68,9 +67,7 @@ export default class PM extends Component {
               )}
         </Col>
       ))}
-
     </Row>
-     
     );
   }
 }

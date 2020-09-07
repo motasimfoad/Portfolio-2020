@@ -34,8 +34,9 @@ class Projects extends Component {
               <HamburgerMenu />
               <ProjectBody />
            </Row>
+           <br/>
           <Row className="About-footer">
-            <Footer />
+           <Footer />
           </Row>
            </Animate>
        </Container>
