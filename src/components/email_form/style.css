@@ -14,16 +14,19 @@
    }
 
 .contact_input{
+   padding-left: 10%;
+   padding-right: 10%;
+  }
+
+.contact_input_text{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 60%;
-    min-height: 6.5vh;
     font-size: 1.5rem;
     border-radius: 5%;
     text-align: center;
-    background: black;
+    background: transparent;
     color: white;
-
-   }
+    min-height: 6.5vh;
+  }
    
 .contact_success_modal_body{
     text-align: center;
@@ -35,10 +38,6 @@
      height: 15vh;
      padding-bottom: 3%;
    }
-
-.contact-email-text-btn{
-  
-  }
  
 .contact-email-text-btn:hover{
       background: #666666;

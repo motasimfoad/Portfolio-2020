@@ -1,0 +1,26 @@
+.About-header {
+  background-color:#090909;
+ }
+
+.About-main {
+  min-height: 95vh;
+}
+
+.d1{
+  height: 100%;
+  width: 100%;
+ }
+
+.d2{
+  height: 100%;
+  width: 100%;
+ }
+
+.d3{
+  height: 100%;
+  width: 100%;
+ }
+
+.About-footer {
+  min-height: 5vh;
+}
