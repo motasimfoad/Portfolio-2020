@@ -4,17 +4,8 @@
     font-family: 'Sulphur Point', sans-serif;
 }
 .card_col{
-    /* text-align: center;
-    margin: 0 auto;
-    display: table; */
-    /* height: 95vh; */
-    /* width: 80%;
-    margin: 0 auto;
-    background-color: tomato; */
-    /* height: 95vh;
-     overflow-y: scroll;
-    overflow-x: hidden; */
-    padding: 4%;
+    padding-left: 4%;
+    padding-top: 4%;
 }
 
 .card_main{
