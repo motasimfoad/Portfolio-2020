@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Raleway|Raleway+Dot|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
 
 .main_row{
-    /* overflow-y: scroll;
-    overflow-x: hidden; */
-   
     font-family: 'Sulphur Point', sans-serif;
 }
 .card_col{
@@ -14,9 +11,10 @@
     /* width: 80%;
     margin: 0 auto;
     background-color: tomato; */
-    height: 95vh;
+    /* height: 95vh;
      overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-x: hidden; */
+    padding: 4%;
 }
 
 .card_main{
@@ -25,13 +23,14 @@
     color: white;
     border-color: white;
     text-align: right;
+    
 }
 
 .card_main:hover{
    transition: all 0.2s ease-out;
    top: -4px;
+   background: rgba(255, 255, 255, 0.15);
    box-shadow: 0px 4px 35px rgb(255, 255, 255);
-   
 }
 
 .blockquote-footer{
