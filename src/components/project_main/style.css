@@ -28,6 +28,7 @@
 
 .icon{
     color: white;
+    cursor: pointer;
 }
 
 .icon:hover{
