@@ -26,3 +26,15 @@
     border-color: white;
     text-align: right;
 }
+
+.blockquote-footer{
+    color: white;
+}
+
+.icon{
+    color: white;
+}
+
+.icon:hover{
+    color: rgb(255, 196, 102);
+ }
