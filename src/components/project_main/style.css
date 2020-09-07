@@ -27,6 +27,11 @@
     text-align: right;
 }
 
+.card_main:hover{
+   transition: all 0.2s ease-out;
+   top: -4px;
+}
+
 .blockquote-footer{
     color: white;
 }
