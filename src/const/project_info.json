@@ -5,10 +5,11 @@
         "name": "IAT - Internet Addiction Test",
         "tools": "React Hooks, Bootstraps, hasura, graphQL and Postgres",
         "link": "https://iat.motasimfoad.com",
-        "image": {
-          "0": "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-800x825.jpg",
-          "1": "https://cdn.mos.cms.futurecdn.net/QjuZKXnkLQgsYsL98uhL9X.jpg"
-        }
+        "image": [
+            "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-800x825.jpg",
+            "https://cdn.mos.cms.futurecdn.net/QjuZKXnkLQgsYsL98uhL9X.jpg"
+        ]
+          
       },
       {
         "id" : 1,

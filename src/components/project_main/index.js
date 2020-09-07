@@ -25,7 +25,7 @@ export default class PM extends Component {
 
   render() {
     const { photoIndex, isOpen, image } = this.state;
-    console.log("da image " + image);
+    
     return (
       <Row xl={12} className="main_row">
 
