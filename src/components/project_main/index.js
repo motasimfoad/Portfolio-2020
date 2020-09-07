@@ -14,7 +14,7 @@ function PM() {
       <Row xl={12} className="main_row">
         
         <Col xl={4} style={{padding:'5%'}} >
-  <Card style={{ width: '100%',background:'rgba(255,255,255,0.1)', color:'white', borderColor:'white' }} className="text-right">
+  <Card className="card_main">
     <blockquote className="blockquote mb-0 card-body">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
@@ -26,10 +26,14 @@ function PM() {
         </small>
       </footer>
     </blockquote>
+    <Card.Body>
+    <Card.Link href="#">Card Link</Card.Link>
+    <Card.Link href="#">Visit</Card.Link>
+  </Card.Body>
   </Card>
   </Col>
   <Col xl={4} style={{padding:'5%'}} >
-  <Card style={{ width: '100%',background:'rgba(255,255,255,0.1)', color:'white', borderColor:'white' }} className="text-right">
+  <Card className="card_main">
     <blockquote className="blockquote mb-0 card-body">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
@@ -44,7 +48,7 @@ function PM() {
   </Card>
   </Col>
   <Col xl={4} style={{padding:'5%'}}>
-  <Card style={{ width: '100%',background:'rgba(255,255,255,0.1)', color:'white', borderColor:'white' }} className="text-right">
+  <Card className="card_main">
     <blockquote className="blockquote mb-0 card-body">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
@@ -59,7 +63,7 @@ function PM() {
   </Card>
   </Col>
   <Col xl={4} style={{padding:'5%'}}>
-  <Card style={{ width: '100%',background:'rgba(255,255,255,0.1)', color:'white', borderColor:'white' }} className="text-right">
+  <Card className="card_main">
     <blockquote className="blockquote mb-0 card-body">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
@@ -74,7 +78,7 @@ function PM() {
   </Card>
   </Col>
   <Col xl={4} style={{padding:'5%'}}>
-  <Card style={{ width: '100%',background:'rgba(255,255,255,0.1)', color:'white', borderColor:'white' }} className="text-right">
+  <Card className="card_main">
     <blockquote className="blockquote mb-0 card-body">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
@@ -89,7 +93,7 @@ function PM() {
   </Card>
   </Col>
   <Col xl={4} style={{padding:'5%'}}>
-  <Card style={{ width: '100%',background:'rgba(255,255,255,0.1)', color:'white', borderColor:'white' }} className="text-right">
+  <Card className="card_main">
     <blockquote className="blockquote mb-0 card-body">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
@@ -104,7 +108,7 @@ function PM() {
   </Card>
   </Col>
   <Col xl={4} style={{padding:'5%'}}>
-  <Card style={{ width: '100%',background:'rgba(255,255,255,0.1)', color:'white', borderColor:'white' }} className="text-right">
+  <Card className="card_main">
     <blockquote className="blockquote mb-0 card-body">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
@@ -119,7 +123,7 @@ function PM() {
   </Card>
   </Col>
   <Col xl={4} style={{padding:'5%'}}>
-  <Card style={{ width: '100%',background:'rgba(255,255,255,0.1)', color:'white', borderColor:'white' }} className="text-right">
+  <Card className="card_main">
     <blockquote className="blockquote mb-0 card-body">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
@@ -134,7 +138,7 @@ function PM() {
   </Card>
   </Col>
   <Col xl={4} style={{padding:'5%'}}>
-  <Card style={{ width: '100%',background:'rgba(255,255,255,0.1)', color:'white', borderColor:'white' }} className="text-right">
+  <Card className="card_main">
     <blockquote className="blockquote mb-0 card-body">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
@@ -149,7 +153,7 @@ function PM() {
   </Card>
   </Col>
   <Col xl={4} style={{padding:'5%'}}>
-  <Card style={{ width: '100%',background:'rgba(255,255,255,0.1)', color:'white', borderColor:'white' }} className="text-right">
+  <Card className="card_main">
     <blockquote className="blockquote mb-0 card-body">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere

@@ -18,3 +18,11 @@
      overflow-y: scroll;
     overflow-x: hidden;
 }
+
+.card_main{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-color: white;
+    text-align: right;
+}
