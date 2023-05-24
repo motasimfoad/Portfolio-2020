@@ -19,7 +19,6 @@ function Hamburger() {
                 <ul>
                   <li><Link to="/home">HOME</Link></li>
                   <li><Link to="/about">ABOUT</Link></li>
-                  <li><a href="https://blog.motasimfoad.com/" target="_blank">BLOG</a></li>
                   <li><Link to="/contact">CONTACT</Link></li>
                 </ul>
                </div>

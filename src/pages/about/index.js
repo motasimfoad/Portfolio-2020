@@ -28,12 +28,10 @@ class About extends Component {
                 <title>About | Motasim Foad</title>
                 <link rel="canonical" href="http://motasimfoad.com/about" />
                 <meta name="description" content="Motasim Foad | About - Product Manager | Project Manager | Software Engineer
-                Planning to build a brand or a product, especially tech products, and looking for someone with demonstrated work 
-                history in the computer software industry. I have actively worked with leading-edge product development and project 
-                management methodologies incorporating industry standards and beyond tools and trends for the past few years. Making 
-                a product roadmap, integrating with SDLC, designing the User Experience & Customer Experience, Business Analysis, 
-                Marketing Planning, and Communication with a cup of coffee is my hand; that looks like a typical day for me. If you 
-                have a vision, want to make an impact, I am always open to discussion." />
+                Experienced Project & Product Manager with a demonstrated history of working in computer software industry. 
+                Skilled in leading edge project management, web & software development tools & trends. 
+                Strong computer engineering base with a BSc in Computer Science focused in Computer Software Engineering from BRAC University. 
+                In addition to that minor on Basic Business studies to assist me through product & project management" />
           </Helmet>
            <Animate to="1" from="0" attributeName="opacity">
            <Particles
