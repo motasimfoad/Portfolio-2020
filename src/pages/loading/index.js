@@ -30,7 +30,7 @@ class Loading extends Component {
       : <div>
          <Helmet>
                 <meta charSet="utf-8" />
-                <title>Motasim Foad</title>
+                <title>CHANG BEOM IM</title>
                 <link rel="canonical" href="http://motasimfoad.com/" />
                 <meta name="description" content="Motasim Foad - Product Manager | Project Manager | Software Engineer" />
          </Helmet>

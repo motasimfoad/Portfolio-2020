@@ -16,7 +16,7 @@ class Projects extends Component {
         <Container className="About-header" fluid={true}>
           <Helmet>
                 <meta charSet="utf-8" />
-                <title>Project | Motasim Foad</title>
+                <title>Project | CHANG BEOM IM</title>
                 <link rel="canonical" href="http://motasimfoad.com/project"/>
                 <meta name="description" content="Motasim Foad | About - Product Manager | Project Manager | Software Engineer
                 Planning to build a brand or a product, especially tech products, and looking for someone with demonstrated work 
