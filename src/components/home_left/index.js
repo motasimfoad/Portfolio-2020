@@ -9,18 +9,26 @@ function Home_Left() {
     <Container className="home-left">
       <Row className="home-left-main">
         <Col xl={12} className="home-left-main-col">
-          <h1 className="first-line">방가워요.</h1>
+          <h1 className="first-line">Welcome</h1>
           <h2 className="second_line">
-            응애개발자 <strong>임창범입니다!</strong>
+            Will be <strong>game client programmer</strong>
           </h2>
           <h3>
             <ReactTypingEffect
-              text="UNITY 엔진으로 개발을 합니다. || 게임회사 취직을 목표로 하고있어요! " //text=["Hello.", "World!"]
+              text="Studying UNITY || I hope I get a job at a Game Company"
               className="typical"
               speed="100"
               eraseDelay="500000"
             />
           </h3>
+          <h4>
+            <ReactTypingEffect
+              text="My name is 'Chang Beom IM"
+              className="typical"
+              speed="100"
+              eraseDelay="500000"
+            />
+          </h4>
           <br />
           <Button
             variant="outline-light"
@@ -32,7 +40,7 @@ function Home_Left() {
               style={{ textDecoration: "none", color: "white" }}
               className="home-left-aboutme"
             >
-              나의 주력 언어
+              My Git Intro
             </Link>
           </Button>{" "}
           &nbsp;
@@ -47,7 +55,7 @@ function Home_Left() {
               target="_blank"
               className="home-left-aboutme"
             >
-              My Wish
+              My Instagram
             </a>
           </Button>{" "}
           &nbsp;
@@ -61,7 +69,7 @@ function Home_Left() {
               to="/contact"
               className="home-left-aboutme"
             >
-              나의 취미
+              Introduce & Contect
             </Link>
           </Button>
         </Col>

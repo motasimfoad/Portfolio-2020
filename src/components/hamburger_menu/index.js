@@ -21,7 +21,7 @@ function Hamburger() {
               </li>
               <li>
                 <a href="https://www.instagram.com/6ix_twlv/" target="_blank">
-                  INSTA
+                  INSTAGRAM
                 </a>
               </li>
               <li>

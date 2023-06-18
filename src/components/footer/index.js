@@ -7,8 +7,7 @@ function Footer() {
     <Container className="footer" fluid={true}>
       <Row>
         <Col xl={12}>
-          Copyright © 2018-{new Date().getFullYear()}{" "}
-          <strong>motasim Foad</strong>, <small>V2.4 </small>/{" "}
+          Copyright © 2023-{new Date().getFullYear()}{" "}
           <strong>Made by CHANG BEOM IM</strong>
         </Col>
       </Row>

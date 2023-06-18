@@ -84,14 +84,14 @@ class Email_Form extends React.Component {
   render() {
     return (
       <Form onSubmit={this.handleSubmit.bind(this)} className="Contact-form">
-        <p className="contact-form-header">임창범씨에게 연락하기~</p>
+        <p className="contact-form-header">Contect to Chang Beom IM</p>
         <FormGroup className="contact_input">
           <Form.Control
             type="email"
             value={this.state.email}
             className="contact_input_text"
             onChange={this.handleChange.bind(this, "email")}
-            placeholder="이메일"
+            placeholder="E-Mail"
             required
           />
         </FormGroup>
@@ -101,7 +101,7 @@ class Email_Form extends React.Component {
             rows="1"
             value={this.state.name}
             onChange={this.handleChange.bind(this, "name")}
-            placeholder="이름"
+            placeholder="Your Name"
             className="contact_input_text"
             required
           />
@@ -112,7 +112,7 @@ class Email_Form extends React.Component {
             rows="1"
             value={this.state.subject}
             onChange={this.handleChange.bind(this, "subject")}
-            placeholder="주제"
+            placeholder="topic"
             className="contact_input_text"
             required
           />
@@ -122,7 +122,7 @@ class Email_Form extends React.Component {
             as="textarea"
             rows="6"
             value={this.state.message}
-            placeholder="하고 싶은 말"
+            placeholder="Contents"
             onChange={this.handleChange.bind(this, "message")}
             className="contact_input_text"
             required
@@ -134,7 +134,7 @@ class Email_Form extends React.Component {
           size="lg"
           type="submit"
         >
-          보내기
+          SEND
           <ClipLoader
             size={5} // or 150px
             color={"#ffffff"}

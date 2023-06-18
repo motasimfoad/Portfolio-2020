@@ -7,7 +7,7 @@ function Projects() {
   return (
     <Container className="project_main" fluid>
       <Row className="project_header">
-        <h1>깃허브 소개</h1>
+        <h1>GitHub Introduce</h1>
       </Row>
       <PCD />
     </Container>
