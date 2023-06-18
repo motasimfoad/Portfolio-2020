@@ -28,7 +28,7 @@ function Home() {
       <div>
          <Helmet>
                   <meta charSet="utf-8" />
-                  <title>Home | Motasim Foad</title>
+                  <title>Home | CHANG BEOM IM</title>
                   <link rel="canonical" href="http://motasimfoad.com/home" />
                   <meta name="description" content="Motasim Foad | Home - Product Manager | Project Manager | Software Engineer" />
          </Helmet>

@@ -25,7 +25,7 @@ class About extends Component {
         <Container className="About-header" fluid={true}>
           <Helmet>
                 <meta charSet="utf-8" />
-                <title>About | Motasim Foad</title>
+                <title>About | CHANG BEOM IM</title>
                 <link rel="canonical" href="http://motasimfoad.com/about" />
                 <meta name="description" content="Motasim Foad | About - Product Manager | Project Manager | Software Engineer
                 Planning to build a brand or a product, especially tech products, and looking for someone with demonstrated work 

@@ -8,12 +8,13 @@ function Contact_Left() {
     <div>
            <Row className="Contact-text">
               <Col xl={12}>
-              <h1 className="p-heading1">Get In Touch</h1>
+              <h1 className="p-heading1">My Hobby</h1>
               <p className="p-heading2">
-              Hola <strong>Visitor !!</strong><br />
-              Thank you for bumping in. If you have any queries/ideas/projects, feel free to <strong>PING</strong> me.
-              I am always open for discussion. You can contact me via the Contact Form <strong>OR</strong> simply click on the social
-              media icon if you are more comfortable there.
+              당연 <strong>게임을 좋아합니다 !!</strong><br />
+              요즘 빠져사는 게임은 <strong>League of Legend</strong>와 <strong>Lost Ark</strong>입니다.
+              하나는 AOS의 재미로 빠져있고, 다른 하나는 RPG로써 재미를 느낍니다.
+              게임이 좋아서 게임 개발자가 되고싶었고, 현재 목표는 스마일게이트에 입사해서 
+              최고의 MMORPG 로스트아크 팀에 들어가는 것입니다.
               </p>
               </Col>
            </Row>

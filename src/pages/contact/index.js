@@ -26,7 +26,7 @@ class Contact extends React.Component {
       <div>
         <Helmet>
                 <meta charSet="utf-8" />
-                <title>Contact | Motasim Foad</title>
+                <title>My Hobby</title>
                 <link rel="canonical" href="http://motasimfoad.com/contact" />
                 <meta name="description" content="Motasim Foad | Contact - Product Manager | Project Manager | Software Engineer" />
         </Helmet>
