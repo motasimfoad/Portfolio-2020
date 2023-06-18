@@ -3294,10 +3294,17 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
+<<<<<<< HEAD
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001464, caniuse-lite@^1.0.30001503:
   version "1.0.30001504"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001504.tgz#eaf77e5c852dfa5f82c4924468c30602ac53744a"
   integrity sha512-5uo7eoOp2mKbWyfMXnGO9rJWOGU8duvzEiYITW+wivukL7yHH4gX9yuRaobu6El4jPxo6jKZfG+N6fB621GD/Q==
+=======
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001125, caniuse-lite@^1.0.30001489:
+  version "1.0.30001500"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001500.tgz#c924765cbdc07ecc9f6f8703994c25fbdec51f19"
+  integrity sha512-wSpY0RQnEwFwVZ063ggl3M4ALRP9OSknL0enldDEydIGzuShbtuWwaedB/RfkxsGF3P0kf1Tnv/nTtJEbjzc4Q==
+>>>>>>> parent of e491bea (빌드 파일 수정 3차)
 
 case-sensitive-paths-webpack-plugin@^2.4.0:
   version "2.4.0"
