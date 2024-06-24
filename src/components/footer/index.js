@@ -1,17 +1,14 @@
-import React from 'react';
-import '../footer/style.css';
-import {
-  Container,
-  Row,
-  Col,
-} from 'react-bootstrap';
+import React from "react";
+import "../footer/style.css";
+import { Container, Row, Col } from "react-bootstrap";
 
 function Footer() {
   return (
     <Container className="footer" fluid={true}>
-      <Row >
+      <Row>
         <Col xl={12}>
-        Copyright © 2018-{(new Date().getFullYear())} <strong>Motasim Foad</strong>,  <small>V2.4</small>
+          Copyright © 2023-{new Date().getFullYear()}{" "}
+          <strong>Made by CHANG BEOM IM</strong>
         </Col>
       </Row>
     </Container>
