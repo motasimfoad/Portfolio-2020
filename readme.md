@@ -1,76 +1,90 @@
-##Motasim Foad Portfolio##
+# Portfolio 2020
 
-Live preview : https://motasimfoad.com
+A personal portfolio template built with React, Bootstrap, Particles.js and EmailJS.
 
-Technologies used : ReactJS, EmailJS, ParticleJS, Bootstrap
+Live preview: https://motasimfoad.com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Home page](docs/screenshots/home.png)
 
-## Available Scripts
+## Screenshots
 
-In the project directory, you can run:
+| About | Projects |
+| --- | --- |
+| ![About page](docs/screenshots/about.png) | ![Projects page](docs/screenshots/project.png) |
 
-### `yarn start`
+| Contact | Mobile |
+| --- | --- |
+| ![Contact page](docs/screenshots/contact.png) | <img src="docs/screenshots/mobile-home.png" alt="Mobile home page" width="260" /> |
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- Animated particle backgrounds on each page
+- Home, About (CV), Projects and Contact pages
+- Project cards with image lightbox galleries, driven by a single JSON file
+- Contact form that sends email through EmailJS (no backend needed)
+- Google Analytics page tracking
+- Responsive layout with a hamburger menu on small screens
 
-### `yarn test`
+## Quick start
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Tested with Node.js 20 and npm 10.
 
-### `yarn build`
+```bash
+git clone https://github.com/motasimfoad/Portfolio-2020.git
+cd Portfolio-2020
+npm install --legacy-peer-deps
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project uses `react-scripts` 3.x, which needs the legacy OpenSSL provider on Node.js 17 and newer:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```bash
+# macOS / Linux
+NODE_OPTIONS=--openssl-legacy-provider npm start
+NODE_OPTIONS=--openssl-legacy-provider npm run build
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Windows (PowerShell)
+$env:NODE_OPTIONS="--openssl-legacy-provider"; npm start
+```
 
-### `yarn eject`
+On Node.js 16 or older you can run `npm start` and `npm run build` directly.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The dev server runs at http://localhost:3000. The production build is written to `build/`.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Make it your own
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+| What to change | Where |
+| --- | --- |
+| Name, title and intro text | `src/components/home_left/index.js` |
+| Profile photo and logo | `src/assets/img/` and `src/components/home_right/index.js` |
+| About / CV content and images | `src/components/cv_left_content/`, `src/components/cv_img/`, `src/assets/img/cv*.png` |
+| Projects list | `src/const/project_info.json` (name, tools, link and screenshot URLs) |
+| Social links | `src/components/social_icons/index.js` |
+| Footer text | `src/components/footer/index.js` |
+| Page titles and meta tags | `react-helmet` blocks in `src/pages/*/index.js`, plus `public/index.html` and `public/manifest.json` |
+| Particle backgrounds | `src/const/*particle.js` |
+| Google Analytics ID | `ReactGA.initialize(...)` in `src/pages/*/index.js` |
+| Sitemap | `public/sitemap.xml` |
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Contact form (EmailJS)
 
-## Learn More
+1. Create a free account at https://www.emailjs.com and add an email service and a template.
+2. In `src/components/email_form/index.js`, replace the service ID, template ID and user ID passed to `emailjs.send(...)` with your own.
+3. Update `to_name` in the same file to your email address.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Please do not reuse the IDs that ship with this repository; they belong to the original site.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deployment
 
-### Code Splitting
+Run the build command above and upload the `build/` folder to any static host (Netlify, Vercel, GitHub Pages, cPanel, etc.). Because the app uses client-side routing, configure your host to serve `index.html` for unknown paths. For hosting under a sub-path, set `homepage` in `package.json`. See the [Create React App deployment guide](https://create-react-app.dev/docs/deployment/).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Notes
 
-### Analyzing the Bundle Size
+- `node-sass` was removed from the dependencies. The project has no Sass files, and `node-sass` 4.x fails to install on current Node.js versions.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Contributing
 
-### Making a Progressive Web App
+Issues and pull requests are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## License
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-
+[MIT](LICENSE)
